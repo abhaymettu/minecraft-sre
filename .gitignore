@@ -1,0 +1,5 @@
+.server/
+bots/node_modules/
+__pycache__/
+*.pyc
+last-run.json
