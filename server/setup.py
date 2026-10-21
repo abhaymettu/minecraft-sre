@@ -1,6 +1,7 @@
 """Download and configure a Paper MC server."""
 import json
 import os
+import hashlib
 import urllib.request
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,22 +28,26 @@ motd=minecraft-sre scenario server
 
 
 def latest_paper_build():
-    url = f"https://api.papermc.io/v2/projects/paper/versions/{MC_VERSION}"
+    url = f"https://fill.papermc.io/v3/projects/paper/versions/{MC_VERSION}/builds"
     with urllib.request.urlopen(url, timeout=30) as resp:
-        data = json.loads(resp.read())
-    return max(data["builds"])
+        builds = json.loads(resp.read())
+    stable = [b for b in builds if b.get("channel") == "STABLE"] or builds
+    return max(b["id"] for b in stable)
 
 
 def download_jar(dest):
     build = latest_paper_build()
-    jar_url = (
-        f"https://api.papermc.io/v2/projects/paper/versions/{MC_VERSION}"
-        f"/builds/{build}/downloads/paper-{MC_VERSION}-{build}.jar"
-    )
+    url = f"https://fill.papermc.io/v3/projects/paper/versions/{MC_VERSION}/builds/{build}"
+    with urllib.request.urlopen(url, timeout=30) as resp:
+        info = json.loads(resp.read())["downloads"]["server:default"]
     print(f"downloading Paper {MC_VERSION} build {build}...")
-    urllib.request.urlretrieve(jar_url, dest)
+    urllib.request.urlretrieve(info["url"], dest)
+    want = info["checksums"]["sha256"]
+    got = hashlib.sha256(open(dest, "rb").read()).hexdigest()
+    if got != want:
+        os.remove(dest)
+        raise RuntimeError(f"paper.jar checksum mismatch: {got} != {want}")
     print(f"saved to {dest}")
-
 
 def setup(server_dir=None):
     sdir = server_dir or SERVER_DIR

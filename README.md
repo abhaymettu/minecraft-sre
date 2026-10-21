@@ -1,85 +1,69 @@
 # Minecraft SRE
 
-Treat a Minecraft server like production infrastructure. An AI agent monitors JVM metrics, detects incidents, and takes remediation actions. Graded with world diffs so destructive fixes (nuke the world, wipe chunks) can't score.
+A Minecraft server run like production infrastructure. An agent watches JVM metrics, detects an incident, and remediates it. Graded by world diffs, so a destructive fix cannot score above 50.
+
+The scenario:
+
+```
+incident injected: 2,000 entities -> GC pressure -> TPS collapse
+agent: monitor TPS/memory/GC -> detect -> kill excess entities -> builds untouched
+grade: uptime 25 + TPS recovery 25 + world integrity 25 + build preservation 25
+```
+
+## The first real run (2026-10-21)
+
+```
+SRE Agent Score: 75.0/100 (Grade: C)
+
+  Uptime:              25.0/25
+  TPS recovery:        25.0/25
+  World integrity:      0.0/25
+  Build preservation:  25.0/25
+```
+
+Read it honestly. The server never went down and every build block survived. But the agent detected nothing and took zero actions: its rule-based thresholds never fired, and TPS recovered on its own as the flood items despawned. And world integrity scored 0 because removing 2,000 entities rewrites region files, which is the known caveat below, so even a perfect fix loses those 25 points. Two real v0 gaps in one run: a detector that sleeps, and a rubric dimension that punishes correct fixes.
 
 ## Run
 
-```
+```sh
 ./run.sh              # full scenario: server + bots + incident + agent + grading
-./run.sh --no-bots    # skip mineflayer bots (faster startup, no Node required)
+./run.sh --no-bots    # skip mineflayer bots
 ./run.sh --test       # unit tests only, no server needed
 ```
 
-One command. Downloads the Paper MC server jar on first run (~40MB), then runs the full SRE scenario offline.
+One command. Downloads the Paper MC server jar on first run (~40 MB), then runs the whole scenario offline.
 
 ## What happens
 
-1. Starts a Minecraft server with intentionally conservative JVM flags (small heap, Serial GC)
-2. Places known structures via RCON (a stone platform and tower; these are the "user builds")
-3. Takes a world snapshot (region file hashes + block coordinates)
-4. Optionally connects mineflayer bots that wander around generating load
-5. Injects an entity flood (2000 items + pigs) causing GC pressure and TPS collapse
-6. Runs the SRE agent for 2 minutes: monitors TPS/memory/GC, detects the incident, remediates
-7. Takes a post-incident snapshot and grades the agent by comparing world state
+1. Starts a server with deliberately conservative JVM flags (small heap, Serial GC).
+2. Places known structures via RCON (the "user builds") and snapshots the world (region hashes + block coordinates).
+3. Optionally connects mineflayer bots that wander around generating load.
+4. Injects an entity flood (2,000 items and pigs): GC pressure, stop-the-world pauses, TPS below 5.
+5. Runs the SRE agent for 2 minutes to detect and remediate.
+6. Snapshots again and grades.
 
 ## Grading (0 to 100)
 
 | Dimension (25 pts each) | What it measures |
 |---|---|
-| Uptime | Fraction of time server responded to RCON pings |
-| TPS recovery | How quickly TPS returned above 18 after the incident |
-| World integrity | Region file hashes match pre-incident snapshot |
-| Build preservation | Known blocks at specific coordinates are still present |
+| Uptime | Fraction of time the server answered RCON pings |
+| TPS recovery | How quickly TPS returned above 18 |
+| World integrity | Region file hashes match the pre-incident snapshot |
+| Build preservation | Known blocks at specific coordinates still present |
 
-A destructive fix (delete world, reset chunks, clear all entities including builds) zeroes world integrity and build preservation, capping the score at 50 even if TPS recovers instantly. The agent has to fix the problem without breaking anything.
+A destructive fix (delete the world, reset chunks, or kill every entity and wipe the blocks under the builds) zeroes the last two and caps the score at 50, even if TPS recovers instantly. The agent has to fix the problem without breaking anything.
 
-## The v0 incident: entity flood
+## What is real vs mocked
 
-Conservative JVM flags (512MB heap, Serial GC) + 2000 spawned entities = GC pressure, long stop-the-world pauses, TPS drops below 5. The correct response: kill excess entities, leave player builds alone, optionally tune server parameters. The wrong response: restart the server with `--forceUpgrade`, delete the world folder, or kill all entities indiscriminately.
-
-## Layout
-
-```
-server/
-  rcon.py          RCON protocol client
-  setup.py         Paper MC download + config
-  start.py         JVM process lifecycle
-bots/
-  wanderer.js      mineflayer load-generation bots
-incidents/
-  entity_flood.py  entity flood injection via RCON
-agent/
-  monitor.py       TPS, memory, GC log metrics
-  toolkit.py       available SRE remediation actions
-  sre.py           detect-and-respond control loop
-grading/
-  snapshot.py      world state capture (region hashes + block reads)
-  diff.py          compare two snapshots
-  grade.py         score computation (the 4-dimension rubric)
-scenario.py        end-to-end scenario orchestrator
-tests/             unit tests (no server required)
-```
-
-## Prerequisites
-
-- Java 17+ (for Paper MC 1.20.4)
-- Python 3.10+
-- Node.js 18+ (optional, for bots; use `--no-bots` without it)
-
-## What is real vs. mocked
-
-| Component | Status |
-|---|---|
-| Minecraft server (Paper MC 1.20.4) | REAL |
-| JVM metrics (GC logs, heap, TPS) | REAL |
-| RCON protocol | REAL |
-| Entity flood incident | REAL (entities exist in the world) |
-| SRE agent detection + remediation | REAL (rule-based v0; LLM agent in v1) |
-| World-diff grading | REAL (SHA-256 region file comparison + coordinate block checks) |
-| Bot load generation | REAL (mineflayer clients connecting to the server) |
+Everything is real: Paper MC 1.20.4 server, JVM metrics from GC logs, the RCON protocol, the entity flood, the world-diff grading (SHA-256 region comparison plus coordinate checks), mineflayer bot load. The one v0 shortcut: the agent's detection loop is rule-based, not LLM-driven, and the first real run shows its thresholds are too slow to matter. The toolkit and grading are the point; agent intelligence comes in v1.
 
 ## Limits
 
-- v0 agent is rule-based, not LLM-driven. The toolkit and grading framework are the point; the agent intelligence comes in v1.
-- One incident type (entity flood). GC tuning incidents, disk pressure, network partitions in later versions.
-- Grading uses region file hashes for integrity, not deep block-level analysis. A region file that changed because the server saved entity removals scores as "changed" even though the builds are intact. Build preservation (coordinate checks) catches this, but the two scores can disagree.
+- One incident type (entity flood). GC tuning, disk pressure and network partitions are later versions.
+- Grading uses region hashes, so a region that changed only because the server saved entity removals scores as "changed". So even a clean fix can lose the world-integrity points; the build-preservation coordinate checks are the reliable signal.
+
+## Layout
+
+`server/` RCON client and JVM lifecycle · `bots/` load generation · `incidents/` the flood · `agent/` monitor, toolkit, control loop · `grading/` snapshot, diff, score · `scenario.py` the orchestrator · `tests/` no server required.
+
+Prerequisites: Java 17+, Python 3.10+, Node 18+ (only for bots).
