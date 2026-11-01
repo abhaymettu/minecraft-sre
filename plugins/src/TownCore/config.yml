@@ -1,0 +1,7 @@
+economy:
+  starting-balance: 100
+  currency: coins
+shop:
+  tax-rate: 0.05
+spawn:
+  welcome-message: "Welcome to Maple Town!"

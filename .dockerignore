@@ -1,0 +1,8 @@
+.git
+.server
+.cache
+runs
+results/runs
+bots/node_modules
+**/__pycache__
+.remember

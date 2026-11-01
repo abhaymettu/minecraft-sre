@@ -2,7 +2,7 @@
 import struct
 import unittest
 
-from server.rcon import Rcon, strip_color
+from mcsre.rcon import Rcon, strip_color
 
 
 class TestStripColor(unittest.TestCase):

@@ -1,0 +1,5 @@
+name: BlockLog
+version: 1.0.0
+main: sre.blocklog.BlockLog
+api-version: '1.20'
+description: Appends every block break and place to plugins/BlockLog/blocks.csv.

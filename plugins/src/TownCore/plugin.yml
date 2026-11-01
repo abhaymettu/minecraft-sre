@@ -1,0 +1,5 @@
+name: TownCore
+version: 1.0.0
+main: sre.towncore.TownCore
+api-version: '1.20'
+description: Town economy core. Validates config.yml strictly and writes a heartbeat.

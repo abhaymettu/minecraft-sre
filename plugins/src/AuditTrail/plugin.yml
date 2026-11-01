@@ -1,0 +1,13 @@
+name: AuditTrail
+version: 1.0.0
+main: sre.audittrail.AuditTrail
+api-version: '1.20'
+description: Audit log of joins, quits, chat and commands.
+commands:
+  audittrail:
+    description: Reload the AuditTrail config.
+    usage: /audittrail reload
+    permission: audittrail.admin
+permissions:
+  audittrail.admin:
+    default: op

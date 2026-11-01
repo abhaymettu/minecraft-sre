@@ -1,0 +1,5 @@
+name: Exporter
+version: 1.0.0
+main: sre.exporter.Exporter
+api-version: '1.20'
+description: Writes server metrics to plugins/Exporter/metrics.json every second.

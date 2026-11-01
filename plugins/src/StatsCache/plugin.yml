@@ -1,0 +1,13 @@
+name: StatsCache
+version: 1.0.0
+main: sre.statscache.StatsCache
+api-version: '1.20'
+description: Caches player statistics and writes plugins/StatsCache/stats.json.
+commands:
+  statscache:
+    description: Inspect or flush the stats history cache.
+    usage: /statscache <stats|flush>
+    permission: statscache.admin
+permissions:
+  statscache.admin:
+    default: op
