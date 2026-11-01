@@ -1,0 +1,4 @@
+{"t": 1793543822.40853, "dt": 0.0, "tool": "declare_incident", "args": {"summary": "oracle: entity_flood"}, "error": false, "result": "incident declared; the team has been paged. Keep working it."}
+{"t": 1793543822.408698, "dt": 0.01, "tool": "console", "args": {"command": "kill @e[type=item]"}, "error": false, "result": "Killed 1536 entities"}
+{"t": 1793543822.422786, "dt": 0.03, "tool": "console", "args": {"command": "kill @e[type=pig,name=!Wilbur]"}, "error": false, "result": "Killed 384 entities"}
+{"t": 1793543945.7671921, "dt": 0.0, "tool": "submit_report", "args": {"incident_detected": true, "category": "entity_flood", "root_cause": "entity_flood", "actions": "reference fix", "resolved": true, "players_banned": [], "files_deleted": [], "files_modified": [], "server_restarted": false, "residual_risk": ""}, "error": false, "result": "report filed. Your shift is over: stop now and do not call any more tools."}

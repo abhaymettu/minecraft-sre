@@ -1,0 +1,146 @@
+{"t":1793539823007,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-6,-60,-8]}}
+{"t":1793539823008,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[9,-60,5]}}
+{"t":1793539845169,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793539845178,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539845190,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793539845191,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539850183,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539850183,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539850192,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539850193,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539855193,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539855193,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539855200,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539855200,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539855422,"bot":"newplayer01","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539855422,"bot":"newplayer01","event":"join_fail","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539855422,"bot":"newplayer01","event":"end","detail":"socketClosed"}
+{"t":1793539857334,"bot":"newplayer02","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539857334,"bot":"newplayer02","event":"join_fail","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539857334,"bot":"newplayer02","event":"end","detail":"socketClosed"}
+{"t":1793539859404,"bot":"newplayer03","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539859405,"bot":"newplayer03","event":"join_fail","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539859405,"bot":"newplayer03","event":"end","detail":"socketClosed"}
+{"t":1793539860220,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539860221,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539860229,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539860229,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539861372,"bot":"newplayer04","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539861372,"bot":"newplayer04","event":"join_fail","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539861372,"bot":"newplayer04","event":"end","detail":"socketClosed"}
+{"t":1793539863644,"bot":"newplayer05","event":"spawn","detail":{"pos":[0,-60,-7]}}
+{"t":1793539863644,"bot":"newplayer05","event":"join_ok","detail":null}
+{"t":1793539865357,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[9,-60,5]}}
+{"t":1793539865360,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-6,-60,-8]}}
+{"t":1793539865480,"bot":"newplayer06","event":"spawn","detail":{"pos":[10,-60,1]}}
+{"t":1793539865480,"bot":"newplayer06","event":"join_ok","detail":null}
+{"t":1793539867609,"bot":"newplayer07","event":"spawn","detail":{"pos":[3,-60,10]}}
+{"t":1793539867609,"bot":"newplayer07","event":"join_ok","detail":null}
+{"t":1793539869548,"bot":"newplayer08","event":"spawn","detail":{"pos":[9,-60,-2]}}
+{"t":1793539869548,"bot":"newplayer08","event":"join_ok","detail":null}
+{"t":1793539871653,"bot":"newplayer09","event":"spawn","detail":{"pos":[-2,-60,8]}}
+{"t":1793539871653,"bot":"newplayer09","event":"join_ok","detail":null}
+{"t":1793539873675,"bot":"newplayer10","event":"spawn","detail":{"pos":[2,-60,-5]}}
+{"t":1793539873675,"bot":"newplayer10","event":"join_ok","detail":null}
+{"t":1793539875664,"bot":"newplayer11","event":"spawn","detail":{"pos":[-7,-60,-6]}}
+{"t":1793539875664,"bot":"newplayer11","event":"join_ok","detail":null}
+{"t":1793539877687,"bot":"newplayer12","event":"spawn","detail":{"pos":[8,-59,-5]}}
+{"t":1793539877687,"bot":"newplayer12","event":"join_ok","detail":null}
+{"t":1793539879521,"bot":"newplayer13","event":"spawn","detail":{"pos":[9,-60,-1]}}
+{"t":1793539879521,"bot":"newplayer13","event":"join_ok","detail":null}
+{"t":1793539881853,"bot":"newplayer14","event":"spawn","detail":{"pos":[1,-60,-10]}}
+{"t":1793539881853,"bot":"newplayer14","event":"join_ok","detail":null}
+{"t":1793539883462,"bot":"newplayer15","event":"spawn","detail":{"pos":[1,-60,1]}}
+{"t":1793539883462,"bot":"newplayer15","event":"join_ok","detail":null}
+{"t":1793539885563,"bot":"newplayer16","event":"spawn","detail":{"pos":[-2,-60,9]}}
+{"t":1793539885563,"bot":"newplayer16","event":"join_ok","detail":null}
+{"t":1793539887688,"bot":"newplayer17","event":"spawn","detail":{"pos":[-10,-60,-1]}}
+{"t":1793539887688,"bot":"newplayer17","event":"join_ok","detail":null}
+{"t":1793539889685,"bot":"newplayer18","event":"spawn","detail":{"pos":[6,-59,-5]}}
+{"t":1793539889685,"bot":"newplayer18","event":"join_ok","detail":null}
+{"t":1793539891514,"bot":"newplayer19","event":"spawn","detail":{"pos":[0,-60,6]}}
+{"t":1793539891514,"bot":"newplayer19","event":"join_ok","detail":null}
+{"t":1793539893684,"bot":"newplayer20","event":"spawn","detail":{"pos":[-4,-60,3]}}
+{"t":1793539893684,"bot":"newplayer20","event":"join_ok","detail":null}
+{"t":1793539895496,"bot":"newplayer21","event":"spawn","detail":{"pos":[-7,-60,-1]}}
+{"t":1793539895496,"bot":"newplayer21","event":"join_ok","detail":null}
+{"t":1793539897521,"bot":"newplayer22","event":"spawn","detail":{"pos":[10,-60,-6]}}
+{"t":1793539897521,"bot":"newplayer22","event":"join_ok","detail":null}
+{"t":1793539899718,"bot":"newplayer23","event":"spawn","detail":{"pos":[2,-60,0]}}
+{"t":1793539899718,"bot":"newplayer23","event":"join_ok","detail":null}
+{"t":1793539901527,"bot":"newplayer24","event":"spawn","detail":{"pos":[-7,-60,-3]}}
+{"t":1793539901527,"bot":"newplayer24","event":"join_ok","detail":null}
+{"t":1793539903848,"bot":"newplayer25","event":"spawn","detail":{"pos":[-1,-60,-3]}}
+{"t":1793539903849,"bot":"newplayer25","event":"join_ok","detail":null}
+{"t":1793539905511,"bot":"newplayer26","event":"spawn","detail":{"pos":[-6,-60,-5]}}
+{"t":1793539905511,"bot":"newplayer26","event":"join_ok","detail":null}
+{"t":1793539907678,"bot":"newplayer27","event":"spawn","detail":{"pos":[6,-60,1]}}
+{"t":1793539907678,"bot":"newplayer27","event":"join_ok","detail":null}
+{"t":1793539909613,"bot":"newplayer28","event":"spawn","detail":{"pos":[1,-60,7]}}
+{"t":1793539909613,"bot":"newplayer28","event":"join_ok","detail":null}
+{"t":1793539911622,"bot":"newplayer29","event":"spawn","detail":{"pos":[1,-60,0]}}
+{"t":1793539911622,"bot":"newplayer29","event":"join_ok","detail":null}
+{"t":1793539913511,"bot":"newplayer30","event":"spawn","detail":{"pos":[0,-60,-4]}}
+{"t":1793539913512,"bot":"newplayer30","event":"join_ok","detail":null}
+{"t":1793539915678,"bot":"newplayer31","event":"spawn","detail":{"pos":[-1,-60,-3]}}
+{"t":1793539915679,"bot":"newplayer31","event":"join_ok","detail":null}
+{"t":1793539917601,"bot":"newplayer32","event":"spawn","detail":{"pos":[8,-60,-4]}}
+{"t":1793539917602,"bot":"newplayer32","event":"join_ok","detail":null}
+{"t":1793539919580,"bot":"newplayer33","event":"spawn","detail":{"pos":[-10,-60,0]}}
+{"t":1793539919580,"bot":"newplayer33","event":"join_ok","detail":null}
+{"t":1793539921700,"bot":"newplayer34","event":"spawn","detail":{"pos":[-3,-60,10]}}
+{"t":1793539921700,"bot":"newplayer34","event":"join_ok","detail":null}
+{"t":1793539923511,"bot":"newplayer35","event":"spawn","detail":{"pos":[10,-60,-9]}}
+{"t":1793539923511,"bot":"newplayer35","event":"join_ok","detail":null}
+{"t":1793539925596,"bot":"newplayer36","event":"spawn","detail":{"pos":[3,-60,2]}}
+{"t":1793539925596,"bot":"newplayer36","event":"join_ok","detail":null}
+{"t":1793539927665,"bot":"newplayer37","event":"spawn","detail":{"pos":[2,-60,2]}}
+{"t":1793539927665,"bot":"newplayer37","event":"join_ok","detail":null}
+{"t":1793539929515,"bot":"newplayer38","event":"spawn","detail":{"pos":[9,-60,4]}}
+{"t":1793539929515,"bot":"newplayer38","event":"join_ok","detail":null}
+{"t":1793539931612,"bot":"newplayer39","event":"spawn","detail":{"pos":[3,-60,7]}}
+{"t":1793539931612,"bot":"newplayer39","event":"join_ok","detail":null}
+{"t":1793539933632,"bot":"newplayer40","event":"spawn","detail":{"pos":[8,-54,8]}}
+{"t":1793539933633,"bot":"newplayer40","event":"join_ok","detail":null}
+{"t":1793539935611,"bot":"newplayer41","event":"spawn","detail":{"pos":[-1,-60,4]}}
+{"t":1793539935611,"bot":"newplayer41","event":"join_ok","detail":null}
+{"t":1793539937642,"bot":"newplayer42","event":"spawn","detail":{"pos":[4,-60,0]}}
+{"t":1793539937642,"bot":"newplayer42","event":"join_ok","detail":null}
+{"t":1793539939562,"bot":"newplayer43","event":"spawn","detail":{"pos":[3,-60,-6]}}
+{"t":1793539939562,"bot":"newplayer43","event":"join_ok","detail":null}
+{"t":1793539941661,"bot":"newplayer44","event":"spawn","detail":{"pos":[-9,-54,8]}}
+{"t":1793539941661,"bot":"newplayer44","event":"join_ok","detail":null}
+{"t":1793539943714,"bot":"newplayer45","event":"spawn","detail":{"pos":[-3,-60,-7]}}
+{"t":1793539943714,"bot":"newplayer45","event":"join_ok","detail":null}
+{"t":1793539945611,"bot":"newplayer46","event":"spawn","detail":{"pos":[-6,-60,10]}}
+{"t":1793539945611,"bot":"newplayer46","event":"join_ok","detail":null}
+{"t":1793539947621,"bot":"newplayer47","event":"spawn","detail":{"pos":[5,-60,-1]}}
+{"t":1793539947621,"bot":"newplayer47","event":"join_ok","detail":null}
+{"t":1793539949612,"bot":"newplayer48","event":"spawn","detail":{"pos":[3,-60,-6]}}
+{"t":1793539949613,"bot":"newplayer48","event":"join_ok","detail":null}
+{"t":1793539951611,"bot":"newplayer49","event":"spawn","detail":{"pos":[9,-60,-4]}}
+{"t":1793539951611,"bot":"newplayer49","event":"join_ok","detail":null}
+{"t":1793539953707,"bot":"newplayer50","event":"spawn","detail":{"pos":[-9,-60,-3]}}
+{"t":1793539953707,"bot":"newplayer50","event":"join_ok","detail":null}
+{"t":1793539955861,"bot":"newplayer51","event":"spawn","detail":{"pos":[6,-60,10]}}
+{"t":1793539955862,"bot":"newplayer51","event":"join_ok","detail":null}
+{"t":1793539957611,"bot":"newplayer52","event":"spawn","detail":{"pos":[-1,-60,4]}}
+{"t":1793539957612,"bot":"newplayer52","event":"join_ok","detail":null}
+{"t":1793539959611,"bot":"newplayer53","event":"spawn","detail":{"pos":[-10,-60,3]}}
+{"t":1793539959611,"bot":"newplayer53","event":"join_ok","detail":null}
+{"t":1793539961611,"bot":"newplayer54","event":"spawn","detail":{"pos":[-10,-60,-5]}}
+{"t":1793539961611,"bot":"newplayer54","event":"join_ok","detail":null}
+{"t":1793539963668,"bot":"newplayer55","event":"spawn","detail":{"pos":[3,-60,-9]}}
+{"t":1793539963668,"bot":"newplayer55","event":"join_ok","detail":null}
+{"t":1793539965666,"bot":"newplayer56","event":"spawn","detail":{"pos":[-2,-60,9]}}
+{"t":1793539965666,"bot":"newplayer56","event":"join_ok","detail":null}
+{"t":1793539967662,"bot":"newplayer57","event":"spawn","detail":{"pos":[-4,-60,-3]}}
+{"t":1793539967662,"bot":"newplayer57","event":"join_ok","detail":null}
+{"t":1793539969617,"bot":"newplayer58","event":"spawn","detail":{"pos":[10,-60,-9]}}
+{"t":1793539969617,"bot":"newplayer58","event":"join_ok","detail":null}
+{"t":1793539971619,"bot":"newplayer59","event":"spawn","detail":{"pos":[-8,-60,0]}}
+{"t":1793539971620,"bot":"newplayer59","event":"join_ok","detail":null}
+{"t":1793539973765,"bot":"newplayer60","event":"spawn","detail":{"pos":[-3,-60,-10]}}
+{"t":1793539973766,"bot":"newplayer60","event":"join_ok","detail":null}
+{"t":1793539978348,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793539978349,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

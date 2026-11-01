@@ -2,6 +2,7 @@
 shell, no files outside the server dir, no web, no hooks, no memory, no CLAUDE.md."""
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -79,13 +80,18 @@ class ClaudeAgent:
 
 
 INIT_KEEP = ("type", "subtype", "model", "tools", "mcp_servers", "permissionMode")
+HOME_PATHS = [(re.compile(r"~/\.claude[\w.-]*/(?:[\w.-]+/)?projects/-Users-[\w.]+-"), "~/.claude/projects/-"),
+              (re.compile(r"/Users/[\w.]+/"), "~/")]
 
 
 def scrub(path):
-    """The CLI's init event lists the host account's skills, plugins and commands; keep only what describes the run."""
+    """The CLI's init event lists the host account's skills, plugins and commands; keep only what describes the run.
+    Host home paths (tool results the CLI saved to disk) are rewritten to ~."""
     out = []
     with open(path) as f:
         for line in f:
+            for pat, rep in HOME_PATHS:
+                line = pat.sub(rep, line)
             try:
                 ev = json.loads(line)
             except ValueError:
@@ -101,6 +107,8 @@ def summarize(path):
     info = {"turns": None, "cost_usd_list_price": None, "models": [], "exit": None}
     with open(path) as f:
         for line in f:
+            for pat, rep in HOME_PATHS:
+                line = pat.sub(rep, line)
             try:
                 ev = json.loads(line)
             except ValueError:

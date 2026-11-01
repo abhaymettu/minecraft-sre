@@ -1,6 +1,6 @@
 .server/
 .cache/
-runs/
+/runs/
 bots/node_modules/
 __pycache__/
 *.pyc

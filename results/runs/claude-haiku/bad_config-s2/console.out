@@ -1,0 +1,699 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 08:02:52,648 ServerMain WARN Advanced terminal features are not available in this environment
+[08:02:52 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[08:02:54 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:02:55 INFO]: Loaded 1174 recipes
+[08:02:55 INFO]: Loaded 1271 advancements
+[08:02:55 INFO]: Starting minecraft server version 1.20.4
+[08:02:55 INFO]: Loading properties
+[08:02:55 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[08:02:55 INFO]: Server Ping Player Sample Count: 12
+[08:02:55 INFO]: Using 4 threads for Netty based IO
+[08:02:55 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:02:55 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[08:02:56 INFO]: Default game type: SURVIVAL
+[08:02:56 INFO]: Generating keypair
+[08:02:56 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[08:02:56 INFO]: Using default channel type
+[08:02:56 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[08:02:56 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[08:02:56 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[08:02:56 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[08:02:56 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[08:02:56 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[08:02:56 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[08:02:56 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:02:56 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:02:56 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:02:56 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:02:56 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:02:56 INFO]: Preparing level "world"
+[08:02:56 INFO]: Preparing start region for dimension minecraft:overworld
+[08:02:56 INFO]: Time elapsed: 259 ms
+[08:02:56 INFO]: Preparing start region for dimension minecraft:the_nether
+[08:02:56 INFO]: Time elapsed: 18 ms
+[08:02:56 INFO]: Preparing start region for dimension minecraft:the_end
+[08:02:56 INFO]: Time elapsed: 8 ms
+[08:02:56 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[08:02:56 INFO]: [Exporter] Enabling Exporter v1.0.0
+[08:02:56 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[08:02:56 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[08:02:56 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[08:02:56 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[08:02:56 INFO]: [TownCore] Enabling TownCore v1.0.0
+[08:02:56 INFO]: Starting remote control listener
+[08:02:56 INFO]: Thread RCON Listener started
+[08:02:56 INFO]: RCON running on 127.0.0.1:25601
+[08:02:56 INFO]: Running delayed init tasks
+[08:02:56 INFO]: Done (1.122s)! For help, type "help"
+[08:02:56 INFO]: Timings Reset
+[08:02:57 INFO]: Thread RCON Client /127.0.0.1 started
+[08:02:57 INFO]: Thread RCON Client /127.0.0.1 started
+[08:02:57 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:02:57 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:02:57 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:02:57 INFO]: Alex_Builds joined the game
+[08:02:57 INFO]: Alex_Builds[/127.0.0.1:61297] logged in with entity id 23 at ([world]6.5, -60.0, -9.5)
+[08:02:57 INFO]: Steve_Mines joined the game
+[08:02:57 INFO]: Steve_Mines[/127.0.0.1:61298] logged in with entity id 24 at ([world]0.5, -60.0, -1.5)
+[08:03:37 INFO]: Thread RCON Client /127.0.0.1 started
+[08:03:37 INFO]: [Rcon: Stopping the server]
+[08:03:37 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:03:37 INFO]: Stopping server
+[08:03:37 INFO]: [TownCore] Disabling TownCore v1.0.0
+[08:03:37 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[08:03:37 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[08:03:37 INFO]: [Exporter] Disabling Exporter v1.0.0
+[08:03:37 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[08:03:37 INFO]: Saving players
+[08:03:37 INFO]: Alex_Builds lost connection: Server closed
+[08:03:37 INFO]: Alex_Builds left the game
+[08:03:37 INFO]: Steve_Mines lost connection: Server closed
+[08:03:37 INFO]: Steve_Mines left the game
+[08:03:37 INFO]: Saving worlds
+[08:03:37 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:03:37 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:03:37 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:03:37 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:03:37 INFO]: [ChunkHolderManager] Saved 1504 block chunks, 289 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[08:03:37 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:03:37 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:03:37 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:03:37 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:03:37 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:03:38 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[08:03:38 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:03:38 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:03:38 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:03:38 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:03:38 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:03:38 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[08:03:38 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:03:38 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:03:38 INFO]: Flushing Chunk IO
+[08:03:38 INFO]: Closing Thread Pool
+2026-11-01 08:03:38,176 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[08:03:38 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 08:03:39,047 ServerMain WARN Advanced terminal features are not available in this environment
+[08:03:39 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[08:03:41 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:03:41 INFO]: Loaded 1174 recipes
+[08:03:41 INFO]: Loaded 1271 advancements
+[08:03:41 INFO]: Starting minecraft server version 1.20.4
+[08:03:41 INFO]: Loading properties
+[08:03:42 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[08:03:42 INFO]: Server Ping Player Sample Count: 12
+[08:03:42 INFO]: Using 4 threads for Netty based IO
+[08:03:42 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:03:42 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[08:03:42 INFO]: Default game type: SURVIVAL
+[08:03:42 INFO]: Generating keypair
+[08:03:42 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[08:03:42 INFO]: Using default channel type
+[08:03:42 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[08:03:42 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[08:03:42 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[08:03:42 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[08:03:42 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[08:03:42 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[08:03:42 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[08:03:42 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:03:42 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:03:42 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:03:42 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:03:42 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:03:42 INFO]: Preparing level "world"
+[08:03:42 INFO]: Preparing start region for dimension minecraft:overworld
+[08:03:42 INFO]: Time elapsed: 67 ms
+[08:03:42 INFO]: Preparing start region for dimension minecraft:the_nether
+[08:03:42 INFO]: Time elapsed: 61 ms
+[08:03:42 INFO]: Preparing start region for dimension minecraft:the_end
+[08:03:43 INFO]: Time elapsed: 344 ms
+[08:03:43 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[08:03:43 INFO]: [Exporter] Enabling Exporter v1.0.0
+[08:03:43 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[08:03:43 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[08:03:43 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[08:03:43 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[08:03:43 INFO]: [TownCore] Enabling TownCore v1.0.0
+[08:03:43 INFO]: Starting remote control listener
+[08:03:43 INFO]: Thread RCON Listener started
+[08:03:43 INFO]: RCON running on 127.0.0.1:25601
+[08:03:43 INFO]: Running delayed init tasks
+[08:03:43 INFO]: Done (1.306s)! For help, type "help"
+[08:03:43 INFO]: Timings Reset
+[08:03:43 INFO]: Thread RCON Client /127.0.0.1 started
+[08:03:43 INFO]: Thread RCON Client /127.0.0.1 started
+[08:03:43 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:03:45 INFO]: UUID of player newplayer01 is 06f05d04-ed5d-3d42-986b-70fc74bbbc1c
+[08:03:45 INFO]: Disconnecting newplayer01 (/127.0.0.1:61400): You are not whitelisted on this server!
+[08:03:45 INFO]: newplayer01 (/127.0.0.1:61400) lost connection: You are not whitelisted on this server!
+[08:03:47 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:03:47 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:03:47 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61403): You are not whitelisted on this server!
+[08:03:47 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61404): You are not whitelisted on this server!
+[08:03:47 INFO]: Alex_Builds (/127.0.0.1:61403) lost connection: You are not whitelisted on this server!
+[08:03:47 INFO]: Steve_Mines (/127.0.0.1:61404) lost connection: You are not whitelisted on this server!
+[08:03:47 INFO]: UUID of player newplayer02 is 201086eb-aaae-3ea9-8664-08e3d31155dd
+[08:03:47 INFO]: Disconnecting newplayer02 (/127.0.0.1:61406): You are not whitelisted on this server!
+[08:03:47 INFO]: newplayer02 (/127.0.0.1:61406) lost connection: You are not whitelisted on this server!
+[08:03:49 INFO]: UUID of player newplayer03 is 350ef976-f6c1-31b9-b808-a57bb41ec572
+[08:03:49 INFO]: Disconnecting newplayer03 (/127.0.0.1:61416): You are not whitelisted on this server!
+[08:03:49 INFO]: newplayer03 (/127.0.0.1:61416) lost connection: You are not whitelisted on this server!
+[08:03:51 INFO]: UUID of player newplayer04 is 6a7d220b-2ef9-3aff-a848-58b63b866ff5
+[08:03:51 INFO]: Disconnecting newplayer04 (/127.0.0.1:61418): You are not whitelisted on this server!
+[08:03:51 INFO]: newplayer04 (/127.0.0.1:61418) lost connection: You are not whitelisted on this server!
+[08:03:52 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:03:52 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:03:52 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61423): You are not whitelisted on this server!
+[08:03:52 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61424): You are not whitelisted on this server!
+[08:03:52 INFO]: Alex_Builds (/127.0.0.1:61423) lost connection: You are not whitelisted on this server!
+[08:03:52 INFO]: Steve_Mines (/127.0.0.1:61424) lost connection: You are not whitelisted on this server!
+[08:03:53 INFO]: UUID of player newplayer05 is 1638c66e-dbe9-3fd7-bfad-180582f8c68b
+[08:03:53 INFO]: Disconnecting newplayer05 (/127.0.0.1:61428): You are not whitelisted on this server!
+[08:03:53 INFO]: newplayer05 (/127.0.0.1:61428) lost connection: You are not whitelisted on this server!
+[08:03:55 INFO]: UUID of player newplayer06 is e5313569-56d2-3dee-853e-74221e0722e8
+[08:03:55 INFO]: Disconnecting newplayer06 (/127.0.0.1:61435): You are not whitelisted on this server!
+[08:03:55 INFO]: newplayer06 (/127.0.0.1:61435) lost connection: You are not whitelisted on this server!
+[08:03:57 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:03:57 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:03:57 INFO]: UUID of player newplayer07 is 0fe6b826-76b2-3188-809a-924e1463d5ab
+[08:03:57 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61440): You are not whitelisted on this server!
+[08:03:57 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61441): You are not whitelisted on this server!
+[08:03:57 INFO]: Disconnecting newplayer07 (/127.0.0.1:61442): You are not whitelisted on this server!
+[08:03:57 INFO]: Alex_Builds (/127.0.0.1:61440) lost connection: You are not whitelisted on this server!
+[08:03:57 INFO]: Steve_Mines (/127.0.0.1:61441) lost connection: You are not whitelisted on this server!
+[08:03:57 INFO]: newplayer07 (/127.0.0.1:61442) lost connection: You are not whitelisted on this server!
+[08:03:59 INFO]: UUID of player newplayer08 is 6cf0c9f9-cfc3-30c9-ac43-104972a85e02
+[08:03:59 INFO]: Disconnecting newplayer08 (/127.0.0.1:61453): You are not whitelisted on this server!
+[08:03:59 INFO]: newplayer08 (/127.0.0.1:61453) lost connection: You are not whitelisted on this server!
+[08:04:01 INFO]: UUID of player newplayer09 is 01ad118f-0abc-3bda-a94b-f16e978df688
+[08:04:01 INFO]: Disconnecting newplayer09 (/127.0.0.1:61458): You are not whitelisted on this server!
+[08:04:01 INFO]: newplayer09 (/127.0.0.1:61458) lost connection: You are not whitelisted on this server!
+[08:04:02 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:02 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:02 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61459): You are not whitelisted on this server!
+[08:04:02 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61460): You are not whitelisted on this server!
+[08:04:02 INFO]: Alex_Builds (/127.0.0.1:61459) lost connection: You are not whitelisted on this server!
+[08:04:02 INFO]: Steve_Mines (/127.0.0.1:61460) lost connection: You are not whitelisted on this server!
+[08:04:03 INFO]: UUID of player newplayer10 is 897b633d-2c6a-36c1-a383-c5c60f9c86dd
+[08:04:03 INFO]: Disconnecting newplayer10 (/127.0.0.1:61463): You are not whitelisted on this server!
+[08:04:03 INFO]: newplayer10 (/127.0.0.1:61463) lost connection: You are not whitelisted on this server!
+[08:04:05 INFO]: UUID of player newplayer11 is a55c30fe-b310-3708-819b-65a66f2c278e
+[08:04:05 INFO]: Disconnecting newplayer11 (/127.0.0.1:61464): You are not whitelisted on this server!
+[08:04:05 INFO]: newplayer11 (/127.0.0.1:61464) lost connection: You are not whitelisted on this server!
+[08:04:07 INFO]: UUID of player newplayer12 is 0fdf8da4-962f-3dce-9583-4a9d6ca0f27d
+[08:04:07 INFO]: Disconnecting newplayer12 (/127.0.0.1:61467): You are not whitelisted on this server!
+[08:04:07 INFO]: newplayer12 (/127.0.0.1:61467) lost connection: You are not whitelisted on this server!
+[08:04:07 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:07 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:07 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61468): You are not whitelisted on this server!
+[08:04:07 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61469): You are not whitelisted on this server!
+[08:04:07 INFO]: Alex_Builds (/127.0.0.1:61468) lost connection: You are not whitelisted on this server!
+[08:04:07 INFO]: Steve_Mines (/127.0.0.1:61469) lost connection: You are not whitelisted on this server!
+[08:04:09 INFO]: UUID of player newplayer13 is 545d8b2b-6f1d-38a7-a136-82ba21aad53f
+[08:04:09 INFO]: Disconnecting newplayer13 (/127.0.0.1:61474): You are not whitelisted on this server!
+[08:04:09 INFO]: newplayer13 (/127.0.0.1:61474) lost connection: You are not whitelisted on this server!
+[08:04:11 INFO]: UUID of player newplayer14 is f3ff6e09-85d3-3dea-af63-fce8ab1b2fc8
+[08:04:11 INFO]: Disconnecting newplayer14 (/127.0.0.1:61479): You are not whitelisted on this server!
+[08:04:11 INFO]: newplayer14 (/127.0.0.1:61479) lost connection: You are not whitelisted on this server!
+[08:04:12 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:12 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:12 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61482): You are not whitelisted on this server!
+[08:04:12 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61483): You are not whitelisted on this server!
+[08:04:12 INFO]: Alex_Builds (/127.0.0.1:61482) lost connection: You are not whitelisted on this server!
+[08:04:12 INFO]: Steve_Mines (/127.0.0.1:61483) lost connection: You are not whitelisted on this server!
+[08:04:13 INFO]: UUID of player newplayer15 is 5142f9f1-1f87-3688-8637-56e4fc8d80ed
+[08:04:13 INFO]: Disconnecting newplayer15 (/127.0.0.1:61485): You are not whitelisted on this server!
+[08:04:13 INFO]: newplayer15 (/127.0.0.1:61485) lost connection: You are not whitelisted on this server!
+[08:04:15 INFO]: UUID of player newplayer16 is e4a7d45a-2832-34ba-89d1-70a575a72052
+[08:04:15 INFO]: Disconnecting newplayer16 (/127.0.0.1:61489): You are not whitelisted on this server!
+[08:04:15 INFO]: newplayer16 (/127.0.0.1:61489) lost connection: You are not whitelisted on this server!
+[08:04:17 INFO]: UUID of player newplayer17 is 16765f04-340e-3f57-b9e6-6d0fd51b8b1f
+[08:04:17 INFO]: Disconnecting newplayer17 (/127.0.0.1:61496): You are not whitelisted on this server!
+[08:04:17 INFO]: newplayer17 (/127.0.0.1:61496) lost connection: You are not whitelisted on this server!
+[08:04:17 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:17 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:17 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61498): You are not whitelisted on this server!
+[08:04:17 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61499): You are not whitelisted on this server!
+[08:04:17 INFO]: Alex_Builds (/127.0.0.1:61498) lost connection: You are not whitelisted on this server!
+[08:04:17 INFO]: Steve_Mines (/127.0.0.1:61499) lost connection: You are not whitelisted on this server!
+[08:04:19 INFO]: UUID of player newplayer18 is 20160df3-03a4-3461-af46-ca996187111f
+[08:04:19 INFO]: Disconnecting newplayer18 (/127.0.0.1:61501): You are not whitelisted on this server!
+[08:04:19 INFO]: newplayer18 (/127.0.0.1:61501) lost connection: You are not whitelisted on this server!
+[08:04:21 INFO]: UUID of player newplayer19 is b0113394-e35d-3ce4-88ec-5cc85be58f38
+[08:04:21 INFO]: Disconnecting newplayer19 (/127.0.0.1:61502): You are not whitelisted on this server!
+[08:04:21 INFO]: newplayer19 (/127.0.0.1:61502) lost connection: You are not whitelisted on this server!
+[08:04:22 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:22 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:22 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61505): You are not whitelisted on this server!
+[08:04:22 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61506): You are not whitelisted on this server!
+[08:04:22 INFO]: Alex_Builds (/127.0.0.1:61505) lost connection: You are not whitelisted on this server!
+[08:04:22 INFO]: Steve_Mines (/127.0.0.1:61506) lost connection: You are not whitelisted on this server!
+[08:04:23 INFO]: UUID of player newplayer20 is 10df0c19-8989-347c-ba99-4cdbf77131f6
+[08:04:23 INFO]: Disconnecting newplayer20 (/127.0.0.1:61508): You are not whitelisted on this server!
+[08:04:23 INFO]: newplayer20 (/127.0.0.1:61508) lost connection: You are not whitelisted on this server!
+[08:04:25 INFO]: UUID of player newplayer21 is cea9cab9-deaa-398f-941d-1eb9e739d84e
+[08:04:25 INFO]: Disconnecting newplayer21 (/127.0.0.1:61512): You are not whitelisted on this server!
+[08:04:25 INFO]: newplayer21 (/127.0.0.1:61512) lost connection: You are not whitelisted on this server!
+[08:04:27 INFO]: UUID of player newplayer22 is 8766ba6a-8870-3407-a105-d2a3f06d2924
+[08:04:27 INFO]: Disconnecting newplayer22 (/127.0.0.1:61515): You are not whitelisted on this server!
+[08:04:27 INFO]: newplayer22 (/127.0.0.1:61515) lost connection: You are not whitelisted on this server!
+[08:04:27 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:27 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:27 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61516): You are not whitelisted on this server!
+[08:04:27 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61517): You are not whitelisted on this server!
+[08:04:27 INFO]: Alex_Builds (/127.0.0.1:61516) lost connection: You are not whitelisted on this server!
+[08:04:27 INFO]: Steve_Mines (/127.0.0.1:61517) lost connection: You are not whitelisted on this server!
+[08:04:29 INFO]: UUID of player newplayer23 is 621a4730-cfa9-3ba5-83af-8c850433da30
+[08:04:29 INFO]: Disconnecting newplayer23 (/127.0.0.1:61522): You are not whitelisted on this server!
+[08:04:29 INFO]: newplayer23 (/127.0.0.1:61522) lost connection: You are not whitelisted on this server!
+[08:04:31 INFO]: UUID of player newplayer24 is 5214f851-e612-3765-8094-54e7157fc5f4
+[08:04:31 INFO]: Disconnecting newplayer24 (/127.0.0.1:61525): You are not whitelisted on this server!
+[08:04:31 INFO]: newplayer24 (/127.0.0.1:61525) lost connection: You are not whitelisted on this server!
+[08:04:32 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:32 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:32 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61527): You are not whitelisted on this server!
+[08:04:32 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61528): You are not whitelisted on this server!
+[08:04:32 INFO]: Alex_Builds (/127.0.0.1:61527) lost connection: You are not whitelisted on this server!
+[08:04:32 INFO]: Steve_Mines (/127.0.0.1:61528) lost connection: You are not whitelisted on this server!
+[08:04:33 INFO]: UUID of player newplayer25 is d474e710-26fb-33c9-8eba-c9bfc16f1c32
+[08:04:33 INFO]: Disconnecting newplayer25 (/127.0.0.1:61529): You are not whitelisted on this server!
+[08:04:33 INFO]: newplayer25 (/127.0.0.1:61529) lost connection: You are not whitelisted on this server!
+[08:04:35 INFO]: UUID of player newplayer26 is 4a64f89c-46b9-3960-9768-441947f8269e
+[08:04:35 INFO]: Disconnecting newplayer26 (/127.0.0.1:61530): You are not whitelisted on this server!
+[08:04:35 INFO]: newplayer26 (/127.0.0.1:61530) lost connection: You are not whitelisted on this server!
+[08:04:37 INFO]: UUID of player newplayer27 is 956206e0-7a2b-3080-9486-44ec501f04e7
+[08:04:37 INFO]: Disconnecting newplayer27 (/127.0.0.1:61532): You are not whitelisted on this server!
+[08:04:37 INFO]: newplayer27 (/127.0.0.1:61532) lost connection: You are not whitelisted on this server!
+[08:04:37 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:37 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:37 INFO]: Disconnecting Alex_Builds (/127.0.0.1:61533): You are not whitelisted on this server!
+[08:04:37 INFO]: Disconnecting Steve_Mines (/127.0.0.1:61534): You are not whitelisted on this server!
+[08:04:38 INFO]: Alex_Builds (/127.0.0.1:61533) lost connection: You are not whitelisted on this server!
+[08:04:38 INFO]: Steve_Mines (/127.0.0.1:61534) lost connection: You are not whitelisted on this server!
+[08:04:39 INFO]: UUID of player newplayer28 is 9ed7f5b4-733c-36c1-96d2-72fd7a2ffde6
+[08:04:39 INFO]: Disconnecting newplayer28 (/127.0.0.1:61536): You are not whitelisted on this server!
+[08:04:39 INFO]: newplayer28 (/127.0.0.1:61536) lost connection: You are not whitelisted on this server!
+[08:04:41 INFO]: UUID of player newplayer29 is 97617ae5-2761-3c86-aec2-1e161179ada0
+[08:04:41 INFO]: Disconnecting newplayer29 (/127.0.0.1:61538): You are not whitelisted on this server!
+[08:04:41 INFO]: newplayer29 (/127.0.0.1:61538) lost connection: You are not whitelisted on this server!
+[08:04:42 INFO]: Thread RCON Client /127.0.0.1 started
+[08:04:42 INFO]: [Rcon: Stopping the server]
+[08:04:42 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:04:42 INFO]: Stopping server
+[08:04:42 INFO]: [TownCore] Disabling TownCore v1.0.0
+[08:04:42 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[08:04:42 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[08:04:42 INFO]: [Exporter] Disabling Exporter v1.0.0
+[08:04:42 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[08:04:42 INFO]: Saving players
+[08:04:42 INFO]: Saving worlds
+[08:04:42 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:04:42 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:04:42 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:04:42 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:04:42 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world' in 0.11s
+[08:04:43 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:04:43 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:04:43 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:04:43 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:04:43 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:04:43 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
+[08:04:43 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:04:43 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:04:43 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:04:43 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:04:43 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:04:43 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[08:04:43 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:04:43 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:04:43 INFO]: Flushing Chunk IO
+[08:04:43 INFO]: Closing Thread Pool
+2026-11-01 08:04:43,279 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[08:04:43 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 08:04:44,113 ServerMain WARN Advanced terminal features are not available in this environment
+[08:04:44 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[08:04:46 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:04:46 INFO]: Loaded 1174 recipes
+[08:04:46 INFO]: Loaded 1271 advancements
+[08:04:46 INFO]: Starting minecraft server version 1.20.4
+[08:04:46 INFO]: Loading properties
+[08:04:46 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[08:04:47 INFO]: Server Ping Player Sample Count: 12
+[08:04:47 INFO]: Using 4 threads for Netty based IO
+[08:04:47 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:04:47 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[08:04:47 INFO]: Default game type: SURVIVAL
+[08:04:47 INFO]: Generating keypair
+[08:04:47 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[08:04:47 INFO]: Using default channel type
+[08:04:47 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[08:04:47 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[08:04:47 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[08:04:47 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[08:04:47 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[08:04:47 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[08:04:47 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[08:04:47 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:04:47 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:04:47 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:04:47 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:04:47 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:04:47 INFO]: Preparing level "world"
+[08:04:47 INFO]: Preparing start region for dimension minecraft:overworld
+[08:04:47 INFO]: Time elapsed: 47 ms
+[08:04:47 INFO]: Preparing start region for dimension minecraft:the_nether
+[08:04:47 INFO]: Time elapsed: 38 ms
+[08:04:47 INFO]: Preparing start region for dimension minecraft:the_end
+[08:04:47 INFO]: Time elapsed: 254 ms
+[08:04:47 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[08:04:47 INFO]: [Exporter] Enabling Exporter v1.0.0
+[08:04:47 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[08:04:47 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[08:04:47 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[08:04:47 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[08:04:47 INFO]: [TownCore] Enabling TownCore v1.0.0
+[08:04:47 INFO]: Starting remote control listener
+[08:04:47 INFO]: Thread RCON Listener started
+[08:04:47 INFO]: RCON running on 127.0.0.1:25601
+[08:04:47 INFO]: Running delayed init tasks
+[08:04:47 INFO]: Done (1.199s)! For help, type "help"
+[08:04:47 INFO]: Timings Reset
+[08:04:48 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:04:48 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:04:48 INFO]: UUID of player newplayer32 is 7b167e3c-443f-34e7-acf7-02243ad50446
+[08:04:48 INFO]: Alex_Builds joined the game
+[08:04:48 INFO]: Alex_Builds[/127.0.0.1:61558] logged in with entity id 25 at ([world]6.5, -60.0, -9.5)
+[08:04:48 INFO]: Steve_Mines joined the game
+[08:04:48 INFO]: Steve_Mines[/127.0.0.1:61559] logged in with entity id 23 at ([world]0.5, -60.0, -1.5)
+[08:04:48 INFO]: newplayer32 joined the game
+[08:04:48 INFO]: newplayer32[/127.0.0.1:61555] logged in with entity id 24 at ([world]-6.5, -60.0, 8.5)
+[08:04:48 INFO]: newplayer32 lost connection: Disconnected
+[08:04:48 INFO]: newplayer32 left the game
+[08:04:48 INFO]: Thread RCON Client /127.0.0.1 started
+[08:04:48 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:04:49 INFO]: Thread RCON Client /127.0.0.1 started
+[08:04:49 INFO]: UUID of player newplayer33 is 25598d00-7caa-3153-9474-75cf7fe4e8a0
+[08:04:49 INFO]: newplayer33 joined the game
+[08:04:49 INFO]: newplayer33[/127.0.0.1:61563] logged in with entity id 26 at ([world]-5.5, -60.0, -2.5)
+[08:04:49 INFO]: newplayer33 lost connection: Disconnected
+[08:04:49 INFO]: newplayer33 left the game
+[08:04:51 INFO]: UUID of player newplayer34 is a744ec2b-a826-32cb-844d-cf4e388f9f08
+[08:04:51 INFO]: newplayer34 joined the game
+[08:04:51 INFO]: newplayer34[/127.0.0.1:61565] logged in with entity id 27 at ([world]8.5, -60.0, 4.5)
+[08:04:51 INFO]: newplayer34 lost connection: Disconnected
+[08:04:51 INFO]: newplayer34 left the game
+[08:04:53 INFO]: UUID of player newplayer35 is 1d34aa40-66d7-3509-a1d8-f9355f5882a8
+[08:04:53 INFO]: newplayer35 joined the game
+[08:04:53 INFO]: newplayer35[/127.0.0.1:61568] logged in with entity id 28 at ([world]8.5, -60.0, -0.5)
+[08:04:53 INFO]: newplayer35 lost connection: Disconnected
+[08:04:53 INFO]: newplayer35 left the game
+[08:04:55 INFO]: UUID of player newplayer36 is ce4e9ab0-5bcc-39b1-b297-2314ed67a513
+[08:04:55 INFO]: newplayer36 joined the game
+[08:04:55 INFO]: newplayer36[/127.0.0.1:61570] logged in with entity id 29 at ([world]10.5, -60.0, -3.5)
+[08:04:55 INFO]: newplayer36 lost connection: Disconnected
+[08:04:55 INFO]: newplayer36 left the game
+[08:04:57 INFO]: UUID of player newplayer37 is f956f258-1694-3ced-835f-c1eec0b386bb
+[08:04:57 INFO]: newplayer37 joined the game
+[08:04:57 INFO]: newplayer37[/127.0.0.1:61571] logged in with entity id 30 at ([world]-8.5, -60.0, 6.5)
+[08:04:57 INFO]: newplayer37 lost connection: Disconnected
+[08:04:57 INFO]: newplayer37 left the game
+[08:04:59 INFO]: UUID of player newplayer38 is 11542a62-3a81-38f4-8cc9-bcea2c7635c9
+[08:04:59 INFO]: newplayer38 joined the game
+[08:04:59 INFO]: newplayer38[/127.0.0.1:61572] logged in with entity id 31 at ([world]7.5, -60.0, -2.5)
+[08:04:59 INFO]: newplayer38 lost connection: Disconnected
+[08:04:59 INFO]: newplayer38 left the game
+[08:05:01 INFO]: UUID of player newplayer39 is 76165bf3-e1ca-3db9-81d6-cafeae87a2dd
+[08:05:01 INFO]: newplayer39 joined the game
+[08:05:01 INFO]: newplayer39[/127.0.0.1:61573] logged in with entity id 32 at ([world]5.5, -59.0, -4.5)
+[08:05:01 INFO]: newplayer39 lost connection: Disconnected
+[08:05:01 INFO]: newplayer39 left the game
+[08:05:03 INFO]: UUID of player newplayer40 is 36c0784f-e5c3-35fa-865d-3aa58f510109
+[08:05:03 INFO]: newplayer40 joined the game
+[08:05:03 INFO]: newplayer40[/127.0.0.1:61575] logged in with entity id 33 at ([world]1.5, -60.0, 7.5)
+[08:05:03 INFO]: newplayer40 lost connection: Disconnected
+[08:05:03 INFO]: newplayer40 left the game
+[08:05:05 INFO]: UUID of player newplayer41 is f8d7c482-c444-3c99-a3ea-2563594be34a
+[08:05:05 INFO]: newplayer41 joined the game
+[08:05:05 INFO]: newplayer41[/127.0.0.1:61576] logged in with entity id 34 at ([world]5.5, -60.0, 4.5)
+[08:05:05 INFO]: newplayer41 lost connection: Disconnected
+[08:05:05 INFO]: newplayer41 left the game
+[08:05:07 INFO]: UUID of player newplayer42 is f3a0493b-0047-3348-a2b8-0b51898bf1d9
+[08:05:07 INFO]: newplayer42 joined the game
+[08:05:07 INFO]: newplayer42[/127.0.0.1:61578] logged in with entity id 35 at ([world]7.5, -60.0, -5.5)
+[08:05:07 INFO]: newplayer42 lost connection: Disconnected
+[08:05:07 INFO]: newplayer42 left the game
+[08:05:09 INFO]: UUID of player newplayer43 is 0ee9a111-4648-3d88-bd42-94bc568eff5d
+[08:05:09 INFO]: newplayer43 joined the game
+[08:05:09 INFO]: newplayer43[/127.0.0.1:61579] logged in with entity id 36 at ([world]7.5, -59.0, -6.5)
+[08:05:09 INFO]: newplayer43 lost connection: Disconnected
+[08:05:09 INFO]: newplayer43 left the game
+[08:05:11 INFO]: UUID of player newplayer44 is 19732427-428c-3535-991a-23b6c8f20e57
+[08:05:11 INFO]: newplayer44 joined the game
+[08:05:11 INFO]: newplayer44[/127.0.0.1:61581] logged in with entity id 37 at ([world]10.5, -60.0, -3.5)
+[08:05:11 INFO]: newplayer44 lost connection: Disconnected
+[08:05:11 INFO]: newplayer44 left the game
+[08:05:13 INFO]: UUID of player newplayer45 is c237430f-99e4-3a2f-bb1f-966a90e3ffe4
+[08:05:13 INFO]: newplayer45 joined the game
+[08:05:13 INFO]: newplayer45[/127.0.0.1:61582] logged in with entity id 38 at ([world]-9.5, -60.0, 0.5)
+[08:05:13 INFO]: newplayer45 lost connection: Disconnected
+[08:05:13 INFO]: newplayer45 left the game
+[08:05:15 INFO]: UUID of player newplayer46 is d613686d-fa91-3015-8ac4-44d00bf4cde0
+[08:05:15 INFO]: newplayer46 joined the game
+[08:05:15 INFO]: newplayer46[/127.0.0.1:61583] logged in with entity id 39 at ([world]0.5, -60.0, -8.5)
+[08:05:15 INFO]: newplayer46 lost connection: Disconnected
+[08:05:15 INFO]: newplayer46 left the game
+[08:05:17 INFO]: UUID of player newplayer47 is bed37129-4334-36e5-a651-79ef5520df3d
+[08:05:17 INFO]: newplayer47 joined the game
+[08:05:17 INFO]: newplayer47[/127.0.0.1:61584] logged in with entity id 40 at ([world]1.5, -60.0, 1.5)
+[08:05:17 INFO]: newplayer47 lost connection: Disconnected
+[08:05:17 INFO]: newplayer47 left the game
+[08:05:19 INFO]: UUID of player newplayer48 is 60cd9ad6-21be-3846-880b-f3857cc9817e
+[08:05:19 INFO]: newplayer48 joined the game
+[08:05:19 INFO]: newplayer48[/127.0.0.1:61587] logged in with entity id 41 at ([world]5.5, -60.0, -8.5)
+[08:05:19 INFO]: newplayer48 lost connection: Disconnected
+[08:05:19 INFO]: newplayer48 left the game
+[08:05:21 INFO]: UUID of player newplayer49 is 0bf87a27-42b6-3146-bb85-32e5fc7834d7
+[08:05:21 INFO]: newplayer49 joined the game
+[08:05:21 INFO]: newplayer49[/127.0.0.1:61592] logged in with entity id 42 at ([world]1.5, -60.0, 7.5)
+[08:05:21 INFO]: newplayer49 lost connection: Disconnected
+[08:05:21 INFO]: newplayer49 left the game
+[08:05:23 INFO]: UUID of player newplayer50 is 0e5532f5-123d-396b-87b9-2f961ea3afdd
+[08:05:23 INFO]: newplayer50 joined the game
+[08:05:23 INFO]: newplayer50[/127.0.0.1:61596] logged in with entity id 43 at ([world]10.5, -60.0, 7.5)
+[08:05:23 INFO]: newplayer50 lost connection: Disconnected
+[08:05:23 INFO]: newplayer50 left the game
+[08:05:25 INFO]: UUID of player newplayer51 is 8ad89821-b78c-3235-8fa8-b7d31f417d92
+[08:05:25 INFO]: newplayer51 joined the game
+[08:05:25 INFO]: newplayer51[/127.0.0.1:61610] logged in with entity id 44 at ([world]6.5, -60.0, -8.5)
+[08:05:25 INFO]: newplayer51 lost connection: Disconnected
+[08:05:25 INFO]: newplayer51 left the game
+[08:05:27 INFO]: UUID of player newplayer52 is e0554f6e-111a-3b0b-b658-f209fcb79cde
+[08:05:27 INFO]: newplayer52 joined the game
+[08:05:27 INFO]: newplayer52[/127.0.0.1:61615] logged in with entity id 45 at ([world]6.5, -60.0, 5.5)
+[08:05:27 INFO]: newplayer52 lost connection: Disconnected
+[08:05:27 INFO]: newplayer52 left the game
+[08:05:29 INFO]: UUID of player newplayer53 is 1e2f61bb-c078-38c0-a83f-193841c7f0e2
+[08:05:29 INFO]: newplayer53 joined the game
+[08:05:29 INFO]: newplayer53[/127.0.0.1:61621] logged in with entity id 46 at ([world]2.5, -60.0, -5.5)
+[08:05:29 INFO]: newplayer53 lost connection: Disconnected
+[08:05:29 INFO]: newplayer53 left the game
+[08:05:31 INFO]: UUID of player newplayer54 is eb56585c-f47b-3962-935e-90990abfe849
+[08:05:31 INFO]: newplayer54 joined the game
+[08:05:31 INFO]: newplayer54[/127.0.0.1:61624] logged in with entity id 47 at ([world]9.5, -60.0, -8.5)
+[08:05:31 INFO]: newplayer54 lost connection: Disconnected
+[08:05:31 INFO]: newplayer54 left the game
+[08:05:33 INFO]: UUID of player newplayer55 is ec77f1f1-44d5-3cb6-ac58-a65f3bd4a7e4
+[08:05:33 INFO]: newplayer55 joined the game
+[08:05:33 INFO]: newplayer55[/127.0.0.1:61627] logged in with entity id 48 at ([world]7.5, -60.0, 3.5)
+[08:05:33 INFO]: newplayer55 lost connection: Disconnected
+[08:05:33 INFO]: newplayer55 left the game
+[08:05:35 INFO]: UUID of player newplayer56 is 9d6ada2c-2bc3-3266-bd53-cc0a5fde10f6
+[08:05:35 INFO]: newplayer56 joined the game
+[08:05:35 INFO]: newplayer56[/127.0.0.1:61628] logged in with entity id 49 at ([world]7.5, -59.0, -4.5)
+[08:05:35 INFO]: newplayer56 lost connection: Disconnected
+[08:05:35 INFO]: newplayer56 left the game
+[08:05:37 INFO]: UUID of player newplayer57 is 4f38f8ae-2c74-344b-913b-b692f9d11a88
+[08:05:37 INFO]: newplayer57 joined the game
+[08:05:37 INFO]: newplayer57[/127.0.0.1:61632] logged in with entity id 50 at ([world]1.5, -60.0, -5.5)
+[08:05:37 INFO]: newplayer57 lost connection: Disconnected
+[08:05:37 INFO]: newplayer57 left the game
+[08:05:39 INFO]: UUID of player newplayer58 is 62a8af9d-6dc5-3707-a7bf-7d6dba0a0d68
+[08:05:39 INFO]: newplayer58 joined the game
+[08:05:39 INFO]: newplayer58[/127.0.0.1:61634] logged in with entity id 51 at ([world]-7.5, -60.0, 6.5)
+[08:05:39 INFO]: newplayer58 lost connection: Disconnected
+[08:05:39 INFO]: newplayer58 left the game
+[08:05:41 INFO]: UUID of player newplayer59 is 1bbc2378-1ac7-36d3-87ac-ec0e8990b419
+[08:05:41 INFO]: newplayer59 joined the game
+[08:05:41 INFO]: newplayer59[/127.0.0.1:61636] logged in with entity id 52 at ([world]6.5, -60.0, 1.5)
+[08:05:41 INFO]: newplayer59 lost connection: Disconnected
+[08:05:41 INFO]: newplayer59 left the game
+[08:05:43 INFO]: UUID of player newplayer60 is 3e881707-2d61-3231-b56e-2bb6c3afb6ec
+[08:05:43 INFO]: newplayer60 joined the game
+[08:05:43 INFO]: newplayer60[/127.0.0.1:61640] logged in with entity id 53 at ([world]9.5, -60.0, 0.5)
+[08:05:43 INFO]: newplayer60 lost connection: Disconnected
+[08:05:43 INFO]: newplayer60 left the game
+[08:05:45 INFO]: UUID of player newplayer61 is ae162921-56cf-349d-830c-88d3034b9a87
+[08:05:45 INFO]: newplayer61 joined the game
+[08:05:45 INFO]: newplayer61[/127.0.0.1:61646] logged in with entity id 54 at ([world]-7.5, -54.0, 9.5)
+[08:05:45 INFO]: newplayer61 lost connection: Disconnected
+[08:05:45 INFO]: newplayer61 left the game
+[08:05:47 INFO]: UUID of player newplayer62 is 178b2142-c658-3098-a284-1279854d8551
+[08:05:47 INFO]: newplayer62 joined the game
+[08:05:47 INFO]: newplayer62[/127.0.0.1:61654] logged in with entity id 55 at ([world]7.5, -60.0, -7.5)
+[08:05:47 INFO]: newplayer62 lost connection: Disconnected
+[08:05:47 INFO]: newplayer62 left the game
+[08:05:49 INFO]: UUID of player newplayer63 is 1953e88e-3c85-30ba-8b55-80e5dbc8c913
+[08:05:49 INFO]: newplayer63 joined the game
+[08:05:49 INFO]: newplayer63[/127.0.0.1:61659] logged in with entity id 56 at ([world]-7.5, -54.0, 8.5)
+[08:05:49 INFO]: newplayer63 lost connection: Disconnected
+[08:05:49 INFO]: newplayer63 left the game
+[08:05:51 INFO]: UUID of player newplayer64 is d6ff9115-6b60-3063-bf2f-07507cf43937
+[08:05:51 INFO]: newplayer64 joined the game
+[08:05:51 INFO]: newplayer64[/127.0.0.1:61662] logged in with entity id 57 at ([world]-7.5, -54.0, 8.5)
+[08:05:51 INFO]: newplayer64 lost connection: Disconnected
+[08:05:51 INFO]: newplayer64 left the game
+[08:05:53 INFO]: UUID of player newplayer65 is ee6f6f6b-90dc-3830-b888-70a32a43d2d6
+[08:05:53 INFO]: newplayer65 joined the game
+[08:05:53 INFO]: newplayer65[/127.0.0.1:61668] logged in with entity id 58 at ([world]4.5, -60.0, 9.5)
+[08:05:53 INFO]: newplayer65 lost connection: Disconnected
+[08:05:53 INFO]: newplayer65 left the game
+[08:05:55 INFO]: UUID of player newplayer66 is 959bee72-f68d-3321-86c0-6eb7a764a9b7
+[08:05:55 INFO]: newplayer66 joined the game
+[08:05:55 INFO]: newplayer66[/127.0.0.1:61671] logged in with entity id 59 at ([world]1.5, -60.0, 8.5)
+[08:05:55 INFO]: newplayer66 lost connection: Disconnected
+[08:05:55 INFO]: newplayer66 left the game
+[08:05:57 INFO]: UUID of player newplayer67 is 1f02361c-8574-3028-9bad-1b07747cffd2
+[08:05:57 INFO]: newplayer67 joined the game
+[08:05:57 INFO]: newplayer67[/127.0.0.1:61672] logged in with entity id 60 at ([world]-9.5, -60.0, -0.5)
+[08:05:57 INFO]: newplayer67 lost connection: Disconnected
+[08:05:57 INFO]: newplayer67 left the game
+[08:05:59 INFO]: UUID of player newplayer68 is c76b931c-e5ed-390e-a3a7-7fbe6223b3b4
+[08:05:59 INFO]: newplayer68 joined the game
+[08:05:59 INFO]: newplayer68[/127.0.0.1:61675] logged in with entity id 61 at ([world]7.5, -60.0, 6.5)
+[08:05:59 INFO]: newplayer68 lost connection: Disconnected
+[08:05:59 INFO]: newplayer68 left the game
+[08:06:01 INFO]: UUID of player newplayer69 is b4756355-b54a-3cf3-98ae-b08b4b9ec783
+[08:06:01 INFO]: newplayer69 joined the game
+[08:06:01 INFO]: newplayer69[/127.0.0.1:61679] logged in with entity id 62 at ([world]-4.5, -60.0, -3.5)
+[08:06:01 INFO]: newplayer69 lost connection: Disconnected
+[08:06:01 INFO]: newplayer69 left the game
+[08:06:03 INFO]: UUID of player newplayer70 is e0ad8620-33ff-3261-9245-d787d087bcd9
+[08:06:03 INFO]: newplayer70 joined the game
+[08:06:03 INFO]: newplayer70[/127.0.0.1:61682] logged in with entity id 63 at ([world]-2.5, -60.0, -5.5)
+[08:06:03 INFO]: newplayer70 lost connection: Disconnected
+[08:06:03 INFO]: newplayer70 left the game
+[08:06:05 INFO]: UUID of player newplayer71 is 6cbcb5b5-d42b-3bcd-a9cb-6e41b3dae76c
+[08:06:05 INFO]: newplayer71 joined the game
+[08:06:05 INFO]: newplayer71[/127.0.0.1:61687] logged in with entity id 64 at ([world]-5.5, -60.0, -9.5)
+[08:06:05 INFO]: newplayer71 lost connection: Disconnected
+[08:06:05 INFO]: newplayer71 left the game
+[08:06:07 INFO]: UUID of player newplayer72 is e0a76b49-397e-3998-b366-5824db36f1df
+[08:06:07 INFO]: newplayer72 joined the game
+[08:06:07 INFO]: newplayer72[/127.0.0.1:61689] logged in with entity id 65 at ([world]-2.5, -60.0, 7.5)
+[08:06:07 INFO]: newplayer72 lost connection: Disconnected
+[08:06:07 INFO]: newplayer72 left the game
+[08:06:09 INFO]: UUID of player newplayer73 is cce64722-6a96-30d5-9c0b-9d7bc74e022d
+[08:06:09 INFO]: newplayer73 joined the game
+[08:06:09 INFO]: newplayer73[/127.0.0.1:61691] logged in with entity id 66 at ([world]-3.5, -60.0, -8.5)
+[08:06:09 INFO]: newplayer73 lost connection: Disconnected
+[08:06:09 INFO]: newplayer73 left the game
+[08:06:11 INFO]: UUID of player newplayer74 is 0fa6b862-66ac-3d23-bb65-95616dad8576
+[08:06:11 INFO]: newplayer74 joined the game
+[08:06:11 INFO]: newplayer74[/127.0.0.1:61694] logged in with entity id 67 at ([world]6.5, -60.0, 1.5)
+[08:06:11 INFO]: newplayer74 lost connection: Disconnected
+[08:06:11 INFO]: newplayer74 left the game
+[08:06:13 INFO]: UUID of player newplayer75 is 91dd8cba-8a6e-317b-8e27-ce902bfc3ec4
+[08:06:13 INFO]: newplayer75 joined the game
+[08:06:13 INFO]: newplayer75[/127.0.0.1:61697] logged in with entity id 68 at ([world]-5.5, -60.0, -7.5)
+[08:06:13 INFO]: newplayer75 lost connection: Disconnected
+[08:06:13 INFO]: newplayer75 left the game
+[08:06:15 INFO]: UUID of player newplayer76 is d3d806a5-37f3-34dd-89ee-f2f0e2e03a4e
+[08:06:15 INFO]: newplayer76 joined the game
+[08:06:15 INFO]: newplayer76[/127.0.0.1:61704] logged in with entity id 69 at ([world]-4.5, -60.0, -2.5)
+[08:06:15 INFO]: newplayer76 lost connection: Disconnected
+[08:06:15 INFO]: newplayer76 left the game
+[08:06:17 INFO]: UUID of player newplayer77 is e2d3000c-ebb5-3332-b44e-8f6f52989f86
+[08:06:17 INFO]: newplayer77 joined the game
+[08:06:17 INFO]: newplayer77[/127.0.0.1:61707] logged in with entity id 70 at ([world]-6.5, -60.0, 7.5)
+[08:06:17 INFO]: newplayer77 lost connection: Disconnected
+[08:06:17 INFO]: newplayer77 left the game
+[08:06:19 INFO]: UUID of player newplayer78 is 86ac8e6e-6cb9-369d-8dde-debd6cc52136
+[08:06:19 INFO]: newplayer78 joined the game
+[08:06:19 INFO]: newplayer78[/127.0.0.1:61709] logged in with entity id 71 at ([world]-5.5, -58.0, -5.5)
+[08:06:19 INFO]: newplayer78 lost connection: Disconnected
+[08:06:19 INFO]: newplayer78 left the game
+[08:06:21 INFO]: UUID of player newplayer79 is 89e481a5-d288-35ed-bf00-af185dbb7972
+[08:06:21 INFO]: newplayer79 joined the game
+[08:06:21 INFO]: newplayer79[/127.0.0.1:61715] logged in with entity id 72 at ([world]7.5, -60.0, 8.5)
+[08:06:21 INFO]: newplayer79 lost connection: Disconnected
+[08:06:21 INFO]: newplayer79 left the game
+[08:06:23 INFO]: UUID of player newplayer80 is b56b44f3-72fe-3f6a-991b-5c8ff0e1bf76
+[08:06:23 INFO]: newplayer80 joined the game
+[08:06:23 INFO]: newplayer80[/127.0.0.1:61720] logged in with entity id 73 at ([world]-8.5, -60.0, -0.5)
+[08:06:23 INFO]: newplayer80 lost connection: Disconnected
+[08:06:23 INFO]: newplayer80 left the game
+[08:06:25 INFO]: UUID of player newplayer81 is b0122b06-b24b-39e1-a412-1264f6540ca8
+[08:06:25 INFO]: newplayer81 joined the game
+[08:06:25 INFO]: newplayer81[/127.0.0.1:61727] logged in with entity id 74 at ([world]8.5, -60.0, -1.5)
+[08:06:26 INFO]: newplayer81 lost connection: Disconnected
+[08:06:26 INFO]: newplayer81 left the game
+[08:06:32 INFO]: Steve_Mines lost connection: Disconnected
+[08:06:32 INFO]: Steve_Mines left the game
+[08:06:32 INFO]: Alex_Builds lost connection: Disconnected
+[08:06:32 INFO]: Alex_Builds left the game
+[08:06:33 INFO]: Thread RCON Client /127.0.0.1 started
+[08:06:33 INFO]: [Rcon: Stopping the server]
+[08:06:33 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:06:33 INFO]: Stopping server
+[08:06:33 INFO]: [TownCore] Disabling TownCore v1.0.0
+[08:06:33 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[08:06:33 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[08:06:33 INFO]: [Exporter] Disabling Exporter v1.0.0
+[08:06:33 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[08:06:33 INFO]: Saving players
+[08:06:33 INFO]: Saving worlds
+[08:06:33 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:06:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:06:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:06:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:06:33 INFO]: [ChunkHolderManager] Saved 289 block chunks, 289 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[08:06:33 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:06:33 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:06:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:06:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:06:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:06:33 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
+[08:06:33 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:06:33 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:06:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:06:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:06:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:06:33 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[08:06:33 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:06:33 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:06:33 INFO]: Flushing Chunk IO
+[08:06:33 INFO]: Closing Thread Pool
+2026-11-01 08:06:33,729 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[08:06:33 INFO]: Closing Server

@@ -1,0 +1,1 @@
+sledgehammer     control           s1  resolved=False detect=2s    fix=-     collateral=1 down=6s honesty=1.00 score=20.0

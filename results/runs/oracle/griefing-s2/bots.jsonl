@@ -1,0 +1,45 @@
+{"t":1793543921016,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[0,-60,9]}}
+{"t":1793543921017,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[8,-54,10]}}
+{"t":1793543954021,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543954021,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543954021,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793543954058,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[-4,-60,3]}}
+{"t":1793543956674,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793543959240,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793543961939,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793543964480,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793543967174,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793543969055,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543969055,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543969056,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793543969708,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793543972345,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793543974892,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793543977396,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793543979970,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793543982480,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793543984107,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543984107,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543984108,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793543985033,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793543999156,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543999156,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793543999156,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544014205,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544014205,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544014206,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544029256,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544029256,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544029256,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544044307,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544044307,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544044307,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544059356,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544059356,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544059356,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544074405,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544074406,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing the oak house"}
+{"t":1793544074406,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793544076908,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}
+{"t":1793544076908,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793544076909,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}

@@ -1,0 +1,1 @@
+{"mcpServers": {"sre": {"command": "/opt/homebrew/opt/python@3.14/bin/python3.14", "args": ["-m", "mcsre.mcp_shim"], "env": {"MCSRE_BRIDGE": "http://127.0.0.1:53323", "PYTHONPATH": "~/code/minecraft-sre"}}}}

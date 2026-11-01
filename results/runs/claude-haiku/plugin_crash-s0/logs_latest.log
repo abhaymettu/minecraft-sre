@@ -1,0 +1,96 @@
+[06:15:05] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:15:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:15:22] [ServerMain/INFO]: Loaded 1174 recipes
+[06:15:22] [ServerMain/INFO]: Loaded 1271 advancements
+[06:15:23] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:15:23] [Server thread/INFO]: Loading properties
+[06:15:23] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:15:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:15:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:15:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:15:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:15:27] [Server thread/INFO]: Default game type: SURVIVAL
+[06:15:27] [Server thread/INFO]: Generating keypair
+[06:15:27] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25630
+[06:15:27] [Server thread/INFO]: Using default channel type
+[06:15:27] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:15:27] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:15:27] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:15:27] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:15:27] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:15:27] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:15:27] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:15:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:15:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:15:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:15:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:15:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:15:28] [Server thread/INFO]: Preparing level "world"
+[06:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:15:31] [Server thread/INFO]: Time elapsed: 981 ms
+[06:15:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:15:31] [Server thread/INFO]: Time elapsed: 207 ms
+[06:15:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:15:31] [Server thread/INFO]: Time elapsed: 25 ms
+[06:15:32] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:15:32] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:15:32] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:15:32] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:15:32] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:15:32] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:15:32] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:15:32] [Server thread/INFO]: Starting remote control listener
+[06:15:32] [Server thread/INFO]: Thread RCON Listener started
+[06:15:32] [Server thread/INFO]: RCON running on 127.0.0.1:25631
+[06:15:32] [Server thread/INFO]: Running delayed init tasks
+[06:15:32] [Server thread/INFO]: Done (9.724s)! For help, type "help"
+[06:15:32] [Server thread/INFO]: Timings Reset
+[06:15:32] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:15:32] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:15:33] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:15:33] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:15:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2523ms or 50 ticks behind
+[06:15:35] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:15:36] [Server thread/INFO]: Steve_Mines joined the game
+[06:15:36] [Server thread/INFO]: Steve_Mines[/127.0.0.1:60927] logged in with entity id 2 at ([world]9.5, -60.0, -9.5)
+[06:15:37] [Server thread/INFO]: Alex_Builds joined the game
+[06:15:37] [Server thread/INFO]: Alex_Builds[/127.0.0.1:60928] logged in with entity id 1 at ([world]6.5, -60.0, 10.5)
+[06:17:18] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[06:17:18] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:17:19] [Server thread/INFO]: Alex_Builds left the game
+[06:17:19] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[06:17:19] [Server thread/INFO]: Steve_Mines left the game
+[06:17:19] [Server thread/INFO]: [Rcon: Stopping the server]
+[06:17:19] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:17:19] [Server thread/INFO]: Stopping server
+[06:17:19] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:17:19] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:17:19] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:17:19] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:17:19] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:17:19] [Server thread/INFO]: Saving players
+[06:17:19] [Server thread/INFO]: Saving worlds
+[06:17:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:17:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:17:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:17:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:17:24] [Server thread/INFO]: [ChunkHolderManager] Saved 306 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 4.83s
+[06:17:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:17:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:17:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:17:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:17:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:17:27] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 2.91s
+[06:17:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:17:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:17:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:17:29] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 1.21s
+[06:17:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:17:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:17:29] [Server thread/INFO]: Flushing Chunk IO
+[06:17:29] [Server thread/INFO]: Closing Thread Pool
+[06:17:29] [Server thread/INFO]: Closing Server

@@ -1,0 +1,4 @@
+{"t":1793541099664,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[4,-60,8]}}
+{"t":1793541099701,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-1,-60,0]}}
+{"t":1793541255391,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793541255392,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

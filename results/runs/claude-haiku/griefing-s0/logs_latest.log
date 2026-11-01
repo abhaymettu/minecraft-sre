@@ -1,0 +1,188 @@
+[08:45:07] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[08:45:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:45:10] [ServerMain/INFO]: Loaded 1174 recipes
+[08:45:10] [ServerMain/INFO]: Loaded 1271 advancements
+[08:45:10] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[08:45:10] [Server thread/INFO]: Loading properties
+[08:45:10] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[08:45:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:45:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:45:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:45:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[08:45:11] [Server thread/INFO]: Default game type: SURVIVAL
+[08:45:11] [Server thread/INFO]: Generating keypair
+[08:45:11] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25610
+[08:45:11] [Server thread/INFO]: Using default channel type
+[08:45:11] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[08:45:11] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[08:45:11] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[08:45:11] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[08:45:11] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[08:45:11] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[08:45:11] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[08:45:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:45:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:45:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:45:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:45:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:45:11] [Server thread/INFO]: Preparing level "world"
+[08:45:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:45:11] [Server thread/INFO]: Time elapsed: 55 ms
+[08:45:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:45:11] [Server thread/INFO]: Time elapsed: 286 ms
+[08:45:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:45:11] [Server thread/INFO]: Time elapsed: 12 ms
+[08:45:11] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[08:45:11] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[08:45:11] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[08:45:11] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[08:45:11] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[08:45:11] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[08:45:11] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[08:45:11] [Server thread/INFO]: Starting remote control listener
+[08:45:11] [Server thread/INFO]: Thread RCON Listener started
+[08:45:11] [Server thread/INFO]: RCON running on 127.0.0.1:25611
+[08:45:11] [Server thread/INFO]: Running delayed init tasks
+[08:45:11] [Server thread/INFO]: Done (1.161s)! For help, type "help"
+[08:45:11] [Server thread/INFO]: Timings Reset
+[08:45:12] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:45:12] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:45:12] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:45:12] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:45:12] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:45:12] [Server thread/INFO]: Steve_Mines joined the game
+[08:45:12] [Server thread/INFO]: Steve_Mines[/127.0.0.1:49180] logged in with entity id 24 at ([world]-2.5, -60.0, -3.5)
+[08:45:12] [Server thread/INFO]: Alex_Builds joined the game
+[08:45:12] [Server thread/INFO]: Alex_Builds[/127.0.0.1:49179] logged in with entity id 23 at ([world]8.5, -60.0, -1.5)
+[08:45:39] [User Authenticator #0/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:45:39] [User Authenticator #1/INFO]: UUID of player Mira_Crafts is 5f4b6abd-e12d-356d-9aac-dc44eaebf8eb
+[08:45:39] [Server thread/INFO]: Mira_Crafts joined the game
+[08:45:39] [Server thread/INFO]: Mira_Crafts[/127.0.0.1:49245] logged in with entity id 25 at ([world]2.5, -60.0, 7.5)
+[08:45:39] [Server thread/INFO]: ShadowPhantom99 joined the game
+[08:45:39] [Server thread/INFO]: ShadowPhantom99[/127.0.0.1:49244] logged in with entity id 26 at ([world]3.5, -60.0, 5.5)
+[08:45:41] [Server thread/INFO]: [Rcon: Set ShadowPhantom99's game mode to Creative Mode]
+[08:45:41] [Server thread/INFO]: [Rcon: Teleported ShadowPhantom99 to 11.500000, -60.000000, 6.500000]
+[08:45:41] [Server thread/INFO]: [Rcon: Set Mira_Crafts's game mode to Creative Mode]
+[08:45:41] [Server thread/INFO]: [Rcon: Teleported Mira_Crafts to -19.500000, -60.000000, 23.500000]
+[08:45:41] [Server thread/WARN]: Mira_Crafts moved too quickly! -22.0,0.0,16.0
+[08:45:41] [Server thread/WARN]: Mira_Crafts moved too quickly! -22.0,0.0,16.0
+[08:47:09] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:47:09] [Server thread/INFO]: ShadowPhantom99 lost connection: Suspended for destroying blocks; contact staff
+[08:47:09] [Server thread/INFO]: ShadowPhantom99 left the game
+[08:47:09] [Server thread/INFO]: [Rcon: Kicked ShadowPhantom99: Suspended for destroying blocks; contact staff]
+[08:47:14] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:47:14] [Server thread/INFO]: ShadowPhantom99 joined the game
+[08:47:14] [Server thread/INFO]: ShadowPhantom99[/127.0.0.1:49392] logged in with entity id 28 at ([world]11.5, -60.0, 6.5)
+[08:47:17] [Server thread/INFO]: [Rcon: Teleported ShadowPhantom99 to 11.500000, -60.000000, 6.500000]
+[08:47:35] [Server thread/INFO]: [Rcon: Banned ShadowPhantom99: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)]
+[08:47:35] [Server thread/INFO]: ShadowPhantom99 lost connection: You are banned from this server
+[08:47:35] [Server thread/INFO]: ShadowPhantom99 left the game
+[08:47:50] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:47:50] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49427): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:47:50] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49427) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:05] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:48:05] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49437): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:05] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49437) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:07] [Server thread/INFO]: [Rcon: Changed the block at 8, -60, 8]
+[08:48:08] [Server thread/INFO]: [Rcon: Changed the block at 9, -60, 8]
+[08:48:08] [Server thread/INFO]: [Rcon: Changed the block at 10, -60, 8]
+[08:48:08] [Server thread/INFO]: [Rcon: Changed the block at 12, -60, 8]
+[08:48:08] [Server thread/INFO]: [Rcon: Changed the block at 13, -60, 8]
+[08:48:08] [Server thread/INFO]: [Rcon: Changed the block at 14, -60, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 8, -59, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 9, -59, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 10, -59, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 12, -59, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 13, -59, 8]
+[08:48:09] [Server thread/INFO]: [Rcon: Changed the block at 14, -59, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 8, -58, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 9, -58, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 10, -58, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 11, -58, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 12, -58, 8]
+[08:48:10] [Server thread/INFO]: [Rcon: Changed the block at 13, -58, 8]
+[08:48:11] [Server thread/INFO]: [Rcon: Changed the block at 14, -58, 8]
+[08:48:11] [Server thread/INFO]: [Rcon: Changed the block at 8, -57, 8]
+[08:48:11] [Server thread/INFO]: [Rcon: Changed the block at 9, -57, 8]
+[08:48:11] [Server thread/INFO]: [Rcon: Changed the block at 10, -57, 8]
+[08:48:11] [Server thread/INFO]: [Rcon: Changed the block at 11, -57, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 12, -57, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 13, -57, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 14, -57, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 8, -56, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 9, -56, 8]
+[08:48:12] [Server thread/INFO]: [Rcon: Changed the block at 10, -56, 8]
+[08:48:13] [Server thread/INFO]: [Rcon: Changed the block at 11, -56, 8]
+[08:48:13] [Server thread/INFO]: [Rcon: Changed the block at 12, -56, 8]
+[08:48:13] [Server thread/INFO]: [Rcon: Changed the block at 13, -56, 8]
+[08:48:13] [Server thread/INFO]: [Rcon: Changed the block at 14, -56, 8]
+[08:48:20] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:48:20] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49504): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:20] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49504) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:35] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:48:35] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49538): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:35] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49538) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:50] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:48:50] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49543): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:48:50] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49543) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:49:05] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:49:05] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49551): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:49:05] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49551) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:49:20] [User Authenticator #2/INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[08:49:20] [Server thread/INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:49563): You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:49:20] [Server thread/INFO]: ShadowPhantom99 (/127.0.0.1:49563) lost connection: You are banned from this server.
+Reason: Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)
+[08:49:30] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[08:49:30] [Server thread/INFO]: Alex_Builds left the game
+[08:49:30] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[08:49:30] [Server thread/INFO]: Steve_Mines left the game
+[08:49:30] [Server thread/INFO]: Mira_Crafts lost connection: Disconnected
+[08:49:30] [Server thread/INFO]: Mira_Crafts left the game
+[08:49:31] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:49:31] [Server thread/INFO]: [Rcon: Stopping the server]
+[08:49:31] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:49:31] [Server thread/INFO]: Stopping server
+[08:49:31] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[08:49:31] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[08:49:31] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[08:49:31] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[08:49:31] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[08:49:31] [Server thread/INFO]: Saving players
+[08:49:31] [Server thread/INFO]: Saving worlds
+[08:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saved 1521 block chunks, 357 entity chunks, 0 poi chunks in world 'world' in 0.15s
+[08:49:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
+[08:49:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:49:31] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[08:49:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:49:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:49:31] [Server thread/INFO]: Flushing Chunk IO
+[08:49:31] [Server thread/INFO]: Closing Thread Pool
+[08:49:31] [Server thread/INFO]: Closing Server

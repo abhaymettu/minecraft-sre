@@ -1,0 +1,621 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:35:35,251 ServerMain WARN Advanced terminal features are not available in this environment
+[06:35:37 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:36:01 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:36:08 INFO]: Loaded 1174 recipes
+[06:36:10 INFO]: Loaded 1271 advancements
+[06:36:12 INFO]: Starting minecraft server version 1.20.4
+[06:36:12 INFO]: Loading properties
+[06:36:12 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:36:15 INFO]: Server Ping Player Sample Count: 12
+[06:36:15 INFO]: Using 4 threads for Netty based IO
+[06:36:16 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:36:16 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:36:17 INFO]: Default game type: SURVIVAL
+[06:36:17 INFO]: Generating keypair
+[06:36:18 INFO]: Starting Minecraft server on 127.0.0.1:25620
+[06:36:18 INFO]: Using default channel type
+[06:36:18 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:36:18 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:36:18 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:36:18 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:36:18 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:36:18 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:36:18 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:36:18 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:36:18 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:36:18 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:36:18 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:36:18 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:36:18 INFO]: Preparing level "world"
+[06:36:21 INFO]: Preparing start region for dimension minecraft:overworld
+[06:36:22 INFO]: Time elapsed: 1156 ms
+[06:36:22 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:36:26 INFO]: Time elapsed: 4412 ms
+[06:36:26 INFO]: Preparing start region for dimension minecraft:the_end
+[06:36:27 INFO]: Time elapsed: 719 ms
+[06:36:27 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:36:28 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:36:28 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:36:28 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:36:28 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:36:28 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:36:28 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:36:28 INFO]: Starting remote control listener
+[06:36:28 INFO]: Thread RCON Listener started
+[06:36:28 INFO]: RCON running on 127.0.0.1:25621
+[06:36:28 INFO]: Running delayed init tasks
+[06:36:28 INFO]: Done (16.262s)! For help, type "help"
+[06:36:28 INFO]: Timings Reset
+[06:36:29 INFO]: Thread RCON Client /127.0.0.1 started
+[06:36:30 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:36:30 INFO]: Thread RCON Client /127.0.0.1 started
+[06:36:31 WARN]: Can't keep up! Is the server overloaded? Running 2579ms or 51 ticks behind
+[06:36:34 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:36:34 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:36:36 INFO]: Steve_Mines joined the game
+[06:36:36 INFO]: Steve_Mines[/127.0.0.1:54825] logged in with entity id 23 at ([world]-6.5, -60.0, -2.5)
+[06:36:37 INFO]: Alex_Builds joined the game
+[06:36:37 INFO]: Alex_Builds[/127.0.0.1:54824] logged in with entity id 24 at ([world]-4.5, -60.0, 2.5)
+[06:36:50 WARN]: Can't keep up! Is the server overloaded? Running 4199ms or 83 ticks behind
+[06:37:11 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:37:11 INFO]: UUID of player Mira_Crafts is 5f4b6abd-e12d-356d-9aac-dc44eaebf8eb
+[06:37:13 INFO]: ShadowPhantom99 joined the game
+[06:37:13 INFO]: ShadowPhantom99[/127.0.0.1:55619] logged in with entity id 25 at ([world]-2.5, -60.0, -0.5)
+[06:37:14 INFO]: Mira_Crafts joined the game
+[06:37:14 INFO]: Mira_Crafts[/127.0.0.1:55620] logged in with entity id 26 at ([world]-2.5, -60.0, 2.5)
+[06:37:16 INFO]: [Rcon: Set ShadowPhantom99's game mode to Creative Mode]
+[06:37:16 INFO]: [Rcon: Teleported ShadowPhantom99 to 11.500000, -60.000000, 6.500000]
+[06:37:16 INFO]: [Rcon: Set Mira_Crafts's game mode to Creative Mode]
+[06:37:16 INFO]: [Rcon: Teleported Mira_Crafts to -19.500000, -60.000000, 23.500000]
+[06:37:59 INFO]: Thread RCON Client /127.0.0.1 started
+[06:37:59 INFO]: [Rcon: Set ShadowPhantom99's game mode to Adventure Mode]
+[06:38:01 INFO]: [Rcon: Banned ShadowPhantom99: Griefing - destroying others' builds]
+[06:38:01 INFO]: ShadowPhantom99 lost connection: You are banned from this server
+[06:38:02 INFO]: ShadowPhantom99 left the game
+[06:38:05 INFO]: [Rcon: Successfully filled 21 block(s)]
+[06:38:06 INFO]: [Rcon: Successfully filled 6 block(s)]
+[06:38:06 INFO]: [Rcon: Successfully filled 6 block(s)]
+[06:38:16 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:38:16 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:56678): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:16 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:56678): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:16 INFO]: ShadowPhantom99 (/127.0.0.1:56678) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:32 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:38:32 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:57645): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:32 INFO]: ShadowPhantom99 (/127.0.0.1:57645) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:47 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:38:47 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:59452): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:38:47 INFO]: ShadowPhantom99 (/127.0.0.1:59452) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:02 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:39:02 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:59752): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:02 INFO]: ShadowPhantom99 (/127.0.0.1:59752) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:18 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:39:18 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:60025): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:18 INFO]: ShadowPhantom99 (/127.0.0.1:60025) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:33 INFO]: UUID of player ShadowPhantom99 is 582bd34c-9c16-3487-8954-d11539496ecf
+[06:39:34 INFO]: Disconnecting ShadowPhantom99 (/127.0.0.1:60264): You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:34 INFO]: ShadowPhantom99 (/127.0.0.1:60264) lost connection: You are banned from this server.
+Reason: Griefing - destroying others' builds
+[06:39:35 INFO]: Mira_Crafts lost connection: Disconnected
+[06:39:36 INFO]: Mira_Crafts left the game
+[06:39:36 INFO]: Thread RCON Client /127.0.0.1 started
+[06:39:36 INFO]: [Rcon: Stopping the server]
+[06:39:36 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:39:37 ERROR]: ------------------------------
+[06:39:37 ERROR]: The server has stopped responding! This is (probably) not a Paper bug.
+[06:39:37 ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[06:39:37 ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[06:39:37 ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[06:39:37 INFO]: Steve_Mines lost connection: Disconnected
+[06:39:37 ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[06:39:37 ERROR]: If you are unsure or still think this is a Paper bug, please report this to https://github.com/PaperMC/Paper/issues
+[06:39:37 ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[06:39:37 ERROR]: Paper version: git-Paper-499 (MC: 1.20.4)
+[06:39:37 ERROR]: ------------------------------
+[06:39:37 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[06:39:38 ERROR]: ------------------------------
+[06:39:38 ERROR]: Current Thread: Server thread
+[06:39:38 ERROR]: 	PID: 46 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:38 ERROR]: 	Stack:
+[06:39:38 INFO]: Steve_Mines left the game
+[06:39:38 INFO]: Alex_Builds lost connection: Disconnected
+[06:39:38 INFO]: Alex_Builds left the game
+[06:39:38 INFO]: Stopping server
+[06:39:38 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[06:39:39 ERROR]: 		java.base@21.0.9/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[06:39:39 ERROR]: 		java.base@21.0.9/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[06:39:39 ERROR]: 		java.base@21.0.9/java.nio.file.Files.newOutputStream(Files.java:228)
+[06:39:39 ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[06:39:39 ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[06:39:39 ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[06:39:39 ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[06:39:39 ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[06:39:39 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[06:39:39 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[06:39:39 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[06:39:39 ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:838)
+[06:39:39 ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:254)
+[06:39:39 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1746)
+[06:39:39 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[06:39:39 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
+[06:39:39 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[06:39:39 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[06:39:39 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000007001bc7240.run(Unknown Source)
+[06:39:39 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:39 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:39 ERROR]: ------------------------------
+[06:39:39 ERROR]: Entire Thread Dump:
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Reference Handler
+[06:39:42 ERROR]: 	PID: 9 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Finalizer
+[06:39:42 ERROR]: 	PID: 10 | Suspended: false | Native: false | State: WAITING
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.Object.wait0(Native Method)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Signal Dispatcher
+[06:39:42 ERROR]: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Notification Thread
+[06:39:42 ERROR]: 	PID: 18 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Common-Cleaner
+[06:39:42 ERROR]: 	PID: 19 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+[06:39:42 ERROR]: 		java.base@21.0.9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:42 ERROR]: 		java.base@21.0.9/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: DestroyJavaVM
+[06:39:42 ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Log4j2-AsyncAppenderEventDispatcher-1-Async
+[06:39:42 ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.Calendar.<init>(Calendar.java:1609)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.GregorianCalendar.<init>(GregorianCalendar.java:741)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.Calendar$Builder.build(Calendar.java:1497)
+[06:39:42 ERROR]: 		java.base@21.0.9/sun.util.locale.provider.CalendarProviderImpl.getInstance(CalendarProviderImpl.java:87)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.Calendar.createCalendar(Calendar.java:1700)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.Calendar.getInstance(Calendar.java:1679)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.util.datetime.FastDatePrinter.newCalendar(FastDatePrinter.java:467)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.util.datetime.FastDatePrinter.format(FastDatePrinter.java:493)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.util.datetime.FastDateFormat.format(FastDateFormat.java:467)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.DatePatternConverter$PatternFormatter.formatToBuffer(DatePatternConverter.java:77)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.DatePatternConverter.formatWithoutAllocation(DatePatternConverter.java:301)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.DatePatternConverter.format(DatePatternConverter.java:294)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.DatePatternConverter.format(DatePatternConverter.java:271)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)
+[06:39:42 ERROR]: 		net.minecrell.terminalconsole.HighlightErrorConverter.format(HighlightErrorConverter.java:93)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:560)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:551)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:216)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:59)
+[06:39:42 ERROR]: 		net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:256)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.appender.rewrite.RewriteAppender.append(RewriteAppender.java:84)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.appender.rewrite.RewriteAppender.append(RewriteAppender.java:84)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:130)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:92)
+[06:39:42 ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:74)
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: JNA Cleaner
+[06:39:42 ERROR]: 	PID: 30 | Suspended: false | Native: false | State: WAITING
+[06:39:42 ERROR]: 	Stack:
+[06:39:42 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+[06:39:42 ERROR]: 		java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:234)
+[06:39:42 ERROR]: 		com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+[06:39:42 ERROR]: ------------------------------
+[06:39:42 ERROR]: Current Thread: Timer hack thread
+[06:39:42 ERROR]: 	PID: 38 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:39:42 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.sleep0(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.sleep(Thread.java:509)
+[06:39:43 ERROR]: 		net.minecraft.Util$7.run(Util.java:698)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Yggdrasil Key Fetcher
+[06:39:43 ERROR]: 	PID: 39 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Worker-Main-1
+[06:39:43 ERROR]: 	PID: 42 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Worker-Main-2
+[06:39:43 ERROR]: 	PID: 43 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Worker-Main-3
+[06:39:43 ERROR]: 	PID: 44 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Worker-Main-4
+[06:39:43 ERROR]: 	PID: 45 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Server thread
+[06:39:43 ERROR]: 	PID: 46 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:43 ERROR]: 	Thread is waiting on monitor(s):
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[06:39:43 ERROR]: 		Locked on:io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:284)
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.ClassLoader.defineClass1(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.security.AccessController.executePrivileged(AccessController.java:809)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.security.AccessController.doPrivileged(AccessController.java:714)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[06:39:43 ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:284)
+[06:39:43 ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:147)
+[06:39:43 ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:92)
+[06:39:43 ERROR]: 		org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:528)
+[06:39:43 ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.disablePlugins(CraftServer.java:570)
+[06:39:43 ERROR]: 		net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:974)
+[06:39:43 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:822)
+[06:39:43 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[06:39:43 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[06:39:43 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000007001bc7240.run(Unknown Source)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: RegionFile I/O Thread #0
+[06:39:43 ERROR]: 	PID: 53 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+[06:39:43 ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Tuinity Chunk System Worker #0
+[06:39:43 ERROR]: 	PID: 54 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+[06:39:43 ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Tuinity Chunk System Worker #1
+[06:39:43 ERROR]: 	PID: 55 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+[06:39:43 ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Tuinity Chunk System Worker #2
+[06:39:43 ERROR]: 	PID: 56 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+[06:39:43 ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Paper Watchdog Thread
+[06:39:43 ERROR]: 	PID: 57 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.management@21.0.9/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[06:39:43 ERROR]: 		java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+[06:39:43 ERROR]: 		java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+[06:39:43 ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:202)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: pool-7-thread-1
+[06:39:43 ERROR]: 	PID: 58 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Netty Server IO #0
+[06:39:43 ERROR]: 	PID: 61 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Thread is waiting on monitor(s):
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueue.poll(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:125)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+[06:39:43 ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[06:39:43 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[06:39:43 ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: RCON Listener #1
+[06:39:43 ERROR]: 	PID: 62 | Suspended: false | Native: false | State: RUNNABLE
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.Net.poll(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:191)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:703)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:745)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.ServerSocket.implAccept(ServerSocket.java:698)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.ServerSocket.platformImplAccept(ServerSocket.java:663)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.ServerSocket.implAccept(ServerSocket.java:639)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.ServerSocket.implAccept(ServerSocket.java:585)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.ServerSocket.accept(ServerSocket.java:543)
+[06:39:43 ERROR]: 		net.minecraft.server.rcon.thread.RconThread.run(RconThread.java:39)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Craft Async Scheduler Management Thread
+[06:39:43 ERROR]: 	PID: 63 | Suspended: false | Native: false | State: WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: RCON Client /127.0.0.1 #3
+[06:39:43 ERROR]: 	PID: 65 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:256)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:307)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+[06:39:43 ERROR]: 		net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:60)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Netty Server IO #1
+[06:39:43 ERROR]: 	PID: 66 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Thread is waiting on monitor(s):
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueue.poll(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:125)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+[06:39:43 ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[06:39:43 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[06:39:43 ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Netty Server IO #2
+[06:39:43 ERROR]: 	PID: 67 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Thread is waiting on monitor(s):
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueue.poll(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:125)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+[06:39:43 ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[06:39:43 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[06:39:43 ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: Netty Server IO #3
+[06:39:43 ERROR]: 	PID: 71 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Thread is waiting on monitor(s):
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		Locked on:java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueue.poll(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:125)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+[06:39:43 ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[06:39:43 ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[06:39:43 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[06:39:43 ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: RCON Client /127.0.0.1 #4
+[06:39:43 ERROR]: 	PID: 73 | Suspended: false | Native: true | State: RUNNABLE
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:256)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:307)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+[06:39:43 ERROR]: 		java.base@21.0.9/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+[06:39:43 ERROR]: 		net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:60)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 ERROR]: Current Thread: User Authenticator #2
+[06:39:43 ERROR]: 	PID: 74 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:39:43 ERROR]: 	Stack:
+[06:39:43 ERROR]: 		java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:39:43 ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:39:43 ERROR]: ------------------------------
+[06:39:43 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:39:43 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:39:43 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:39:43 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:39:43 INFO]: Saving players
+[06:39:43 INFO]: Saving worlds
+[06:39:43 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:39:43 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:39:43 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:39:43 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:39:53 INFO]: [ChunkHolderManager] Saved 1300 chunks (77.58%) in world 'world'
+[06:39:54 INFO]: [ChunkHolderManager] Saved 1676 block chunks, 356 entity chunks, 0 poi chunks in world 'world' in 10.58s
+[06:39:54 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:39:54 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:39:54 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:39:54 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:39:54 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:39:56 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 1.94s
+[06:39:56 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:39:56 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:39:56 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:39:56 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:39:56 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:39:58 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 1.99s
+[06:39:59 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:39:59 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:39:59 INFO]: Flushing Chunk IO
+[06:39:59 INFO]: Closing Thread Pool
+2026-11-01 06:39:59,363 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:39:59 INFO]: Closing Server

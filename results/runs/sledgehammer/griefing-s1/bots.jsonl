@@ -1,0 +1,73 @@
+{"t":1793539323079,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[5,-60,6]}}
+{"t":1793539323109,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[3,-60,-10]}}
+{"t":1793539351886,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793539351888,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539351898,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793539351898,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539352125,"bot":"TNT_Tommy","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539352126,"bot":"TNT_Tommy","event":"end","detail":"socketClosed"}
+{"t":1793539352126,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539352127,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793539356891,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539356891,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793539356901,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539356901,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793539357134,"bot":"TNT_Tommy","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539357134,"bot":"TNT_Tommy","event":"end","detail":"socketClosed"}
+{"t":1793539357134,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793539357134,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793539362470,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[3,-60,-10]}}
+{"t":1793539362538,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[-7,-60,0]}}
+{"t":1793539362538,"bot":"TNT_Tommy","event":"spawn","detail":{"pos":[1,-60,6]}}
+{"t":1793539362538,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[5,-60,6]}}
+{"t":1793539363804,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,8],"block":"oak_planks"}}
+{"t":1793539364712,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793539365010,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,9],"block":"oak_planks"}}
+{"t":1793539366215,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,10],"block":"oak_planks"}}
+{"t":1793539367274,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793539367417,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,11],"block":"oak_planks"}}
+{"t":1793539368621,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,12],"block":"oak_planks"}}
+{"t":1793539369832,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,13],"block":"oak_planks"}}
+{"t":1793539369899,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793539371033,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-60,14],"block":"oak_planks"}}
+{"t":1793539372236,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,8],"block":"oak_planks"}}
+{"t":1793539372436,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793539373440,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,9],"block":"oak_planks"}}
+{"t":1793539374644,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,10],"block":"oak_planks"}}
+{"t":1793539375098,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793539375848,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,11],"block":"oak_planks"}}
+{"t":1793539377051,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,12],"block":"oak_planks"}}
+{"t":1793539377629,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793539378252,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,13],"block":"oak_planks"}}
+{"t":1793539379454,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-59,14],"block":"oak_planks"}}
+{"t":1793539380269,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793539380656,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,8],"block":"oak_planks"}}
+{"t":1793539381858,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,9],"block":"oak_planks"}}
+{"t":1793539382805,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793539383061,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,10],"block":"glass_pane"}}
+{"t":1793539384263,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,11],"block":"glass_pane"}}
+{"t":1793539385338,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793539385466,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,12],"block":"glass_pane"}}
+{"t":1793539386667,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,13],"block":"oak_planks"}}
+{"t":1793539387874,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-58,14],"block":"oak_planks"}}
+{"t":1793539387927,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793539389076,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,8],"block":"oak_planks"}}
+{"t":1793539390279,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,9],"block":"oak_planks"}}
+{"t":1793539390467,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793539391482,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,10],"block":"oak_planks"}}
+{"t":1793539392684,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,11],"block":"oak_planks"}}
+{"t":1793539393048,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793539393886,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,12],"block":"oak_planks"}}
+{"t":1793539395093,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,13],"block":"oak_planks"}}
+{"t":1793539396296,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-57,14],"block":"oak_planks"}}
+{"t":1793539397501,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,8],"block":"oak_planks"}}
+{"t":1793539398704,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,9],"block":"oak_planks"}}
+{"t":1793539399911,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,10],"block":"oak_planks"}}
+{"t":1793539401117,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,11],"block":"oak_planks"}}
+{"t":1793539402319,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,12],"block":"oak_planks"}}
+{"t":1793539403521,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,13],"block":"oak_planks"}}
+{"t":1793539404725,"bot":"TNT_Tommy","event":"dug","detail":{"pos":[14,-56,14],"block":"oak_planks"}}
+{"t":1793539478981,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793539478982,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}
+{"t":1793539478982,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793539478983,"bot":"TNT_Tommy","event":"end","detail":"disconnect.quitting"}

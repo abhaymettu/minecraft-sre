@@ -1,0 +1,67 @@
+{"t":1793542554750,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-7,-60,-7]}}
+{"t":1793542554750,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[7,-60,10]}}
+{"t":1793542587643,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[-3,-60,-7]}}
+{"t":1793542587692,"bot":"xX_Creeper_Xx","event":"spawn","detail":{"pos":[-1,-60,-9]}}
+{"t":1793542589445,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,8],"block":"oak_planks"}}
+{"t":1793542590300,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793542590646,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,9],"block":"oak_planks"}}
+{"t":1793542591849,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,10],"block":"oak_planks"}}
+{"t":1793542592873,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793542593050,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,11],"block":"oak_planks"}}
+{"t":1793542594251,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,12],"block":"oak_planks"}}
+{"t":1793542595456,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,13],"block":"oak_planks"}}
+{"t":1793542595560,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793542596659,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-60,14],"block":"oak_planks"}}
+{"t":1793542597860,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,8],"block":"oak_planks"}}
+{"t":1793542598112,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793542599064,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,9],"block":"oak_planks"}}
+{"t":1793542600265,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,10],"block":"oak_planks"}}
+{"t":1793542600799,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793542601470,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,11],"block":"oak_planks"}}
+{"t":1793542602671,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,12],"block":"oak_planks"}}
+{"t":1793542603332,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793542603873,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,13],"block":"oak_planks"}}
+{"t":1793542605076,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-59,14],"block":"oak_planks"}}
+{"t":1793542605967,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793542606279,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,8],"block":"oak_planks"}}
+{"t":1793542607483,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,9],"block":"oak_planks"}}
+{"t":1793542608497,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793542608685,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,10],"block":"glass_pane"}}
+{"t":1793542609886,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,11],"block":"glass_pane"}}
+{"t":1793542611019,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793542611089,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,12],"block":"glass_pane"}}
+{"t":1793542612290,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,13],"block":"oak_planks"}}
+{"t":1793542613493,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-58,14],"block":"oak_planks"}}
+{"t":1793542613600,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793542614695,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,8],"block":"oak_planks"}}
+{"t":1793542615896,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,9],"block":"oak_planks"}}
+{"t":1793542616142,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793542617098,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,10],"block":"oak_planks"}}
+{"t":1793542618300,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,11],"block":"oak_planks"}}
+{"t":1793542618728,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793542619504,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,12],"block":"oak_planks"}}
+{"t":1793542620708,"bot":"xX_Creeper_Xx","event":"dug","detail":{"pos":[8,-57,13],"block":"oak_planks"}}
+{"t":1793542621365,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned"}
+{"t":1793542621365,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned"}
+{"t":1793542621366,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542636396,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542636397,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542636397,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542651444,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542651444,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542651444,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542666494,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542666494,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542666494,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542681545,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542681545,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542681545,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542696593,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542696593,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542696593,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542711645,"bot":"xX_Creeper_Xx","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542711645,"bot":"xX_Creeper_Xx","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing other players' builds"}
+{"t":1793542711645,"bot":"xX_Creeper_Xx","event":"end","detail":"socketClosed"}
+{"t":1793542716534,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}
+{"t":1793542716534,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793542716535,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}

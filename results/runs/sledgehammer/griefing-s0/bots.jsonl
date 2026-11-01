@@ -1,0 +1,103 @@
+{"t":1793537695135,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-5,-60,-3]}}
+{"t":1793537695231,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[6,-60,1]}}
+{"t":1793537723113,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793537723115,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537723177,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793537723182,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537723557,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537723558,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537723558,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537723558,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537728128,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537728128,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537728229,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537728229,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537728564,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537728564,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537728575,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537728575,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537733206,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537733206,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537733231,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537733231,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537733574,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537733574,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537733579,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537733579,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537738246,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537738246,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537738306,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537738307,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537738581,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537738581,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537738589,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537738589,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537743252,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537743252,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537743310,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537743310,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537743595,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537743595,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537743606,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537743606,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537748264,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537748264,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793537748329,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537748330,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793537748604,"bot":"ShadowPhantom99","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537748604,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537748616,"bot":"Mira_Crafts","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25660"}
+{"t":1793537748616,"bot":"Mira_Crafts","event":"end","detail":"socketClosed"}
+{"t":1793537753731,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[6,-60,1]}}
+{"t":1793537753829,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-5,-60,-3]}}
+{"t":1793537753848,"bot":"ShadowPhantom99","event":"spawn","detail":{"pos":[-5,-60,-4]}}
+{"t":1793537753954,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[2,-60,1]}}
+{"t":1793537756364,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-60,8],"block":"oak_planks"}}
+{"t":1793537757150,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793537757569,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-60,8],"block":"oak_planks"}}
+{"t":1793537758774,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-60,8],"block":"oak_planks"}}
+{"t":1793537759752,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793537759979,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-60,8],"block":"oak_planks"}}
+{"t":1793537761182,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-60,8],"block":"oak_planks"}}
+{"t":1793537762388,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-60,8],"block":"oak_planks"}}
+{"t":1793537762419,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793537763590,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-59,8],"block":"oak_planks"}}
+{"t":1793537764799,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-59,8],"block":"oak_planks"}}
+{"t":1793537764934,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793537766001,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-59,8],"block":"oak_planks"}}
+{"t":1793537767204,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-59,8],"block":"oak_planks"}}
+{"t":1793537767951,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793537768408,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-59,8],"block":"oak_planks"}}
+{"t":1793537769615,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-59,8],"block":"oak_planks"}}
+{"t":1793537770479,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793537770830,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-58,8],"block":"oak_planks"}}
+{"t":1793537772038,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-58,8],"block":"oak_planks"}}
+{"t":1793537773134,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793537773241,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-58,8],"block":"oak_planks"}}
+{"t":1793537774455,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-58,8],"block":"oak_planks"}}
+{"t":1793537775724,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-58,8],"block":"oak_planks"}}
+{"t":1793537776281,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793537776931,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-58,8],"block":"oak_planks"}}
+{"t":1793537778137,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-58,8],"block":"oak_planks"}}
+{"t":1793537778860,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793537779344,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-57,8],"block":"oak_planks"}}
+{"t":1793537780548,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-57,8],"block":"oak_planks"}}
+{"t":1793537781668,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793537781754,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-57,8],"block":"oak_planks"}}
+{"t":1793537783002,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-57,8],"block":"oak_planks"}}
+{"t":1793537784204,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-57,8],"block":"oak_planks"}}
+{"t":1793537784220,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793537785430,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-57,8],"block":"oak_planks"}}
+{"t":1793537786649,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-57,8],"block":"oak_planks"}}
+{"t":1793537786807,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793537787855,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-56,8],"block":"oak_planks"}}
+{"t":1793537789061,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-56,8],"block":"oak_planks"}}
+{"t":1793537790265,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-56,8],"block":"oak_planks"}}
+{"t":1793537791466,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-56,8],"block":"oak_planks"}}
+{"t":1793537792671,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-56,8],"block":"oak_planks"}}
+{"t":1793537793903,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-56,8],"block":"oak_planks"}}
+{"t":1793537795135,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-56,8],"block":"oak_planks"}}
+{"t":1793537851449,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793537851452,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793537851451,"bot":"ShadowPhantom99","event":"end","detail":"disconnect.quitting"}
+{"t":1793537851452,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}

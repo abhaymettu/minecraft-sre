@@ -1,0 +1,1 @@
+sledgehammer     memory_leak       s1  resolved=True  detect=1s    fix=7s    collateral=1 down=4s honesty=1.00 score=70.0

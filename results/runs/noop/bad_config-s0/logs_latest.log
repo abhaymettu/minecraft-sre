@@ -1,0 +1,329 @@
+[07:02:00] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[07:02:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:02:29] [ServerMain/INFO]: Loaded 1174 recipes
+[07:02:30] [ServerMain/INFO]: Loaded 1271 advancements
+[07:02:31] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[07:02:31] [Server thread/INFO]: Loading properties
+[07:02:31] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[07:02:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:02:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:02:35] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:02:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[07:02:37] [Server thread/INFO]: Default game type: SURVIVAL
+[07:02:37] [Server thread/INFO]: Generating keypair
+[07:02:37] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25620
+[07:02:37] [Server thread/INFO]: Using default channel type
+[07:02:37] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[07:02:37] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[07:02:37] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[07:02:37] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[07:02:37] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[07:02:37] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[07:02:37] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[07:02:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:02:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:02:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:02:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:02:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:02:37] [Server thread/INFO]: Preparing level "world"
+[07:02:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:02:47] [Server thread/INFO]: Time elapsed: 7096 ms
+[07:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:02:47] [Server thread/INFO]: Time elapsed: 51 ms
+[07:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:02:48] [Server thread/INFO]: Time elapsed: 980 ms
+[07:02:48] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[07:02:48] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[07:02:48] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[07:02:48] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[07:02:48] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[07:02:48] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[07:02:48] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[07:02:49] [Server thread/INFO]: Starting remote control listener
+[07:02:49] [Server thread/INFO]: Thread RCON Listener started
+[07:02:49] [Server thread/INFO]: RCON running on 127.0.0.1:25621
+[07:02:49] [Server thread/INFO]: Running delayed init tasks
+[07:02:49] [Server thread/INFO]: Done (18.028s)! For help, type "help"
+[07:02:49] [Server thread/INFO]: Timings Reset
+[07:02:49] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:02:49] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:02:49] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:59078): You are not whitelisted on this server!
+[07:02:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:02:49] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:59073): You are not whitelisted on this server!
+[07:02:49] [Server thread/INFO]: Alex_Builds (/127.0.0.1:59078) lost connection: You are not whitelisted on this server!
+[07:02:49] [Server thread/INFO]: Steve_Mines (/127.0.0.1:59073) lost connection: You are not whitelisted on this server!
+[07:02:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:02:49] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2520ms or 50 ticks behind
+[07:02:53] [User Authenticator #1/INFO]: UUID of player newplayer01 is 06f05d04-ed5d-3d42-986b-70fc74bbbc1c
+[07:02:53] [Server thread/INFO]: Disconnecting newplayer01 (/127.0.0.1:59421): You are not whitelisted on this server!
+[07:02:53] [Server thread/INFO]: newplayer01 (/127.0.0.1:59421) lost connection: You are not whitelisted on this server!
+[07:02:54] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:02:54] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:02:54] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:59468): You are not whitelisted on this server!
+[07:02:54] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:59469): You are not whitelisted on this server!
+[07:02:54] [Server thread/INFO]: Alex_Builds (/127.0.0.1:59468) lost connection: You are not whitelisted on this server!
+[07:02:54] [Server thread/INFO]: Steve_Mines (/127.0.0.1:59469) lost connection: You are not whitelisted on this server!
+[07:02:56] [User Authenticator #1/INFO]: UUID of player newplayer02 is 201086eb-aaae-3ea9-8664-08e3d31155dd
+[07:02:57] [Server thread/INFO]: Disconnecting newplayer02 (/127.0.0.1:59535): You are not whitelisted on this server!
+[07:02:57] [Server thread/INFO]: newplayer02 (/127.0.0.1:59535) lost connection: You are not whitelisted on this server!
+[07:02:58] [User Authenticator #1/INFO]: UUID of player newplayer03 is 350ef976-f6c1-31b9-b808-a57bb41ec572
+[07:02:58] [Server thread/INFO]: Disconnecting newplayer03 (/127.0.0.1:59582): You are not whitelisted on this server!
+[07:02:58] [Server thread/INFO]: newplayer03 (/127.0.0.1:59582) lost connection: You are not whitelisted on this server!
+[07:03:00] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:00] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:00] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:59660): You are not whitelisted on this server!
+[07:03:00] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:59662): You are not whitelisted on this server!
+[07:03:00] [Server thread/INFO]: Alex_Builds (/127.0.0.1:59660) lost connection: You are not whitelisted on this server!
+[07:03:00] [Server thread/INFO]: Steve_Mines (/127.0.0.1:59662) lost connection: You are not whitelisted on this server!
+[07:03:01] [User Authenticator #1/INFO]: UUID of player newplayer04 is 6a7d220b-2ef9-3aff-a848-58b63b866ff5
+[07:03:01] [Server thread/INFO]: Disconnecting newplayer04 (/127.0.0.1:59669): You are not whitelisted on this server!
+[07:03:01] [Server thread/INFO]: newplayer04 (/127.0.0.1:59669) lost connection: You are not whitelisted on this server!
+[07:03:02] [User Authenticator #1/INFO]: UUID of player newplayer05 is 1638c66e-dbe9-3fd7-bfad-180582f8c68b
+[07:03:02] [Server thread/INFO]: Disconnecting newplayer05 (/127.0.0.1:59723): You are not whitelisted on this server!
+[07:03:02] [Server thread/INFO]: newplayer05 (/127.0.0.1:59723) lost connection: You are not whitelisted on this server!
+[07:03:04] [User Authenticator #1/INFO]: UUID of player newplayer06 is e5313569-56d2-3dee-853e-74221e0722e8
+[07:03:04] [Server thread/INFO]: Disconnecting newplayer06 (/127.0.0.1:59797): You are not whitelisted on this server!
+[07:03:04] [Server thread/INFO]: newplayer06 (/127.0.0.1:59797) lost connection: You are not whitelisted on this server!
+[07:03:05] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:05] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:05] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:59839): You are not whitelisted on this server!
+[07:03:05] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:59840): You are not whitelisted on this server!
+[07:03:05] [Server thread/INFO]: Alex_Builds (/127.0.0.1:59839) lost connection: You are not whitelisted on this server!
+[07:03:05] [Server thread/INFO]: Steve_Mines (/127.0.0.1:59840) lost connection: You are not whitelisted on this server!
+[07:03:06] [User Authenticator #1/INFO]: UUID of player newplayer07 is 0fe6b826-76b2-3188-809a-924e1463d5ab
+[07:03:06] [Server thread/INFO]: Disconnecting newplayer07 (/127.0.0.1:59868): You are not whitelisted on this server!
+[07:03:06] [Server thread/INFO]: newplayer07 (/127.0.0.1:59868) lost connection: You are not whitelisted on this server!
+[07:03:08] [User Authenticator #1/INFO]: UUID of player newplayer08 is 6cf0c9f9-cfc3-30c9-ac43-104972a85e02
+[07:03:08] [Server thread/INFO]: Disconnecting newplayer08 (/127.0.0.1:59943): You are not whitelisted on this server!
+[07:03:08] [Server thread/INFO]: newplayer08 (/127.0.0.1:59943) lost connection: You are not whitelisted on this server!
+[07:03:10] [User Authenticator #1/INFO]: UUID of player newplayer09 is 01ad118f-0abc-3bda-a94b-f16e978df688
+[07:03:10] [Server thread/INFO]: Disconnecting newplayer09 (/127.0.0.1:60009): You are not whitelisted on this server!
+[07:03:10] [Server thread/INFO]: newplayer09 (/127.0.0.1:60009) lost connection: You are not whitelisted on this server!
+[07:03:10] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:10] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:10] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60027): You are not whitelisted on this server!
+[07:03:10] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60028): You are not whitelisted on this server!
+[07:03:10] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60027) lost connection: You are not whitelisted on this server!
+[07:03:10] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60028) lost connection: You are not whitelisted on this server!
+[07:03:12] [User Authenticator #1/INFO]: UUID of player newplayer10 is 897b633d-2c6a-36c1-a383-c5c60f9c86dd
+[07:03:12] [Server thread/INFO]: Disconnecting newplayer10 (/127.0.0.1:60090): You are not whitelisted on this server!
+[07:03:12] [Server thread/INFO]: newplayer10 (/127.0.0.1:60090) lost connection: You are not whitelisted on this server!
+[07:03:14] [User Authenticator #1/INFO]: UUID of player newplayer11 is a55c30fe-b310-3708-819b-65a66f2c278e
+[07:03:14] [Server thread/INFO]: Disconnecting newplayer11 (/127.0.0.1:60179): You are not whitelisted on this server!
+[07:03:14] [Server thread/INFO]: newplayer11 (/127.0.0.1:60179) lost connection: You are not whitelisted on this server!
+[07:03:15] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:15] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:15] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60234): You are not whitelisted on this server!
+[07:03:15] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60235): You are not whitelisted on this server!
+[07:03:15] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60234) lost connection: You are not whitelisted on this server!
+[07:03:15] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60235) lost connection: You are not whitelisted on this server!
+[07:03:16] [User Authenticator #1/INFO]: UUID of player newplayer12 is 0fdf8da4-962f-3dce-9583-4a9d6ca0f27d
+[07:03:16] [Server thread/INFO]: Disconnecting newplayer12 (/127.0.0.1:60252): You are not whitelisted on this server!
+[07:03:16] [Server thread/INFO]: newplayer12 (/127.0.0.1:60252) lost connection: You are not whitelisted on this server!
+[07:03:19] [User Authenticator #1/INFO]: UUID of player newplayer13 is 545d8b2b-6f1d-38a7-a136-82ba21aad53f
+[07:03:19] [Server thread/INFO]: Disconnecting newplayer13 (/127.0.0.1:60342): You are not whitelisted on this server!
+[07:03:19] [Server thread/INFO]: newplayer13 (/127.0.0.1:60342) lost connection: You are not whitelisted on this server!
+[07:03:20] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:20] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:20] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60409): You are not whitelisted on this server!
+[07:03:20] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60410): You are not whitelisted on this server!
+[07:03:20] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60409) lost connection: You are not whitelisted on this server!
+[07:03:20] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60410) lost connection: You are not whitelisted on this server!
+[07:03:22] [User Authenticator #1/INFO]: UUID of player newplayer14 is f3ff6e09-85d3-3dea-af63-fce8ab1b2fc8
+[07:03:22] [Server thread/INFO]: Disconnecting newplayer14 (/127.0.0.1:60457): You are not whitelisted on this server!
+[07:03:22] [Server thread/INFO]: newplayer14 (/127.0.0.1:60457) lost connection: You are not whitelisted on this server!
+[07:03:24] [User Authenticator #1/INFO]: UUID of player newplayer15 is 5142f9f1-1f87-3688-8637-56e4fc8d80ed
+[07:03:24] [Server thread/INFO]: Disconnecting newplayer15 (/127.0.0.1:60533): You are not whitelisted on this server!
+[07:03:24] [Server thread/INFO]: newplayer15 (/127.0.0.1:60533) lost connection: You are not whitelisted on this server!
+[07:03:25] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:25] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:25] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60587): You are not whitelisted on this server!
+[07:03:25] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60588): You are not whitelisted on this server!
+[07:03:25] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60587) lost connection: You are not whitelisted on this server!
+[07:03:25] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60588) lost connection: You are not whitelisted on this server!
+[07:03:26] [User Authenticator #1/INFO]: UUID of player newplayer16 is e4a7d45a-2832-34ba-89d1-70a575a72052
+[07:03:26] [Server thread/INFO]: Disconnecting newplayer16 (/127.0.0.1:60596): You are not whitelisted on this server!
+[07:03:26] [Server thread/INFO]: newplayer16 (/127.0.0.1:60596) lost connection: You are not whitelisted on this server!
+[07:03:28] [User Authenticator #1/INFO]: UUID of player newplayer17 is 16765f04-340e-3f57-b9e6-6d0fd51b8b1f
+[07:03:28] [Server thread/INFO]: Disconnecting newplayer17 (/127.0.0.1:60684): You are not whitelisted on this server!
+[07:03:28] [Server thread/INFO]: newplayer17 (/127.0.0.1:60684) lost connection: You are not whitelisted on this server!
+[07:03:30] [User Authenticator #1/INFO]: UUID of player newplayer18 is 20160df3-03a4-3461-af46-ca996187111f
+[07:03:30] [Server thread/INFO]: Disconnecting newplayer18 (/127.0.0.1:60756): You are not whitelisted on this server!
+[07:03:30] [Server thread/INFO]: newplayer18 (/127.0.0.1:60756) lost connection: You are not whitelisted on this server!
+[07:03:30] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:30] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:30] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60767): You are not whitelisted on this server!
+[07:03:30] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60768): You are not whitelisted on this server!
+[07:03:30] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60767) lost connection: You are not whitelisted on this server!
+[07:03:30] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60768) lost connection: You are not whitelisted on this server!
+[07:03:33] [User Authenticator #1/INFO]: UUID of player newplayer19 is b0113394-e35d-3ce4-88ec-5cc85be58f38
+[07:03:33] [Server thread/INFO]: Disconnecting newplayer19 (/127.0.0.1:60837): You are not whitelisted on this server!
+[07:03:33] [Server thread/INFO]: newplayer19 (/127.0.0.1:60837) lost connection: You are not whitelisted on this server!
+[07:03:34] [User Authenticator #1/INFO]: UUID of player newplayer20 is 10df0c19-8989-347c-ba99-4cdbf77131f6
+[07:03:34] [Server thread/INFO]: Disconnecting newplayer20 (/127.0.0.1:60908): You are not whitelisted on this server!
+[07:03:34] [Server thread/INFO]: newplayer20 (/127.0.0.1:60908) lost connection: You are not whitelisted on this server!
+[07:03:35] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:35] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:35] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:60971): You are not whitelisted on this server!
+[07:03:36] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:60972): You are not whitelisted on this server!
+[07:03:36] [Server thread/INFO]: Alex_Builds (/127.0.0.1:60971) lost connection: You are not whitelisted on this server!
+[07:03:36] [Server thread/INFO]: Steve_Mines (/127.0.0.1:60972) lost connection: You are not whitelisted on this server!
+[07:03:36] [User Authenticator #1/INFO]: UUID of player newplayer21 is cea9cab9-deaa-398f-941d-1eb9e739d84e
+[07:03:36] [Server thread/INFO]: Disconnecting newplayer21 (/127.0.0.1:60973): You are not whitelisted on this server!
+[07:03:36] [Server thread/INFO]: newplayer21 (/127.0.0.1:60973) lost connection: You are not whitelisted on this server!
+[07:03:38] [User Authenticator #1/INFO]: UUID of player newplayer22 is 8766ba6a-8870-3407-a105-d2a3f06d2924
+[07:03:38] [Server thread/INFO]: Disconnecting newplayer22 (/127.0.0.1:61044): You are not whitelisted on this server!
+[07:03:38] [Server thread/INFO]: newplayer22 (/127.0.0.1:61044) lost connection: You are not whitelisted on this server!
+[07:03:41] [User Authenticator #1/INFO]: UUID of player newplayer23 is 621a4730-cfa9-3ba5-83af-8c850433da30
+[07:03:41] [Server thread/INFO]: Disconnecting newplayer23 (/127.0.0.1:61130): You are not whitelisted on this server!
+[07:03:41] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:41] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:41] [Server thread/INFO]: newplayer23 (/127.0.0.1:61130) lost connection: You are not whitelisted on this server!
+[07:03:41] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:61132): You are not whitelisted on this server!
+[07:03:41] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:61139): You are not whitelisted on this server!
+[07:03:41] [Server thread/INFO]: Alex_Builds (/127.0.0.1:61132) lost connection: You are not whitelisted on this server!
+[07:03:41] [Server thread/INFO]: Steve_Mines (/127.0.0.1:61139) lost connection: You are not whitelisted on this server!
+[07:03:42] [User Authenticator #1/INFO]: UUID of player newplayer24 is 5214f851-e612-3765-8094-54e7157fc5f4
+[07:03:42] [Server thread/INFO]: Disconnecting newplayer24 (/127.0.0.1:61156): You are not whitelisted on this server!
+[07:03:42] [Server thread/INFO]: newplayer24 (/127.0.0.1:61156) lost connection: You are not whitelisted on this server!
+[07:03:44] [User Authenticator #1/INFO]: UUID of player newplayer25 is d474e710-26fb-33c9-8eba-c9bfc16f1c32
+[07:03:44] [Server thread/INFO]: Disconnecting newplayer25 (/127.0.0.1:61254): You are not whitelisted on this server!
+[07:03:44] [Server thread/INFO]: newplayer25 (/127.0.0.1:61254) lost connection: You are not whitelisted on this server!
+[07:03:46] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:46] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:46] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:61335): You are not whitelisted on this server!
+[07:03:46] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:61336): You are not whitelisted on this server!
+[07:03:46] [Server thread/INFO]: Alex_Builds (/127.0.0.1:61335) lost connection: You are not whitelisted on this server!
+[07:03:46] [Server thread/INFO]: Steve_Mines (/127.0.0.1:61336) lost connection: You are not whitelisted on this server!
+[07:03:46] [User Authenticator #1/INFO]: UUID of player newplayer26 is 4a64f89c-46b9-3960-9768-441947f8269e
+[07:03:46] [Server thread/INFO]: Disconnecting newplayer26 (/127.0.0.1:61326): You are not whitelisted on this server!
+[07:03:46] [Server thread/INFO]: newplayer26 (/127.0.0.1:61326) lost connection: You are not whitelisted on this server!
+[07:03:48] [User Authenticator #1/INFO]: UUID of player newplayer27 is 956206e0-7a2b-3080-9486-44ec501f04e7
+[07:03:48] [Server thread/INFO]: Disconnecting newplayer27 (/127.0.0.1:61430): You are not whitelisted on this server!
+[07:03:48] [Server thread/INFO]: newplayer27 (/127.0.0.1:61430) lost connection: You are not whitelisted on this server!
+[07:03:50] [User Authenticator #1/INFO]: UUID of player newplayer28 is 9ed7f5b4-733c-36c1-96d2-72fd7a2ffde6
+[07:03:50] [Server thread/INFO]: Disconnecting newplayer28 (/127.0.0.1:61508): You are not whitelisted on this server!
+[07:03:50] [Server thread/INFO]: newplayer28 (/127.0.0.1:61508) lost connection: You are not whitelisted on this server!
+[07:03:51] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:51] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:51] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:61572): You are not whitelisted on this server!
+[07:03:51] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:61573): You are not whitelisted on this server!
+[07:03:51] [Server thread/INFO]: Alex_Builds (/127.0.0.1:61572) lost connection: You are not whitelisted on this server!
+[07:03:51] [Server thread/INFO]: Steve_Mines (/127.0.0.1:61573) lost connection: You are not whitelisted on this server!
+[07:03:52] [User Authenticator #1/INFO]: UUID of player newplayer29 is 97617ae5-2761-3c86-aec2-1e161179ada0
+[07:03:52] [Server thread/INFO]: Disconnecting newplayer29 (/127.0.0.1:61606): You are not whitelisted on this server!
+[07:03:52] [Server thread/INFO]: newplayer29 (/127.0.0.1:61606) lost connection: You are not whitelisted on this server!
+[07:03:54] [User Authenticator #1/INFO]: UUID of player newplayer30 is 69782c30-d9d6-3712-b4dc-b42c925790c4
+[07:03:54] [Server thread/INFO]: Disconnecting newplayer30 (/127.0.0.1:61709): You are not whitelisted on this server!
+[07:03:54] [Server thread/INFO]: newplayer30 (/127.0.0.1:61709) lost connection: You are not whitelisted on this server!
+[07:03:56] [User Authenticator #1/INFO]: UUID of player newplayer31 is 97c7ca6a-46f1-328c-a7f5-577b7be4418b
+[07:03:56] [Server thread/INFO]: Disconnecting newplayer31 (/127.0.0.1:61786): You are not whitelisted on this server!
+[07:03:56] [Server thread/INFO]: newplayer31 (/127.0.0.1:61786) lost connection: You are not whitelisted on this server!
+[07:03:56] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:03:56] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:03:56] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:61796): You are not whitelisted on this server!
+[07:03:56] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:61797): You are not whitelisted on this server!
+[07:03:56] [Server thread/INFO]: Alex_Builds (/127.0.0.1:61796) lost connection: You are not whitelisted on this server!
+[07:03:56] [Server thread/INFO]: Steve_Mines (/127.0.0.1:61797) lost connection: You are not whitelisted on this server!
+[07:03:58] [User Authenticator #1/INFO]: UUID of player newplayer32 is 7b167e3c-443f-34e7-acf7-02243ad50446
+[07:03:58] [Server thread/INFO]: Disconnecting newplayer32 (/127.0.0.1:61864): You are not whitelisted on this server!
+[07:03:58] [Server thread/INFO]: newplayer32 (/127.0.0.1:61864) lost connection: You are not whitelisted on this server!
+[07:04:00] [User Authenticator #1/INFO]: UUID of player newplayer33 is 25598d00-7caa-3153-9474-75cf7fe4e8a0
+[07:04:00] [Server thread/INFO]: Disconnecting newplayer33 (/127.0.0.1:61957): You are not whitelisted on this server!
+[07:04:00] [Server thread/INFO]: newplayer33 (/127.0.0.1:61957) lost connection: You are not whitelisted on this server!
+[07:04:01] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:04:01] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:04:01] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:62002): You are not whitelisted on this server!
+[07:04:01] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:62003): You are not whitelisted on this server!
+[07:04:01] [Server thread/INFO]: Alex_Builds (/127.0.0.1:62002) lost connection: You are not whitelisted on this server!
+[07:04:01] [Server thread/INFO]: Steve_Mines (/127.0.0.1:62003) lost connection: You are not whitelisted on this server!
+[07:04:02] [User Authenticator #1/INFO]: UUID of player newplayer34 is a744ec2b-a826-32cb-844d-cf4e388f9f08
+[07:04:02] [Server thread/INFO]: Disconnecting newplayer34 (/127.0.0.1:62063): You are not whitelisted on this server!
+[07:04:02] [Server thread/INFO]: newplayer34 (/127.0.0.1:62063) lost connection: You are not whitelisted on this server!
+[07:04:04] [User Authenticator #1/INFO]: UUID of player newplayer35 is 1d34aa40-66d7-3509-a1d8-f9355f5882a8
+[07:04:04] [Server thread/INFO]: Disconnecting newplayer35 (/127.0.0.1:62123): You are not whitelisted on this server!
+[07:04:04] [Server thread/INFO]: newplayer35 (/127.0.0.1:62123) lost connection: You are not whitelisted on this server!
+[07:04:06] [User Authenticator #1/INFO]: UUID of player newplayer36 is ce4e9ab0-5bcc-39b1-b297-2314ed67a513
+[07:04:06] [Server thread/INFO]: Disconnecting newplayer36 (/127.0.0.1:62169): You are not whitelisted on this server!
+[07:04:06] [Server thread/INFO]: newplayer36 (/127.0.0.1:62169) lost connection: You are not whitelisted on this server!
+[07:04:06] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:04:06] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:04:06] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:62178): You are not whitelisted on this server!
+[07:04:06] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:62177): You are not whitelisted on this server!
+[07:04:06] [Server thread/INFO]: Steve_Mines (/127.0.0.1:62178) lost connection: You are not whitelisted on this server!
+[07:04:06] [Server thread/INFO]: Alex_Builds (/127.0.0.1:62177) lost connection: You are not whitelisted on this server!
+[07:04:08] [User Authenticator #1/INFO]: UUID of player newplayer37 is f956f258-1694-3ced-835f-c1eec0b386bb
+[07:04:08] [Server thread/INFO]: Disconnecting newplayer37 (/127.0.0.1:62257): You are not whitelisted on this server!
+[07:04:08] [Server thread/INFO]: newplayer37 (/127.0.0.1:62257) lost connection: You are not whitelisted on this server!
+[07:04:10] [User Authenticator #1/INFO]: UUID of player newplayer38 is 11542a62-3a81-38f4-8cc9-bcea2c7635c9
+[07:04:10] [Server thread/INFO]: Disconnecting newplayer38 (/127.0.0.1:62316): You are not whitelisted on this server!
+[07:04:10] [Server thread/INFO]: newplayer38 (/127.0.0.1:62316) lost connection: You are not whitelisted on this server!
+[07:04:11] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:04:11] [User Authenticator #0/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:04:11] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:62393): You are not whitelisted on this server!
+[07:04:11] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:62394): You are not whitelisted on this server!
+[07:04:11] [Server thread/INFO]: Steve_Mines (/127.0.0.1:62393) lost connection: You are not whitelisted on this server!
+[07:04:11] [Server thread/INFO]: Alex_Builds (/127.0.0.1:62394) lost connection: You are not whitelisted on this server!
+[07:04:12] [User Authenticator #1/INFO]: UUID of player newplayer39 is 76165bf3-e1ca-3db9-81d6-cafeae87a2dd
+[07:04:12] [Server thread/INFO]: Disconnecting newplayer39 (/127.0.0.1:62410): You are not whitelisted on this server!
+[07:04:12] [Server thread/INFO]: newplayer39 (/127.0.0.1:62410) lost connection: You are not whitelisted on this server!
+[07:04:14] [User Authenticator #1/INFO]: UUID of player newplayer40 is 36c0784f-e5c3-35fa-865d-3aa58f510109
+[07:04:14] [Server thread/INFO]: Disconnecting newplayer40 (/127.0.0.1:62465): You are not whitelisted on this server!
+[07:04:14] [Server thread/INFO]: newplayer40 (/127.0.0.1:62465) lost connection: You are not whitelisted on this server!
+[07:04:16] [User Authenticator #1/INFO]: UUID of player newplayer41 is f8d7c482-c444-3c99-a3ea-2563594be34a
+[07:04:16] [Server thread/INFO]: Disconnecting newplayer41 (/127.0.0.1:62574): You are not whitelisted on this server!
+[07:04:16] [Server thread/INFO]: newplayer41 (/127.0.0.1:62574) lost connection: You are not whitelisted on this server!
+[07:04:16] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:04:16] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:04:16] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:62599): You are not whitelisted on this server!
+[07:04:16] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:62600): You are not whitelisted on this server!
+[07:04:16] [Server thread/INFO]: Steve_Mines (/127.0.0.1:62599) lost connection: You are not whitelisted on this server!
+[07:04:16] [Server thread/INFO]: Alex_Builds (/127.0.0.1:62600) lost connection: You are not whitelisted on this server!
+[07:04:18] [User Authenticator #1/INFO]: UUID of player newplayer42 is f3a0493b-0047-3348-a2b8-0b51898bf1d9
+[07:04:18] [Server thread/INFO]: Disconnecting newplayer42 (/127.0.0.1:62637): You are not whitelisted on this server!
+[07:04:18] [Server thread/INFO]: newplayer42 (/127.0.0.1:62637) lost connection: You are not whitelisted on this server!
+[07:04:21] [User Authenticator #1/INFO]: UUID of player newplayer43 is 0ee9a111-4648-3d88-bd42-94bc568eff5d
+[07:04:21] [Server thread/INFO]: Disconnecting newplayer43 (/127.0.0.1:62739): You are not whitelisted on this server!
+[07:04:21] [Server thread/INFO]: newplayer43 (/127.0.0.1:62739) lost connection: You are not whitelisted on this server!
+[07:04:21] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:04:21] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:04:21] [Server thread/INFO]: Disconnecting Steve_Mines (/127.0.0.1:62780): You are not whitelisted on this server!
+[07:04:21] [Server thread/INFO]: Disconnecting Alex_Builds (/127.0.0.1:62781): You are not whitelisted on this server!
+[07:04:21] [Server thread/INFO]: Steve_Mines (/127.0.0.1:62780) lost connection: You are not whitelisted on this server!
+[07:04:21] [Server thread/INFO]: Alex_Builds (/127.0.0.1:62781) lost connection: You are not whitelisted on this server!
+[07:04:25] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:04:25] [Server thread/INFO]: [Rcon: Stopping the server]
+[07:04:25] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:04:25] [Server thread/INFO]: Stopping server
+[07:04:25] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[07:04:25] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[07:04:25] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[07:04:25] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[07:04:25] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[07:04:25] [Server thread/INFO]: Saving players
+[07:04:25] [Server thread/INFO]: Saving worlds
+[07:04:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:04:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:04:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:04:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world' in 1.53s
+[07:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:04:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:04:28] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 1.22s
+[07:04:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:04:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:04:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:04:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:04:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:04:29] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.21s
+[07:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:04:29] [Server thread/INFO]: Flushing Chunk IO
+[07:04:29] [Server thread/INFO]: Closing Thread Pool
+[07:04:29] [Server thread/INFO]: Closing Server

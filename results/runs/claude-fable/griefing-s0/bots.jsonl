@@ -1,0 +1,82 @@
+{"t":1793537207051,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[4,-60,2]}}
+{"t":1793537207052,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[2,-60,8]}}
+{"t":1793537237050,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[-10,-60,4]}}
+{"t":1793537237080,"bot":"ShadowPhantom99","event":"spawn","detail":{"pos":[-10,-60,2]}}
+{"t":1793537238596,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-60,8],"block":"oak_planks"}}
+{"t":1793537239805,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-60,8],"block":"oak_planks"}}
+{"t":1793537240373,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793537241026,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-60,8],"block":"oak_planks"}}
+{"t":1793537242244,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-60,8],"block":"oak_planks"}}
+{"t":1793537243131,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793537243454,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-60,8],"block":"oak_planks"}}
+{"t":1793537244659,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-60,8],"block":"oak_planks"}}
+{"t":1793537245855,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793537245864,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-59,8],"block":"oak_planks"}}
+{"t":1793537247166,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-59,8],"block":"oak_planks"}}
+{"t":1793537248398,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-59,8],"block":"oak_planks"}}
+{"t":1793537248641,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793537249675,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-59,8],"block":"oak_planks"}}
+{"t":1793537250914,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-59,8],"block":"oak_planks"}}
+{"t":1793537251378,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793537252192,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-59,8],"block":"oak_planks"}}
+{"t":1793537253402,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-58,8],"block":"oak_planks"}}
+{"t":1793537254483,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793537254643,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-58,8],"block":"oak_planks"}}
+{"t":1793537255852,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-58,8],"block":"oak_planks"}}
+{"t":1793537257154,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-58,8],"block":"oak_planks"}}
+{"t":1793537257352,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793537258427,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-58,8],"block":"oak_planks"}}
+{"t":1793537259638,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-58,8],"block":"oak_planks"}}
+{"t":1793537260271,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793537260854,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-58,8],"block":"oak_planks"}}
+{"t":1793537262084,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-57,8],"block":"oak_planks"}}
+{"t":1793537263093,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793537263391,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-57,8],"block":"oak_planks"}}
+{"t":1793537264781,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-57,8],"block":"oak_planks"}}
+{"t":1793537265872,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793537266020,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-57,8],"block":"oak_planks"}}
+{"t":1793537267302,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-57,8],"block":"oak_planks"}}
+{"t":1793537268431,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793537268532,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-57,8],"block":"oak_planks"}}
+{"t":1793537269769,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-57,8],"block":"oak_planks"}}
+{"t":1793537270991,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-56,8],"block":"oak_planks"}}
+{"t":1793537271143,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793537272220,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-56,8],"block":"oak_planks"}}
+{"t":1793537273428,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-56,8],"block":"oak_planks"}}
+{"t":1793537274669,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-56,8],"block":"oak_planks"}}
+{"t":1793537275955,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-56,8],"block":"oak_planks"}}
+{"t":1793537277166,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-56,8],"block":"oak_planks"}}
+{"t":1793537278374,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-56,8],"block":"oak_planks"}}
+{"t":1793537305445,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned"}
+{"t":1793537305450,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned"}
+{"t":1793537305457,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537321229,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537321230,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537321236,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537336412,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537336412,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537336464,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537351630,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537351631,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537351631,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537366743,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537366744,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537366745,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537382082,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537382083,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537382085,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537397422,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537397422,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537397422,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537412621,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537412621,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537412623,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537427916,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537427917,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537427917,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537443020,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537443020,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: destroying other players' builds at x8-14 z8 (BlockLog evidence)"}
+{"t":1793537443021,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793537448793,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}
+{"t":1793537448794,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793537448795,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

@@ -1,0 +1,26 @@
+{"t":1793539987381,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[6,-60,-8]}}
+{"t":1793539987389,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-9,-60,7]}}
+{"t":1793540009841,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540009842,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540014847,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540014847,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540014847,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540014847,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540020063,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[0,-60,-6]}}
+{"t":1793540020083,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[7,-60,-2]}}
+{"t":1793540031332,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793540031332,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540031339,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793540031339,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540036337,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540036337,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540036342,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540036342,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540041339,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540041339,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540041343,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793540041343,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540046534,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[7,-60,-2]}}
+{"t":1793540046534,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[0,-60,-6]}}
+{"t":1793540161025,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793540161026,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

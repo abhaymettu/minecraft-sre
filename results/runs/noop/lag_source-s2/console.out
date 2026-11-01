@@ -1,0 +1,438 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 08:30:47,169 ServerMain WARN Advanced terminal features are not available in this environment
+[08:30:47 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[08:30:49 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:30:49 INFO]: Loaded 1174 recipes
+[08:30:49 INFO]: Loaded 1271 advancements
+[08:30:49 INFO]: Starting minecraft server version 1.20.4
+[08:30:49 INFO]: Loading properties
+[08:30:49 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[08:30:50 INFO]: Server Ping Player Sample Count: 12
+[08:30:50 INFO]: Using 4 threads for Netty based IO
+[08:30:50 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:30:50 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[08:30:50 INFO]: Default game type: SURVIVAL
+[08:30:50 INFO]: Generating keypair
+[08:30:50 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[08:30:50 INFO]: Using default channel type
+[08:30:50 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[08:30:50 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[08:30:50 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[08:30:50 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[08:30:50 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[08:30:50 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[08:30:50 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[08:30:50 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:30:50 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:30:50 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:30:50 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:30:50 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:30:50 INFO]: Preparing level "world"
+[08:30:50 INFO]: Preparing start region for dimension minecraft:overworld
+[08:30:50 INFO]: Time elapsed: 43 ms
+[08:30:50 INFO]: Preparing start region for dimension minecraft:the_nether
+[08:30:50 INFO]: Time elapsed: 29 ms
+[08:30:50 INFO]: Preparing start region for dimension minecraft:the_end
+[08:30:50 INFO]: Time elapsed: 12 ms
+[08:30:50 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[08:30:50 INFO]: [Exporter] Enabling Exporter v1.0.0
+[08:30:50 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[08:30:50 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[08:30:50 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[08:30:50 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[08:30:50 INFO]: [TownCore] Enabling TownCore v1.0.0
+[08:30:50 INFO]: Starting remote control listener
+[08:30:50 INFO]: Thread RCON Listener started
+[08:30:50 INFO]: RCON running on 127.0.0.1:25601
+[08:30:50 INFO]: Running delayed init tasks
+[08:30:50 INFO]: Done (0.863s)! For help, type "help"
+[08:30:50 INFO]: Timings Reset
+[08:30:50 INFO]: Thread RCON Client /127.0.0.1 started
+[08:30:50 INFO]: Thread RCON Client /127.0.0.1 started
+[08:30:50 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:30:51 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[08:30:51 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[08:30:51 INFO]: Steve_Mines joined the game
+[08:30:51 INFO]: Steve_Mines[/127.0.0.1:64696] logged in with entity id 23 at ([world]10.5, -60.0, -7.5)
+[08:30:51 INFO]: Alex_Builds joined the game
+[08:30:51 INFO]: Alex_Builds[/127.0.0.1:64695] logged in with entity id 24 at ([world]-4.5, -60.0, -8.5)
+[08:31:27 INFO]: [Rcon: Marked chunk [23, -32] in minecraft:overworld to be force loaded]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:27 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:31:28 INFO]: [Rcon: Summoned new Minecart]
+[08:33:27 INFO]: Steve_Mines lost connection: Disconnected
+[08:33:27 INFO]: Steve_Mines left the game
+[08:33:27 INFO]: Alex_Builds lost connection: Disconnected
+[08:33:27 INFO]: Alex_Builds left the game
+[08:33:27 INFO]: Thread RCON Client /127.0.0.1 started
+[08:33:27 INFO]: [Rcon: Stopping the server]
+[08:33:27 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:33:27 INFO]: Stopping server
+[08:33:27 INFO]: [TownCore] Disabling TownCore v1.0.0
+[08:33:27 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[08:33:27 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[08:33:27 INFO]: [Exporter] Disabling Exporter v1.0.0
+[08:33:27 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[08:33:27 INFO]: Saving players
+[08:33:27 INFO]: Saving worlds
+[08:33:27 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:33:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:33:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:33:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:33:28 INFO]: [ChunkHolderManager] Saved 2185 block chunks, 331 entity chunks, 0 poi chunks in world 'world' in 0.45s
+[08:33:28 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:33:28 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:33:28 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:33:28 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:33:28 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:33:28 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
+[08:33:28 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:33:28 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:33:28 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:33:28 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:33:28 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:33:28 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[08:33:28 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:33:28 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:33:28 INFO]: Flushing Chunk IO
+[08:33:28 INFO]: Closing Thread Pool
+2026-11-01 08:33:28,532 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[08:33:28 INFO]: Closing Server

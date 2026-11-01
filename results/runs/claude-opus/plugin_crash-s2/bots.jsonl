@@ -1,0 +1,10 @@
+{"t":1793542568135,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-4,-60,3]}}
+{"t":1793542568135,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[4,-59,-7]}}
+{"t":1793542632935,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793542632936,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793542632940,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793542632940,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793542638415,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[4,-59,-7]}}
+{"t":1793542638463,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-4,-60,3]}}
+{"t":1793542752923,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793542752924,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

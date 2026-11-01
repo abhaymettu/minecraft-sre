@@ -1,0 +1,14 @@
+{"t":1793541594835,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[9,-60,5]}}
+{"t":1793541594835,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-10,-60,3]}}
+{"t":1793541675950,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793541675952,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793541675961,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793541675961,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793541680953,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793541680953,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793541680964,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25600"}
+{"t":1793541680964,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793541686215,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-10,-60,3]}}
+{"t":1793541686232,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[9,-60,5]}}
+{"t":1793541770475,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793541770475,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

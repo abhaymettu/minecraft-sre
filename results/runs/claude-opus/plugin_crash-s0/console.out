@@ -1,0 +1,218 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:36:00,606 ServerMain WARN Advanced terminal features are not available in this environment
+[06:36:02 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:36:24 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:36:36 INFO]: Loaded 1174 recipes
+[06:36:40 INFO]: Loaded 1271 advancements
+[06:36:44 INFO]: Starting minecraft server version 1.20.4
+[06:36:44 INFO]: Loading properties
+[06:36:45 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:36:51 INFO]: Server Ping Player Sample Count: 12
+[06:36:51 INFO]: Using 4 threads for Netty based IO
+[06:36:53 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:36:53 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:36:54 INFO]: Default game type: SURVIVAL
+[06:36:54 INFO]: Generating keypair
+[06:36:54 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[06:36:54 INFO]: Using default channel type
+[06:36:55 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:36:55 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:36:55 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:36:55 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:36:55 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:36:55 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:36:55 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:36:55 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:36:55 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:36:55 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:36:55 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:36:55 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:36:55 INFO]: Preparing level "world"
+[06:36:57 INFO]: Preparing start region for dimension minecraft:overworld
+[06:37:02 INFO]: Time elapsed: 4316 ms
+[06:37:02 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:37:02 INFO]: Time elapsed: 410 ms
+[06:37:02 INFO]: Preparing start region for dimension minecraft:the_end
+[06:37:02 INFO]: Time elapsed: 7 ms
+[06:37:02 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:37:02 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:37:02 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:37:02 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:37:02 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:37:02 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:37:02 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:37:02 INFO]: Starting remote control listener
+[06:37:02 INFO]: Thread RCON Listener started
+[06:37:02 INFO]: RCON running on 127.0.0.1:25601
+[06:37:02 INFO]: Running delayed init tasks
+[06:37:02 INFO]: Done (18.664s)! For help, type "help"
+[06:37:02 INFO]: Timings Reset
+[06:37:03 INFO]: Thread RCON Client /127.0.0.1 started
+[06:37:04 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:37:04 INFO]: Thread RCON Client /127.0.0.1 started
+[06:37:05 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:37:05 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:37:07 INFO]: Alex_Builds joined the game
+[06:37:07 INFO]: Alex_Builds[/127.0.0.1:55483] logged in with entity id 24 at ([world]1.5, -60.0, -6.5)
+[06:37:07 INFO]: Steve_Mines joined the game
+[06:37:07 INFO]: Steve_Mines[/127.0.0.1:55484] logged in with entity id 23 at ([world]-3.5, -60.0, -7.5)
+[06:37:10 WARN]: Can't keep up! Is the server overloaded? Running 2690ms or 53 ticks behind
+[06:37:43 ERROR]: [TownCore] TownCore failed to load config.yml, disabling
+java.lang.IllegalArgumentException: shop.tax-rate must be a number between 0 and 1, got: "5%"
+	at sre.towncore.TownCore.validate(TownCore.java:55) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.loadAndValidate(TownCore.java:38) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.tick(TownCore.java:70) ~[TownCore.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-499]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:37:43 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:38:16 INFO]: Thread RCON Client /127.0.0.1 started
+[06:38:20 INFO]: Thread RCON Client /127.0.0.1 started
+[06:38:20 INFO]: [Rcon: Stopping the server]
+[06:38:20 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:38:20 INFO]: Stopping server
+[06:38:20 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:38:20 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:38:20 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:38:20 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:38:20 INFO]: Saving players
+[06:38:21 INFO]: Alex_Builds lost connection: Server closed
+[06:38:21 INFO]: Alex_Builds left the game
+[06:38:21 INFO]: Steve_Mines lost connection: Server closed
+[06:38:21 INFO]: Steve_Mines left the game
+[06:38:21 INFO]: Saving worlds
+[06:38:21 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:38:21 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:38:21 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:38:21 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:38:21 INFO]: [ChunkHolderManager] Saved 1543 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 0.60s
+[06:38:21 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:38:21 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:38:21 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:38:21 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:38:21 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:38:22 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[06:38:22 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:38:22 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:38:22 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:38:22 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:38:22 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:38:22 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
+[06:38:22 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:38:22 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:38:22 INFO]: Flushing Chunk IO
+[06:38:22 INFO]: Closing Thread Pool
+2026-11-01 06:38:22,293 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:38:22 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:38:23,628 ServerMain WARN Advanced terminal features are not available in this environment
+[06:38:24 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:38:29 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:38:31 INFO]: Loaded 1174 recipes
+[06:38:32 INFO]: Loaded 1271 advancements
+[06:38:33 INFO]: Starting minecraft server version 1.20.4
+[06:38:33 INFO]: Loading properties
+[06:38:34 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:38:35 INFO]: Server Ping Player Sample Count: 12
+[06:38:35 INFO]: Using 4 threads for Netty based IO
+[06:38:36 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:38:36 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:38:37 INFO]: Default game type: SURVIVAL
+[06:38:37 INFO]: Generating keypair
+[06:38:37 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[06:38:37 INFO]: Using default channel type
+[06:38:37 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:38:37 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:38:37 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:38:37 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:38:37 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:38:37 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:38:37 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:38:37 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:38:37 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:38:37 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:38:37 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:38:37 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:38:37 INFO]: Preparing level "world"
+[06:38:38 INFO]: Preparing start region for dimension minecraft:overworld
+[06:38:39 INFO]: Time elapsed: 264 ms
+[06:38:39 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:38:40 INFO]: Time elapsed: 1544 ms
+[06:38:40 INFO]: Preparing start region for dimension minecraft:the_end
+[06:38:40 INFO]: Time elapsed: 34 ms
+[06:38:40 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:38:41 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:38:41 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:38:41 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:38:41 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:38:41 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:38:41 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:38:41 INFO]: Starting remote control listener
+[06:38:41 INFO]: Thread RCON Listener started
+[06:38:41 INFO]: RCON running on 127.0.0.1:25601
+[06:38:41 INFO]: Running delayed init tasks
+[06:38:41 INFO]: Done (7.390s)! For help, type "help"
+[06:38:41 INFO]: Timings Reset
+[06:38:41 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:38:41 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:38:41 INFO]: Thread RCON Client /127.0.0.1 started
+[06:38:41 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:38:42 INFO]: Alex_Builds joined the game
+[06:38:42 INFO]: Alex_Builds[/127.0.0.1:59406] logged in with entity id 14 at ([world]1.5, -60.0, -6.5)
+[06:38:42 INFO]: Steve_Mines joined the game
+[06:38:42 INFO]: Steve_Mines[/127.0.0.1:59407] logged in with entity id 13 at ([world]-3.5, -60.0, -7.5)
+[06:38:42 INFO]: Thread RCON Client /127.0.0.1 started
+[06:40:09 INFO]: Steve_Mines lost connection: Disconnected
+[06:40:10 INFO]: Steve_Mines left the game
+[06:40:10 INFO]: Alex_Builds lost connection: Disconnected
+[06:40:10 INFO]: Alex_Builds left the game
+[06:40:10 INFO]: Thread RCON Client /127.0.0.1 started
+[06:40:10 INFO]: [Rcon: Stopping the server]
+[06:40:10 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:40:10 INFO]: Stopping server
+[06:40:10 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:40:10 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:40:10 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:40:10 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:40:10 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:40:10 INFO]: Saving players
+[06:40:10 INFO]: Saving worlds
+[06:40:10 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:40:10 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:40:10 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:40:10 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:40:15 INFO]: [ChunkHolderManager] Saved 306 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 4.03s
+[06:40:15 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:40:15 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:40:15 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:40:15 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:40:15 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:40:18 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 2.37s
+[06:40:18 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:40:18 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:40:18 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:40:18 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:40:18 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:40:19 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 1.30s
+[06:40:19 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:40:19 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:40:20 INFO]: Flushing Chunk IO
+[06:40:20 INFO]: Closing Thread Pool
+[06:40:20 INFO]: Closing Server

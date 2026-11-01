@@ -1,0 +1,678 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:28:13,396 ServerMain WARN Advanced terminal features are not available in this environment
+[06:28:18 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:28:52 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:28:54 INFO]: Loaded 1174 recipes
+[06:28:54 INFO]: Loaded 1271 advancements
+[06:28:54 INFO]: Starting minecraft server version 1.20.4
+[06:28:54 INFO]: Loading properties
+[06:28:54 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:28:56 INFO]: Server Ping Player Sample Count: 12
+[06:28:56 INFO]: Using 4 threads for Netty based IO
+[06:28:57 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:28:57 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:28:57 INFO]: Default game type: SURVIVAL
+[06:28:57 INFO]: Generating keypair
+[06:28:58 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[06:28:58 INFO]: Using default channel type
+[06:28:58 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:28:58 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:28:58 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:28:58 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:28:58 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:28:58 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:28:58 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:28:58 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:28:58 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:28:58 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:28:58 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:28:58 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:28:58 INFO]: Preparing level "world"
+[06:28:59 INFO]: Preparing start region for dimension minecraft:overworld
+[06:29:00 INFO]: Time elapsed: 651 ms
+[06:29:00 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:29:00 INFO]: Time elapsed: 303 ms
+[06:29:00 INFO]: Preparing start region for dimension minecraft:the_end
+[06:29:03 INFO]: Time elapsed: 2336 ms
+[06:29:03 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:29:03 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:29:03 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:29:03 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:29:03 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:29:03 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:29:03 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:29:03 INFO]: Starting remote control listener
+[06:29:03 INFO]: Thread RCON Listener started
+[06:29:03 INFO]: RCON running on 127.0.0.1:25601
+[06:29:03 INFO]: Running delayed init tasks
+[06:29:03 INFO]: Done (8.675s)! For help, type "help"
+[06:29:03 INFO]: Timings Reset
+[06:29:03 INFO]: Thread RCON Client /127.0.0.1 started
+[06:29:04 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:29:04 INFO]: Thread RCON Client /127.0.0.1 started
+[06:29:07 WARN]: Can't keep up! Is the server overloaded? Running 3727ms or 74 ticks behind
+[06:29:07 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:29:07 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:29:12 INFO]: Steve_Mines joined the game
+[06:29:12 INFO]: Steve_Mines[/127.0.0.1:52808] logged in with entity id 24 at ([world]1.5, -60.0, 9.5)
+[06:29:12 INFO]: Alex_Builds joined the game
+[06:29:12 INFO]: Alex_Builds[/127.0.0.1:52807] logged in with entity id 23 at ([world]7.5, -60.0, -8.5)
+[06:29:44 INFO]: Thread RCON Client /127.0.0.1 started
+[06:29:44 INFO]: [Rcon: Stopping the server]
+[06:29:44 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:29:44 INFO]: Stopping server
+[06:29:44 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:29:45 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:29:45 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:29:45 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:29:45 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:29:45 INFO]: Saving players
+[06:29:45 INFO]: Steve_Mines lost connection: Server closed
+[06:29:45 INFO]: Steve_Mines left the game
+[06:29:45 INFO]: Alex_Builds lost connection: Server closed
+[06:29:45 INFO]: Alex_Builds left the game
+[06:29:45 INFO]: Saving worlds
+[06:29:45 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:29:45 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:29:45 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:29:45 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:29:46 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:46 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:48 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:48 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:50 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:50 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:52 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:52 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:54 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:54 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:55 INFO]: [ChunkHolderManager] Saved 1269 chunks (80.78%) in world 'world'
+[06:29:56 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:56 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:57 INFO]: [ChunkHolderManager] Saved 1560 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 11.31s
+[06:29:57 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:29:57 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:29:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:29:57 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:29:57 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:29:58 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:58 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:59 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 2.11s
+[06:29:59 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:29:59 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:29:59 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:29:59 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:29:59 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:30:00 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:00 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:01 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 1.50s
+[06:30:01 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:30:01 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+2026-11-01 06:30:01,772 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:30:01 INFO]: Flushing Chunk IO
+[06:30:01 INFO]: Closing Thread Pool
+[06:30:01 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:30:06,184 ServerMain WARN Advanced terminal features are not available in this environment
+[06:30:08 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:30:29 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:30:38 INFO]: Loaded 1174 recipes
+[06:30:40 INFO]: Loaded 1271 advancements
+[06:30:41 INFO]: Starting minecraft server version 1.20.4
+[06:30:41 INFO]: Loading properties
+[06:30:41 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:30:44 INFO]: Server Ping Player Sample Count: 12
+[06:30:44 INFO]: Using 4 threads for Netty based IO
+[06:30:45 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:30:46 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:30:47 INFO]: Default game type: SURVIVAL
+[06:30:47 INFO]: Generating keypair
+[06:30:47 INFO]: Starting Minecraft server on 127.0.0.1:25600
+[06:30:48 INFO]: Using default channel type
+[06:30:48 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:30:48 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:30:48 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:30:48 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:30:48 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:30:48 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:30:48 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:30:48 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:30:48 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:30:48 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:30:48 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:30:48 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:30:48 INFO]: Preparing level "world"
+[06:30:49 INFO]: Preparing start region for dimension minecraft:overworld
+[06:30:52 INFO]: Time elapsed: 3185 ms
+[06:30:52 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:30:52 INFO]: Time elapsed: 156 ms
+[06:30:52 INFO]: Preparing start region for dimension minecraft:the_end
+[06:30:53 INFO]: Time elapsed: 163 ms
+[06:30:53 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:30:53 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:30:53 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:30:53 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:30:53 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:30:53 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:30:53 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:30:53 INFO]: Starting remote control listener
+[06:30:53 INFO]: Thread RCON Listener started
+[06:30:53 INFO]: RCON running on 127.0.0.1:25601
+[06:30:53 INFO]: Running delayed init tasks
+[06:30:53 INFO]: Done (12.072s)! For help, type "help"
+[06:30:53 INFO]: Timings Reset
+[06:30:53 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:30:53 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:30:54 INFO]: Thread RCON Client /127.0.0.1 started
+[06:30:54 INFO]: Thread RCON Client /127.0.0.1 started
+[06:30:54 INFO]: Disconnecting Steve_Mines (/127.0.0.1:55576): You are not whitelisted on this server!
+[06:30:54 INFO]: Disconnecting Alex_Builds (/127.0.0.1:55577): You are not whitelisted on this server!
+[06:30:55 INFO]: Steve_Mines (/127.0.0.1:55576) lost connection: You are not whitelisted on this server!
+[06:30:55 INFO]: Alex_Builds (/127.0.0.1:55577) lost connection: You are not whitelisted on this server!
+[06:30:55 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:30:56 INFO]: UUID of player newplayer01 is 06f05d04-ed5d-3d42-986b-70fc74bbbc1c
+[06:30:56 INFO]: Disconnecting newplayer01 (/127.0.0.1:55748): You are not whitelisted on this server!
+[06:30:56 INFO]: newplayer01 (/127.0.0.1:55748) lost connection: You are not whitelisted on this server!
+[06:30:57 INFO]: UUID of player newplayer02 is 201086eb-aaae-3ea9-8664-08e3d31155dd
+[06:30:57 INFO]: Disconnecting newplayer02 (/127.0.0.1:55800): You are not whitelisted on this server!
+[06:30:57 INFO]: newplayer02 (/127.0.0.1:55800) lost connection: You are not whitelisted on this server!
+[06:30:59 INFO]: UUID of player newplayer03 is 350ef976-f6c1-31b9-b808-a57bb41ec572
+[06:30:59 INFO]: Disconnecting newplayer03 (/127.0.0.1:55890): You are not whitelisted on this server!
+[06:30:59 INFO]: Disconnecting newplayer03 (/127.0.0.1:55890): You are not whitelisted on this server!
+[06:30:59 INFO]: newplayer03 (/127.0.0.1:55890) lost connection: You are not whitelisted on this server!
+[06:31:00 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:31:00 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:31:00 INFO]: Disconnecting Alex_Builds (/127.0.0.1:55912): You are not whitelisted on this server!
+[06:31:00 INFO]: Disconnecting Steve_Mines (/127.0.0.1:55913): You are not whitelisted on this server!
+[06:31:00 INFO]: Alex_Builds (/127.0.0.1:55912) lost connection: You are not whitelisted on this server!
+[06:31:00 INFO]: Steve_Mines (/127.0.0.1:55913) lost connection: You are not whitelisted on this server!
+[06:31:02 INFO]: UUID of player newplayer04 is 6a7d220b-2ef9-3aff-a848-58b63b866ff5
+[06:31:02 INFO]: Disconnecting newplayer04 (/127.0.0.1:55971): You are not whitelisted on this server!
+[06:31:02 INFO]: newplayer04 (/127.0.0.1:55971) lost connection: You are not whitelisted on this server!
+[06:31:05 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:31:05 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:31:05 INFO]: Disconnecting Alex_Builds (/127.0.0.1:56093): You are not whitelisted on this server!
+[06:31:05 INFO]: Disconnecting Steve_Mines (/127.0.0.1:56094): You are not whitelisted on this server!
+[06:31:05 INFO]: Alex_Builds (/127.0.0.1:56093) lost connection: You are not whitelisted on this server!
+[06:31:05 INFO]: Steve_Mines (/127.0.0.1:56094) lost connection: You are not whitelisted on this server!
+[06:31:05 INFO]: UUID of player newplayer05 is 1638c66e-dbe9-3fd7-bfad-180582f8c68b
+[06:31:05 INFO]: Disconnecting newplayer05 (/127.0.0.1:56095): You are not whitelisted on this server!
+[06:31:05 INFO]: newplayer05 (/127.0.0.1:56095) lost connection: You are not whitelisted on this server!
+[06:31:09 INFO]: UUID of player newplayer06 is e5313569-56d2-3dee-853e-74221e0722e8
+[06:31:09 INFO]: Disconnecting newplayer06 (/127.0.0.1:56160): You are not whitelisted on this server!
+[06:31:09 INFO]: newplayer06 (/127.0.0.1:56160) lost connection: You are not whitelisted on this server!
+[06:31:10 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:31:10 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:31:10 INFO]: Disconnecting Alex_Builds (/127.0.0.1:56229): You are not whitelisted on this server!
+[06:31:10 INFO]: Disconnecting Steve_Mines (/127.0.0.1:56231): You are not whitelisted on this server!
+[06:31:10 INFO]: Alex_Builds (/127.0.0.1:56229) lost connection: You are not whitelisted on this server!
+[06:31:10 INFO]: Steve_Mines (/127.0.0.1:56231) lost connection: You are not whitelisted on this server!
+[06:31:11 INFO]: UUID of player newplayer07 is 0fe6b826-76b2-3188-809a-924e1463d5ab
+[06:31:12 INFO]: Disconnecting newplayer07 (/127.0.0.1:56267): You are not whitelisted on this server!
+[06:31:12 INFO]: newplayer07 (/127.0.0.1:56267) lost connection: You are not whitelisted on this server!
+[06:31:12 INFO]: Thread RCON Client /127.0.0.1 started
+[06:31:14 INFO]: UUID of player newplayer08 is 6cf0c9f9-cfc3-30c9-ac43-104972a85e02
+[06:31:14 INFO]: Disconnecting newplayer08 (/127.0.0.1:56345): You are not whitelisted on this server!
+[06:31:14 INFO]: newplayer08 (/127.0.0.1:56345) lost connection: You are not whitelisted on this server!
+[06:31:15 INFO]: [Rcon: Whitelist is now turned off]
+[06:31:15 INFO]: UUID of player newplayer09 is 01ad118f-0abc-3bda-a94b-f16e978df688
+[06:31:15 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:31:15 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:31:16 INFO]: Steve_Mines joined the game
+[06:31:16 INFO]: Steve_Mines[/127.0.0.1:56417] logged in with entity id 42 at ([world]1.5, -60.0, 9.5)
+[06:31:16 INFO]: Alex_Builds joined the game
+[06:31:16 INFO]: Alex_Builds[/127.0.0.1:56416] logged in with entity id 41 at ([world]7.5, -60.0, -8.5)
+[06:31:17 INFO]: newplayer09 joined the game
+[06:31:17 INFO]: newplayer09[/127.0.0.1:56398] logged in with entity id 40 at ([world]4.5, -60.0, 8.5)
+[06:31:17 INFO]: newplayer09 lost connection: Disconnected
+[06:31:17 INFO]: newplayer09 left the game
+[06:31:19 INFO]: UUID of player newplayer10 is 897b633d-2c6a-36c1-a383-c5c60f9c86dd
+[06:31:19 INFO]: newplayer10 joined the game
+[06:31:19 INFO]: newplayer10[/127.0.0.1:56510] logged in with entity id 43 at ([world]6.5, -60.0, -7.5)
+[06:31:20 INFO]: newplayer10 lost connection: Disconnected
+[06:31:20 INFO]: newplayer10 left the game
+[06:31:21 INFO]: UUID of player newplayer11 is a55c30fe-b310-3708-819b-65a66f2c278e
+[06:31:22 INFO]: newplayer11 joined the game
+[06:31:22 INFO]: newplayer11[/127.0.0.1:56609] logged in with entity id 45 at ([world]2.5, -60.0, 8.5)
+[06:31:22 INFO]: newplayer11 lost connection: Disconnected
+[06:31:22 INFO]: newplayer11 left the game
+[06:31:23 INFO]: UUID of player newplayer12 is 0fdf8da4-962f-3dce-9583-4a9d6ca0f27d
+[06:31:23 INFO]: newplayer12 joined the game
+[06:31:23 INFO]: newplayer12[/127.0.0.1:56642] logged in with entity id 46 at ([world]-3.5, -60.0, 0.5)
+[06:31:23 INFO]: newplayer12 lost connection: Disconnected
+[06:31:23 INFO]: newplayer12 left the game
+[06:31:25 INFO]: UUID of player newplayer13 is 545d8b2b-6f1d-38a7-a136-82ba21aad53f
+[06:31:25 INFO]: newplayer13 joined the game
+[06:31:25 INFO]: newplayer13[/127.0.0.1:56736] logged in with entity id 47 at ([world]6.5, -60.0, 0.5)
+[06:31:26 INFO]: newplayer13 lost connection: Disconnected
+[06:31:26 INFO]: newplayer13 left the game
+[06:31:27 INFO]: UUID of player newplayer14 is f3ff6e09-85d3-3dea-af63-fce8ab1b2fc8
+[06:31:28 INFO]: newplayer14 joined the game
+[06:31:28 INFO]: newplayer14[/127.0.0.1:56814] logged in with entity id 48 at ([world]1.5, -60.0, -1.5)
+[06:31:28 INFO]: newplayer14 lost connection: Disconnected
+[06:31:28 INFO]: newplayer14 left the game
+[06:31:29 INFO]: UUID of player newplayer15 is 5142f9f1-1f87-3688-8637-56e4fc8d80ed
+[06:31:29 INFO]: newplayer15 joined the game
+[06:31:29 INFO]: newplayer15[/127.0.0.1:56892] logged in with entity id 49 at ([world]8.5, -60.0, 2.5)
+[06:31:30 INFO]: newplayer15 lost connection: Disconnected
+[06:31:30 INFO]: newplayer15 left the game
+[06:31:32 INFO]: UUID of player newplayer16 is e4a7d45a-2832-34ba-89d1-70a575a72052
+[06:31:32 INFO]: newplayer16 joined the game
+[06:31:32 INFO]: newplayer16[/127.0.0.1:56968] logged in with entity id 50 at ([world]-1.5, -60.0, 0.5)
+[06:31:32 INFO]: newplayer16 lost connection: Disconnected
+[06:31:32 INFO]: newplayer16 left the game
+[06:31:36 INFO]: UUID of player newplayer17 is 16765f04-340e-3f57-b9e6-6d0fd51b8b1f
+[06:31:36 INFO]: newplayer17 joined the game
+[06:31:36 INFO]: newplayer17[/127.0.0.1:57050] logged in with entity id 51 at ([world]7.5, -60.0, 4.5)
+[06:31:36 INFO]: newplayer17 lost connection: Disconnected
+[06:31:36 INFO]: newplayer17 left the game
+[06:31:38 INFO]: UUID of player newplayer18 is 20160df3-03a4-3461-af46-ca996187111f
+[06:31:38 INFO]: newplayer18 joined the game
+[06:31:38 INFO]: newplayer18[/127.0.0.1:57111] logged in with entity id 52 at ([world]6.5, -60.0, -2.5)
+[06:31:38 INFO]: newplayer18 lost connection: Disconnected
+[06:31:38 INFO]: newplayer18 left the game
+[06:31:42 INFO]: UUID of player newplayer19 is b0113394-e35d-3ce4-88ec-5cc85be58f38
+[06:31:42 INFO]: newplayer19 joined the game
+[06:31:42 INFO]: newplayer19[/127.0.0.1:57228] logged in with entity id 53 at ([world]-1.5, -60.0, 4.5)
+[06:31:43 INFO]: newplayer19 lost connection: Disconnected
+[06:31:43 INFO]: newplayer19 left the game
+[06:31:46 INFO]: UUID of player newplayer20 is 10df0c19-8989-347c-ba99-4cdbf77131f6
+[06:31:46 INFO]: newplayer20 joined the game
+[06:31:46 INFO]: newplayer20[/127.0.0.1:57353] logged in with entity id 54 at ([world]8.5, -60.0, -1.5)
+[06:31:47 INFO]: newplayer20 lost connection: Disconnected
+[06:31:47 INFO]: newplayer20 left the game
+[06:31:50 INFO]: UUID of player newplayer21 is cea9cab9-deaa-398f-941d-1eb9e739d84e
+[06:31:50 INFO]: newplayer21 joined the game
+[06:31:50 INFO]: newplayer21[/127.0.0.1:57441] logged in with entity id 55 at ([world]-8.5, -60.0, -6.5)
+[06:31:51 INFO]: newplayer21 lost connection: Disconnected
+[06:31:51 INFO]: newplayer21 left the game
+[06:31:54 INFO]: UUID of player newplayer22 is 8766ba6a-8870-3407-a105-d2a3f06d2924
+[06:31:54 INFO]: newplayer22 joined the game
+[06:31:54 INFO]: newplayer22[/127.0.0.1:57552] logged in with entity id 56 at ([world]-3.5, -60.0, 8.5)
+[06:31:54 INFO]: newplayer22 lost connection: Disconnected
+[06:31:54 INFO]: newplayer22 left the game
+[06:31:57 INFO]: UUID of player newplayer23 is 621a4730-cfa9-3ba5-83af-8c850433da30
+[06:31:57 INFO]: newplayer23 joined the game
+[06:31:57 INFO]: newplayer23[/127.0.0.1:57622] logged in with entity id 57 at ([world]-1.5, -60.0, 5.5)
+[06:31:57 INFO]: newplayer23 lost connection: Disconnected
+[06:31:57 INFO]: newplayer23 left the game
+[06:31:58 INFO]: UUID of player newplayer24 is 5214f851-e612-3765-8094-54e7157fc5f4
+[06:31:59 INFO]: newplayer24 joined the game
+[06:31:59 INFO]: newplayer24[/127.0.0.1:57654] logged in with entity id 58 at ([world]2.5, -60.0, -4.5)
+[06:31:59 INFO]: newplayer24 lost connection: Disconnected
+[06:31:59 INFO]: newplayer24 left the game
+[06:32:01 INFO]: UUID of player newplayer25 is d474e710-26fb-33c9-8eba-c9bfc16f1c32
+[06:32:01 INFO]: newplayer25 joined the game
+[06:32:01 INFO]: newplayer25[/127.0.0.1:57659] logged in with entity id 59 at ([world]3.5, -60.0, 6.5)
+[06:32:01 INFO]: newplayer25 lost connection: Disconnected
+[06:32:01 INFO]: newplayer25 left the game
+[06:32:03 INFO]: UUID of player newplayer26 is 4a64f89c-46b9-3960-9768-441947f8269e
+[06:32:03 INFO]: newplayer26 joined the game
+[06:32:03 INFO]: newplayer26[/127.0.0.1:57673] logged in with entity id 60 at ([world]10.5, -54.0, 9.5)
+[06:32:03 INFO]: newplayer26 lost connection: Disconnected
+[06:32:03 INFO]: newplayer26 left the game
+[06:32:05 INFO]: UUID of player newplayer27 is 956206e0-7a2b-3080-9486-44ec501f04e7
+[06:32:05 INFO]: newplayer27 joined the game
+[06:32:05 INFO]: newplayer27[/127.0.0.1:57714] logged in with entity id 61 at ([world]5.5, -60.0, 6.5)
+[06:32:05 INFO]: newplayer27 lost connection: Disconnected
+[06:32:05 INFO]: newplayer27 left the game
+[06:32:07 INFO]: UUID of player newplayer28 is 9ed7f5b4-733c-36c1-96d2-72fd7a2ffde6
+[06:32:07 INFO]: newplayer28 joined the game
+[06:32:07 INFO]: newplayer28[/127.0.0.1:57728] logged in with entity id 62 at ([world]1.5, -60.0, -8.5)
+[06:32:07 INFO]: newplayer28 lost connection: Disconnected
+[06:32:07 INFO]: newplayer28 left the game
+[06:32:08 INFO]: UUID of player newplayer29 is 97617ae5-2761-3c86-aec2-1e161179ada0
+[06:32:08 INFO]: newplayer29 joined the game
+[06:32:08 INFO]: newplayer29[/127.0.0.1:57735] logged in with entity id 63 at ([world]-4.5, -60.0, 0.5)
+[06:32:09 INFO]: newplayer29 lost connection: Disconnected
+[06:32:09 INFO]: newplayer29 left the game
+[06:32:11 INFO]: UUID of player newplayer30 is 69782c30-d9d6-3712-b4dc-b42c925790c4
+[06:32:11 INFO]: newplayer30 joined the game
+[06:32:11 INFO]: newplayer30[/127.0.0.1:57745] logged in with entity id 64 at ([world]-0.5, -60.0, 10.5)
+[06:32:11 INFO]: newplayer30 lost connection: Disconnected
+[06:32:11 INFO]: newplayer30 left the game
+[06:32:13 INFO]: UUID of player newplayer31 is 97c7ca6a-46f1-328c-a7f5-577b7be4418b
+[06:32:13 INFO]: newplayer31 joined the game
+[06:32:13 INFO]: newplayer31[/127.0.0.1:57776] logged in with entity id 65 at ([world]-3.5, -60.0, 9.5)
+[06:32:13 INFO]: newplayer31 lost connection: Disconnected
+[06:32:13 INFO]: newplayer31 left the game
+[06:32:15 INFO]: UUID of player newplayer32 is 7b167e3c-443f-34e7-acf7-02243ad50446
+[06:32:15 INFO]: newplayer32 joined the game
+[06:32:15 INFO]: newplayer32[/127.0.0.1:57799] logged in with entity id 66 at ([world]9.5, -60.0, 5.5)
+[06:32:15 INFO]: newplayer32 lost connection: Disconnected
+[06:32:15 INFO]: newplayer32 left the game
+[06:32:16 INFO]: UUID of player newplayer33 is 25598d00-7caa-3153-9474-75cf7fe4e8a0
+[06:32:17 INFO]: newplayer33 joined the game
+[06:32:17 INFO]: newplayer33[/127.0.0.1:57803] logged in with entity id 67 at ([world]1.5, -60.0, 5.5)
+[06:32:17 INFO]: newplayer33 lost connection: Disconnected
+[06:32:17 INFO]: newplayer33 left the game
+[06:32:19 INFO]: UUID of player newplayer34 is a744ec2b-a826-32cb-844d-cf4e388f9f08
+[06:32:19 INFO]: newplayer34 joined the game
+[06:32:19 INFO]: newplayer34[/127.0.0.1:57821] logged in with entity id 68 at ([world]10.5, -60.0, -3.5)
+[06:32:19 INFO]: newplayer34 lost connection: Disconnected
+[06:32:19 INFO]: newplayer34 left the game
+[06:32:21 INFO]: UUID of player newplayer35 is 1d34aa40-66d7-3509-a1d8-f9355f5882a8
+[06:32:21 INFO]: newplayer35 joined the game
+[06:32:21 INFO]: newplayer35[/127.0.0.1:57830] logged in with entity id 69 at ([world]2.5, -60.0, -6.5)
+[06:32:21 INFO]: newplayer35 lost connection: Disconnected
+[06:32:21 INFO]: newplayer35 left the game
+[06:32:23 INFO]: UUID of player newplayer36 is ce4e9ab0-5bcc-39b1-b297-2314ed67a513
+[06:32:23 INFO]: newplayer36 joined the game
+[06:32:23 INFO]: newplayer36[/127.0.0.1:57848] logged in with entity id 70 at ([world]3.5, -60.0, 6.5)
+[06:32:23 INFO]: newplayer36 lost connection: Disconnected
+[06:32:23 INFO]: newplayer36 left the game
+[06:32:25 INFO]: UUID of player newplayer37 is f956f258-1694-3ced-835f-c1eec0b386bb
+[06:32:25 INFO]: newplayer37 joined the game
+[06:32:25 INFO]: newplayer37[/127.0.0.1:57864] logged in with entity id 71 at ([world]-0.5, -60.0, 4.5)
+[06:32:25 INFO]: newplayer37 lost connection: Disconnected
+[06:32:25 INFO]: newplayer37 left the game
+[06:32:27 INFO]: UUID of player newplayer38 is 11542a62-3a81-38f4-8cc9-bcea2c7635c9
+[06:32:27 INFO]: newplayer38 joined the game
+[06:32:27 INFO]: newplayer38[/127.0.0.1:57882] logged in with entity id 72 at ([world]-5.5, -60.0, -8.5)
+[06:32:27 INFO]: newplayer38 lost connection: Disconnected
+[06:32:27 INFO]: newplayer38 left the game
+[06:32:29 INFO]: UUID of player newplayer39 is 76165bf3-e1ca-3db9-81d6-cafeae87a2dd
+[06:32:29 INFO]: newplayer39 joined the game
+[06:32:29 INFO]: newplayer39[/127.0.0.1:57890] logged in with entity id 73 at ([world]-5.5, -60.0, 8.5)
+[06:32:29 INFO]: newplayer39 lost connection: Disconnected
+[06:32:29 INFO]: newplayer39 left the game
+[06:32:31 INFO]: UUID of player newplayer40 is 36c0784f-e5c3-35fa-865d-3aa58f510109
+[06:32:31 INFO]: newplayer40 joined the game
+[06:32:31 INFO]: newplayer40[/127.0.0.1:57917] logged in with entity id 74 at ([world]7.5, -60.0, -7.5)
+[06:32:31 INFO]: newplayer40 lost connection: Disconnected
+[06:32:31 INFO]: newplayer40 left the game
+[06:32:33 INFO]: UUID of player newplayer41 is f8d7c482-c444-3c99-a3ea-2563594be34a
+[06:32:33 INFO]: newplayer41 joined the game
+[06:32:33 INFO]: newplayer41[/127.0.0.1:57939] logged in with entity id 75 at ([world]-3.5, -60.0, 0.5)
+[06:32:33 INFO]: newplayer41 lost connection: Disconnected
+[06:32:33 INFO]: newplayer41 left the game
+[06:32:39 INFO]: Alex_Builds lost connection: Disconnected
+[06:32:39 INFO]: Alex_Builds left the game
+[06:32:39 INFO]: Steve_Mines lost connection: Disconnected
+[06:32:39 INFO]: Steve_Mines left the game
+[06:32:40 INFO]: Thread RCON Client /127.0.0.1 started
+[06:32:40 INFO]: [Rcon: Stopping the server]
+[06:32:40 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:32:40 INFO]: Stopping server
+[06:32:40 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:32:40 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:32:40 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:32:40 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:32:40 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:32:40 INFO]: Saving players
+[06:32:40 INFO]: Saving worlds
+[06:32:40 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:32:40 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:32:40 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:32:40 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:32:40 INFO]: [ChunkHolderManager] Saved 306 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[06:32:40 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:32:40 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:32:40 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:32:40 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:32:40 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:32:41 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
+[06:32:41 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:32:41 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:32:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:32:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:32:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:32:41 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[06:32:41 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:32:41 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:32:41 INFO]: Flushing Chunk IO
+[06:32:41 INFO]: Closing Thread Pool
+2026-11-01 06:32:41,187 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:32:41 INFO]: Closing Server

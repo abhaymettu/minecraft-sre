@@ -1,0 +1,350 @@
+[07:55:51] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[07:55:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:55:54] [ServerMain/INFO]: Loaded 1174 recipes
+[07:55:54] [ServerMain/INFO]: Loaded 1271 advancements
+[07:55:54] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[07:55:54] [Server thread/INFO]: Loading properties
+[07:55:54] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[07:55:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:55:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:55:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:55:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[07:55:55] [Server thread/INFO]: Default game type: SURVIVAL
+[07:55:55] [Server thread/INFO]: Generating keypair
+[07:55:55] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25660
+[07:55:55] [Server thread/INFO]: Using default channel type
+[07:55:55] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[07:55:55] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[07:55:55] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[07:55:55] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[07:55:55] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[07:55:55] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[07:55:55] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[07:55:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:55:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:55:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:55:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:55:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:55:55] [Server thread/INFO]: Preparing level "world"
+[07:55:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:55:55] [Server thread/INFO]: Time elapsed: 53 ms
+[07:55:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:55:55] [Server thread/INFO]: Time elapsed: 42 ms
+[07:55:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:55:55] [Server thread/INFO]: Time elapsed: 14 ms
+[07:55:55] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[07:55:55] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[07:55:55] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[07:55:55] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[07:55:55] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[07:55:55] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[07:55:55] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[07:55:55] [Server thread/INFO]: Starting remote control listener
+[07:55:55] [Server thread/INFO]: Thread RCON Listener started
+[07:55:55] [Server thread/INFO]: RCON running on 127.0.0.1:25661
+[07:55:55] [Server thread/INFO]: Running delayed init tasks
+[07:55:55] [Server thread/INFO]: Done (1.263s)! For help, type "help"
+[07:55:55] [Server thread/INFO]: Timings Reset
+[07:55:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:55:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:55:56] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:55:56] [User Authenticator #0/INFO]: UUID of player newplayer03 is 350ef976-f6c1-31b9-b808-a57bb41ec572
+[07:55:56] [Server thread/INFO]: newplayer03 joined the game
+[07:55:56] [Server thread/INFO]: newplayer03[/127.0.0.1:60547] logged in with entity id 16 at ([world]-5.5, -60.0, -7.5)
+[07:55:56] [Server thread/INFO]: newplayer03 lost connection: Disconnected
+[07:55:56] [Server thread/INFO]: newplayer03 left the game
+[07:55:57] [User Authenticator #0/INFO]: UUID of player newplayer04 is 6a7d220b-2ef9-3aff-a848-58b63b866ff5
+[07:55:57] [Server thread/INFO]: newplayer04 joined the game
+[07:55:57] [Server thread/INFO]: newplayer04[/127.0.0.1:60550] logged in with entity id 17 at ([world]-2.5, -60.0, -6.5)
+[07:55:58] [Server thread/INFO]: newplayer04 lost connection: Disconnected
+[07:55:58] [Server thread/INFO]: newplayer04 left the game
+[07:55:58] [User Authenticator #0/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:55:58] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:55:58] [Server thread/INFO]: Alex_Builds joined the game
+[07:55:58] [Server thread/INFO]: Alex_Builds[/127.0.0.1:60551] logged in with entity id 18 at ([world]-6.5, -60.0, 8.5)
+[07:55:58] [Server thread/INFO]: Steve_Mines joined the game
+[07:55:58] [Server thread/INFO]: Steve_Mines[/127.0.0.1:60552] logged in with entity id 19 at ([world]7.5, -60.0, 6.5)
+[07:55:59] [User Authenticator #0/INFO]: UUID of player newplayer05 is 1638c66e-dbe9-3fd7-bfad-180582f8c68b
+[07:55:59] [Server thread/INFO]: newplayer05 joined the game
+[07:55:59] [Server thread/INFO]: newplayer05[/127.0.0.1:60554] logged in with entity id 20 at ([world]7.5, -60.0, -1.5)
+[07:56:00] [Server thread/INFO]: newplayer05 lost connection: Disconnected
+[07:56:00] [Server thread/INFO]: newplayer05 left the game
+[07:56:01] [User Authenticator #0/INFO]: UUID of player newplayer06 is e5313569-56d2-3dee-853e-74221e0722e8
+[07:56:01] [Server thread/INFO]: newplayer06 joined the game
+[07:56:01] [Server thread/INFO]: newplayer06[/127.0.0.1:60558] logged in with entity id 21 at ([world]-5.5, -60.0, -6.5)
+[07:56:02] [Server thread/INFO]: newplayer06 lost connection: Disconnected
+[07:56:02] [Server thread/INFO]: newplayer06 left the game
+[07:56:03] [User Authenticator #0/INFO]: UUID of player newplayer07 is 0fe6b826-76b2-3188-809a-924e1463d5ab
+[07:56:03] [Server thread/INFO]: newplayer07 joined the game
+[07:56:03] [Server thread/INFO]: newplayer07[/127.0.0.1:60561] logged in with entity id 22 at ([world]0.5, -60.0, -0.5)
+[07:56:04] [Server thread/INFO]: newplayer07 lost connection: Disconnected
+[07:56:04] [Server thread/INFO]: newplayer07 left the game
+[07:56:05] [User Authenticator #0/INFO]: UUID of player newplayer08 is 6cf0c9f9-cfc3-30c9-ac43-104972a85e02
+[07:56:05] [Server thread/INFO]: newplayer08 joined the game
+[07:56:05] [Server thread/INFO]: newplayer08[/127.0.0.1:60565] logged in with entity id 23 at ([world]3.5, -60.0, -5.5)
+[07:56:06] [Server thread/INFO]: newplayer08 lost connection: Disconnected
+[07:56:06] [Server thread/INFO]: newplayer08 left the game
+[07:56:07] [User Authenticator #0/INFO]: UUID of player newplayer09 is 01ad118f-0abc-3bda-a94b-f16e978df688
+[07:56:07] [Server thread/INFO]: newplayer09 joined the game
+[07:56:07] [Server thread/INFO]: newplayer09[/127.0.0.1:60567] logged in with entity id 24 at ([world]-3.5, -60.0, 8.5)
+[07:56:08] [Server thread/INFO]: newplayer09 lost connection: Disconnected
+[07:56:08] [Server thread/INFO]: newplayer09 left the game
+[07:56:09] [User Authenticator #0/INFO]: UUID of player newplayer10 is 897b633d-2c6a-36c1-a383-c5c60f9c86dd
+[07:56:09] [Server thread/INFO]: newplayer10 joined the game
+[07:56:09] [Server thread/INFO]: newplayer10[/127.0.0.1:60570] logged in with entity id 25 at ([world]5.5, -60.0, 6.5)
+[07:56:10] [Server thread/INFO]: newplayer10 lost connection: Disconnected
+[07:56:10] [Server thread/INFO]: newplayer10 left the game
+[07:56:11] [User Authenticator #0/INFO]: UUID of player newplayer11 is a55c30fe-b310-3708-819b-65a66f2c278e
+[07:56:11] [Server thread/INFO]: newplayer11 joined the game
+[07:56:11] [Server thread/INFO]: newplayer11[/127.0.0.1:60573] logged in with entity id 26 at ([world]8.5, -60.0, -3.5)
+[07:56:12] [Server thread/INFO]: newplayer11 lost connection: Disconnected
+[07:56:12] [Server thread/INFO]: newplayer11 left the game
+[07:56:13] [User Authenticator #0/INFO]: UUID of player newplayer12 is 0fdf8da4-962f-3dce-9583-4a9d6ca0f27d
+[07:56:13] [Server thread/INFO]: newplayer12 joined the game
+[07:56:13] [Server thread/INFO]: newplayer12[/127.0.0.1:60576] logged in with entity id 27 at ([world]2.5, -60.0, 5.5)
+[07:56:14] [Server thread/INFO]: newplayer12 lost connection: Disconnected
+[07:56:14] [Server thread/INFO]: newplayer12 left the game
+[07:56:15] [User Authenticator #0/INFO]: UUID of player newplayer13 is 545d8b2b-6f1d-38a7-a136-82ba21aad53f
+[07:56:15] [Server thread/INFO]: newplayer13 joined the game
+[07:56:15] [Server thread/INFO]: newplayer13[/127.0.0.1:60578] logged in with entity id 28 at ([world]4.5, -60.0, -9.5)
+[07:56:16] [Server thread/INFO]: newplayer13 lost connection: Disconnected
+[07:56:16] [Server thread/INFO]: newplayer13 left the game
+[07:56:17] [User Authenticator #0/INFO]: UUID of player newplayer14 is f3ff6e09-85d3-3dea-af63-fce8ab1b2fc8
+[07:56:17] [Server thread/INFO]: newplayer14 joined the game
+[07:56:17] [Server thread/INFO]: newplayer14[/127.0.0.1:60580] logged in with entity id 29 at ([world]-4.5, -60.0, 10.5)
+[07:56:18] [Server thread/INFO]: newplayer14 lost connection: Disconnected
+[07:56:18] [Server thread/INFO]: newplayer14 left the game
+[07:56:19] [User Authenticator #0/INFO]: UUID of player newplayer15 is 5142f9f1-1f87-3688-8637-56e4fc8d80ed
+[07:56:20] [Server thread/INFO]: newplayer15 joined the game
+[07:56:20] [Server thread/INFO]: newplayer15[/127.0.0.1:60583] logged in with entity id 30 at ([world]10.5, -60.0, -1.5)
+[07:56:20] [Server thread/INFO]: newplayer15 lost connection: Disconnected
+[07:56:20] [Server thread/INFO]: newplayer15 left the game
+[07:56:21] [User Authenticator #0/INFO]: UUID of player newplayer16 is e4a7d45a-2832-34ba-89d1-70a575a72052
+[07:56:21] [Server thread/INFO]: newplayer16 joined the game
+[07:56:21] [Server thread/INFO]: newplayer16[/127.0.0.1:60595] logged in with entity id 31 at ([world]6.5, -60.0, 8.5)
+[07:56:22] [Server thread/INFO]: newplayer16 lost connection: Disconnected
+[07:56:22] [Server thread/INFO]: newplayer16 left the game
+[07:56:23] [User Authenticator #0/INFO]: UUID of player newplayer17 is 16765f04-340e-3f57-b9e6-6d0fd51b8b1f
+[07:56:24] [Server thread/INFO]: newplayer17 joined the game
+[07:56:24] [Server thread/INFO]: newplayer17[/127.0.0.1:60600] logged in with entity id 32 at ([world]-6.5, -60.0, 8.5)
+[07:56:24] [Server thread/INFO]: newplayer17 lost connection: Disconnected
+[07:56:24] [Server thread/INFO]: newplayer17 left the game
+[07:56:25] [User Authenticator #0/INFO]: UUID of player newplayer18 is 20160df3-03a4-3461-af46-ca996187111f
+[07:56:25] [Server thread/INFO]: newplayer18 joined the game
+[07:56:25] [Server thread/INFO]: newplayer18[/127.0.0.1:60607] logged in with entity id 33 at ([world]10.5, -60.0, -9.5)
+[07:56:26] [Server thread/INFO]: newplayer18 lost connection: Disconnected
+[07:56:26] [Server thread/INFO]: newplayer18 left the game
+[07:56:27] [User Authenticator #0/INFO]: UUID of player newplayer19 is b0113394-e35d-3ce4-88ec-5cc85be58f38
+[07:56:27] [Server thread/INFO]: newplayer19 joined the game
+[07:56:27] [Server thread/INFO]: newplayer19[/127.0.0.1:60613] logged in with entity id 34 at ([world]-5.5, -60.0, 2.5)
+[07:56:28] [Server thread/INFO]: newplayer19 lost connection: Disconnected
+[07:56:28] [Server thread/INFO]: newplayer19 left the game
+[07:56:29] [User Authenticator #0/INFO]: UUID of player newplayer20 is 10df0c19-8989-347c-ba99-4cdbf77131f6
+[07:56:30] [Server thread/INFO]: newplayer20 joined the game
+[07:56:30] [Server thread/INFO]: newplayer20[/127.0.0.1:60618] logged in with entity id 35 at ([world]1.5, -60.0, -7.5)
+[07:56:30] [Server thread/INFO]: newplayer20 lost connection: Disconnected
+[07:56:30] [Server thread/INFO]: newplayer20 left the game
+[07:56:31] [User Authenticator #0/INFO]: UUID of player newplayer21 is cea9cab9-deaa-398f-941d-1eb9e739d84e
+[07:56:31] [Server thread/INFO]: newplayer21 joined the game
+[07:56:31] [Server thread/INFO]: newplayer21[/127.0.0.1:60625] logged in with entity id 36 at ([world]-8.5, -54.0, 10.5)
+[07:56:32] [Server thread/INFO]: newplayer21 lost connection: Disconnected
+[07:56:32] [Server thread/INFO]: newplayer21 left the game
+[07:56:33] [User Authenticator #0/INFO]: UUID of player newplayer22 is 8766ba6a-8870-3407-a105-d2a3f06d2924
+[07:56:33] [Server thread/INFO]: newplayer22 joined the game
+[07:56:33] [Server thread/INFO]: newplayer22[/127.0.0.1:60628] logged in with entity id 37 at ([world]-4.5, -60.0, 6.5)
+[07:56:34] [Server thread/INFO]: newplayer22 lost connection: Disconnected
+[07:56:34] [Server thread/INFO]: newplayer22 left the game
+[07:56:35] [User Authenticator #0/INFO]: UUID of player newplayer23 is 621a4730-cfa9-3ba5-83af-8c850433da30
+[07:56:35] [Server thread/INFO]: newplayer23 joined the game
+[07:56:35] [Server thread/INFO]: newplayer23[/127.0.0.1:60631] logged in with entity id 38 at ([world]-6.5, -60.0, 0.5)
+[07:56:36] [Server thread/INFO]: newplayer23 lost connection: Disconnected
+[07:56:36] [Server thread/INFO]: newplayer23 left the game
+[07:56:37] [User Authenticator #0/INFO]: UUID of player newplayer24 is 5214f851-e612-3765-8094-54e7157fc5f4
+[07:56:37] [Server thread/INFO]: newplayer24 joined the game
+[07:56:37] [Server thread/INFO]: newplayer24[/127.0.0.1:60640] logged in with entity id 39 at ([world]7.5, -60.0, 10.5)
+[07:56:38] [Server thread/INFO]: newplayer24 lost connection: Disconnected
+[07:56:38] [Server thread/INFO]: newplayer24 left the game
+[07:56:39] [User Authenticator #0/INFO]: UUID of player newplayer25 is d474e710-26fb-33c9-8eba-c9bfc16f1c32
+[07:56:39] [Server thread/INFO]: newplayer25 joined the game
+[07:56:39] [Server thread/INFO]: newplayer25[/127.0.0.1:60649] logged in with entity id 40 at ([world]6.5, -60.0, 6.5)
+[07:56:40] [Server thread/INFO]: newplayer25 lost connection: Disconnected
+[07:56:40] [Server thread/INFO]: newplayer25 left the game
+[07:56:41] [User Authenticator #0/INFO]: UUID of player newplayer26 is 4a64f89c-46b9-3960-9768-441947f8269e
+[07:56:41] [Server thread/INFO]: newplayer26 joined the game
+[07:56:41] [Server thread/INFO]: newplayer26[/127.0.0.1:60651] logged in with entity id 41 at ([world]-0.5, -60.0, -8.5)
+[07:56:42] [Server thread/INFO]: newplayer26 lost connection: Disconnected
+[07:56:42] [Server thread/INFO]: newplayer26 left the game
+[07:56:43] [User Authenticator #0/INFO]: UUID of player newplayer27 is 956206e0-7a2b-3080-9486-44ec501f04e7
+[07:56:43] [Server thread/INFO]: newplayer27 joined the game
+[07:56:43] [Server thread/INFO]: newplayer27[/127.0.0.1:60657] logged in with entity id 42 at ([world]-0.5, -60.0, 10.5)
+[07:56:44] [Server thread/INFO]: newplayer27 lost connection: Disconnected
+[07:56:44] [Server thread/INFO]: newplayer27 left the game
+[07:56:45] [User Authenticator #0/INFO]: UUID of player newplayer28 is 9ed7f5b4-733c-36c1-96d2-72fd7a2ffde6
+[07:56:45] [Server thread/INFO]: newplayer28 joined the game
+[07:56:45] [Server thread/INFO]: newplayer28[/127.0.0.1:60659] logged in with entity id 43 at ([world]-9.5, -60.0, 2.5)
+[07:56:46] [Server thread/INFO]: newplayer28 lost connection: Disconnected
+[07:56:46] [Server thread/INFO]: newplayer28 left the game
+[07:56:47] [User Authenticator #0/INFO]: UUID of player newplayer29 is 97617ae5-2761-3c86-aec2-1e161179ada0
+[07:56:48] [Server thread/INFO]: newplayer29 joined the game
+[07:56:48] [Server thread/INFO]: newplayer29[/127.0.0.1:60661] logged in with entity id 44 at ([world]-9.5, -59.0, -9.5)
+[07:56:48] [Server thread/INFO]: newplayer29 lost connection: Disconnected
+[07:56:48] [Server thread/INFO]: newplayer29 left the game
+[07:56:49] [User Authenticator #0/INFO]: UUID of player newplayer30 is 69782c30-d9d6-3712-b4dc-b42c925790c4
+[07:56:50] [Server thread/INFO]: newplayer30 joined the game
+[07:56:50] [Server thread/INFO]: newplayer30[/127.0.0.1:60665] logged in with entity id 45 at ([world]4.5, -60.0, -2.5)
+[07:56:50] [Server thread/INFO]: newplayer30 lost connection: Disconnected
+[07:56:50] [Server thread/INFO]: newplayer30 left the game
+[07:56:52] [User Authenticator #0/INFO]: UUID of player newplayer31 is 97c7ca6a-46f1-328c-a7f5-577b7be4418b
+[07:56:52] [Server thread/INFO]: newplayer31 joined the game
+[07:56:52] [Server thread/INFO]: newplayer31[/127.0.0.1:60676] logged in with entity id 46 at ([world]-1.5, -60.0, 4.5)
+[07:56:52] [Server thread/INFO]: newplayer31 lost connection: Disconnected
+[07:56:52] [Server thread/INFO]: newplayer31 left the game
+[07:56:53] [User Authenticator #0/INFO]: UUID of player newplayer32 is 7b167e3c-443f-34e7-acf7-02243ad50446
+[07:56:54] [Server thread/INFO]: newplayer32 joined the game
+[07:56:54] [Server thread/INFO]: newplayer32[/127.0.0.1:60683] logged in with entity id 47 at ([world]8.5, -60.0, 4.5)
+[07:56:54] [Server thread/INFO]: newplayer32 lost connection: Disconnected
+[07:56:54] [Server thread/INFO]: newplayer32 left the game
+[07:56:56] [User Authenticator #0/INFO]: UUID of player newplayer33 is 25598d00-7caa-3153-9474-75cf7fe4e8a0
+[07:56:56] [Server thread/INFO]: newplayer33 joined the game
+[07:56:56] [Server thread/INFO]: newplayer33[/127.0.0.1:60690] logged in with entity id 48 at ([world]3.5, -60.0, -9.5)
+[07:56:56] [Server thread/INFO]: newplayer33 lost connection: Disconnected
+[07:56:56] [Server thread/INFO]: newplayer33 left the game
+[07:56:58] [User Authenticator #0/INFO]: UUID of player newplayer34 is a744ec2b-a826-32cb-844d-cf4e388f9f08
+[07:56:58] [Server thread/INFO]: newplayer34 joined the game
+[07:56:58] [Server thread/INFO]: newplayer34[/127.0.0.1:60698] logged in with entity id 49 at ([world]7.5, -60.0, 7.5)
+[07:56:58] [Server thread/INFO]: newplayer34 lost connection: Disconnected
+[07:56:58] [Server thread/INFO]: newplayer34 left the game
+[07:57:00] [User Authenticator #0/INFO]: UUID of player newplayer35 is 1d34aa40-66d7-3509-a1d8-f9355f5882a8
+[07:57:00] [Server thread/INFO]: newplayer35 joined the game
+[07:57:00] [Server thread/INFO]: newplayer35[/127.0.0.1:60704] logged in with entity id 50 at ([world]3.5, -60.0, -9.5)
+[07:57:00] [Server thread/INFO]: newplayer35 lost connection: Disconnected
+[07:57:00] [Server thread/INFO]: newplayer35 left the game
+[07:57:01] [User Authenticator #0/INFO]: UUID of player newplayer36 is ce4e9ab0-5bcc-39b1-b297-2314ed67a513
+[07:57:02] [Server thread/INFO]: newplayer36 joined the game
+[07:57:02] [Server thread/INFO]: newplayer36[/127.0.0.1:60712] logged in with entity id 51 at ([world]2.5, -60.0, -6.5)
+[07:57:02] [Server thread/INFO]: newplayer36 lost connection: Disconnected
+[07:57:02] [Server thread/INFO]: newplayer36 left the game
+[07:57:04] [User Authenticator #0/INFO]: UUID of player newplayer37 is f956f258-1694-3ced-835f-c1eec0b386bb
+[07:57:04] [Server thread/INFO]: newplayer37 joined the game
+[07:57:04] [Server thread/INFO]: newplayer37[/127.0.0.1:60714] logged in with entity id 52 at ([world]7.5, -60.0, -0.5)
+[07:57:04] [Server thread/INFO]: newplayer37 lost connection: Disconnected
+[07:57:04] [Server thread/INFO]: newplayer37 left the game
+[07:57:06] [User Authenticator #0/INFO]: UUID of player newplayer38 is 11542a62-3a81-38f4-8cc9-bcea2c7635c9
+[07:57:06] [Server thread/INFO]: newplayer38 joined the game
+[07:57:06] [Server thread/INFO]: newplayer38[/127.0.0.1:60718] logged in with entity id 53 at ([world]-2.5, -60.0, 6.5)
+[07:57:06] [Server thread/INFO]: newplayer38 lost connection: Disconnected
+[07:57:06] [Server thread/INFO]: newplayer38 left the game
+[07:57:08] [User Authenticator #0/INFO]: UUID of player newplayer39 is 76165bf3-e1ca-3db9-81d6-cafeae87a2dd
+[07:57:08] [Server thread/INFO]: newplayer39 joined the game
+[07:57:08] [Server thread/INFO]: newplayer39[/127.0.0.1:60722] logged in with entity id 54 at ([world]-2.5, -60.0, 1.5)
+[07:57:08] [Server thread/INFO]: newplayer39 lost connection: Disconnected
+[07:57:08] [Server thread/INFO]: newplayer39 left the game
+[07:57:10] [User Authenticator #0/INFO]: UUID of player newplayer40 is 36c0784f-e5c3-35fa-865d-3aa58f510109
+[07:57:10] [Server thread/INFO]: newplayer40 joined the game
+[07:57:10] [Server thread/INFO]: newplayer40[/127.0.0.1:60728] logged in with entity id 55 at ([world]3.5, -60.0, 7.5)
+[07:57:10] [Server thread/INFO]: newplayer40 lost connection: Disconnected
+[07:57:10] [Server thread/INFO]: newplayer40 left the game
+[07:57:12] [User Authenticator #0/INFO]: UUID of player newplayer41 is f8d7c482-c444-3c99-a3ea-2563594be34a
+[07:57:12] [Server thread/INFO]: newplayer41 joined the game
+[07:57:12] [Server thread/INFO]: newplayer41[/127.0.0.1:60742] logged in with entity id 56 at ([world]-2.5, -60.0, 7.5)
+[07:57:12] [Server thread/INFO]: newplayer41 lost connection: Disconnected
+[07:57:12] [Server thread/INFO]: newplayer41 left the game
+[07:57:14] [User Authenticator #0/INFO]: UUID of player newplayer42 is f3a0493b-0047-3348-a2b8-0b51898bf1d9
+[07:57:14] [Server thread/INFO]: newplayer42 joined the game
+[07:57:14] [Server thread/INFO]: newplayer42[/127.0.0.1:60751] logged in with entity id 57 at ([world]9.5, -54.0, 8.5)
+[07:57:14] [Server thread/INFO]: newplayer42 lost connection: Disconnected
+[07:57:14] [Server thread/INFO]: newplayer42 left the game
+[07:57:16] [User Authenticator #0/INFO]: UUID of player newplayer43 is 0ee9a111-4648-3d88-bd42-94bc568eff5d
+[07:57:16] [Server thread/INFO]: newplayer43 joined the game
+[07:57:16] [Server thread/INFO]: newplayer43[/127.0.0.1:60754] logged in with entity id 58 at ([world]-7.5, -60.0, 5.5)
+[07:57:16] [Server thread/INFO]: newplayer43 lost connection: Disconnected
+[07:57:16] [Server thread/INFO]: newplayer43 left the game
+[07:57:18] [User Authenticator #0/INFO]: UUID of player newplayer44 is 19732427-428c-3535-991a-23b6c8f20e57
+[07:57:18] [Server thread/INFO]: newplayer44 joined the game
+[07:57:18] [Server thread/INFO]: newplayer44[/127.0.0.1:60755] logged in with entity id 59 at ([world]9.5, -60.0, 5.5)
+[07:57:18] [Server thread/INFO]: newplayer44 lost connection: Disconnected
+[07:57:18] [Server thread/INFO]: newplayer44 left the game
+[07:57:20] [User Authenticator #0/INFO]: UUID of player newplayer45 is c237430f-99e4-3a2f-bb1f-966a90e3ffe4
+[07:57:20] [Server thread/INFO]: newplayer45 joined the game
+[07:57:20] [Server thread/INFO]: newplayer45[/127.0.0.1:60758] logged in with entity id 60 at ([world]9.5, -59.0, -4.5)
+[07:57:20] [Server thread/INFO]: newplayer45 lost connection: Disconnected
+[07:57:20] [Server thread/INFO]: newplayer45 left the game
+[07:57:22] [User Authenticator #0/INFO]: UUID of player newplayer46 is d613686d-fa91-3015-8ac4-44d00bf4cde0
+[07:57:22] [Server thread/INFO]: newplayer46 joined the game
+[07:57:22] [Server thread/INFO]: newplayer46[/127.0.0.1:60762] logged in with entity id 61 at ([world]2.5, -60.0, -7.5)
+[07:57:22] [Server thread/INFO]: newplayer46 lost connection: Disconnected
+[07:57:22] [Server thread/INFO]: newplayer46 left the game
+[07:57:24] [User Authenticator #0/INFO]: UUID of player newplayer47 is bed37129-4334-36e5-a651-79ef5520df3d
+[07:57:24] [Server thread/INFO]: newplayer47 joined the game
+[07:57:24] [Server thread/INFO]: newplayer47[/127.0.0.1:60766] logged in with entity id 62 at ([world]8.5, -60.0, 2.5)
+[07:57:24] [Server thread/INFO]: newplayer47 lost connection: Disconnected
+[07:57:24] [Server thread/INFO]: newplayer47 left the game
+[07:57:26] [User Authenticator #0/INFO]: UUID of player newplayer48 is 60cd9ad6-21be-3846-880b-f3857cc9817e
+[07:57:26] [Server thread/INFO]: newplayer48 joined the game
+[07:57:26] [Server thread/INFO]: newplayer48[/127.0.0.1:60779] logged in with entity id 63 at ([world]4.5, -60.0, 7.5)
+[07:57:26] [Server thread/INFO]: newplayer48 lost connection: Disconnected
+[07:57:26] [Server thread/INFO]: newplayer48 left the game
+[07:57:28] [User Authenticator #0/INFO]: UUID of player newplayer49 is 0bf87a27-42b6-3146-bb85-32e5fc7834d7
+[07:57:28] [Server thread/INFO]: newplayer49 joined the game
+[07:57:28] [Server thread/INFO]: newplayer49[/127.0.0.1:60784] logged in with entity id 64 at ([world]8.5, -60.0, 3.5)
+[07:57:28] [Server thread/INFO]: newplayer49 lost connection: Disconnected
+[07:57:28] [Server thread/INFO]: newplayer49 left the game
+[07:57:30] [User Authenticator #0/INFO]: UUID of player newplayer50 is 0e5532f5-123d-396b-87b9-2f961ea3afdd
+[07:57:30] [Server thread/INFO]: newplayer50 joined the game
+[07:57:30] [Server thread/INFO]: newplayer50[/127.0.0.1:60788] logged in with entity id 65 at ([world]-7.5, -60.0, 5.5)
+[07:57:30] [Server thread/INFO]: newplayer50 lost connection: Disconnected
+[07:57:30] [Server thread/INFO]: newplayer50 left the game
+[07:57:32] [User Authenticator #0/INFO]: UUID of player newplayer51 is 8ad89821-b78c-3235-8fa8-b7d31f417d92
+[07:57:32] [Server thread/INFO]: newplayer51 joined the game
+[07:57:32] [Server thread/INFO]: newplayer51[/127.0.0.1:60789] logged in with entity id 66 at ([world]-9.5, -60.0, 5.5)
+[07:57:32] [Server thread/INFO]: newplayer51 lost connection: Disconnected
+[07:57:32] [Server thread/INFO]: newplayer51 left the game
+[07:57:34] [User Authenticator #0/INFO]: UUID of player newplayer52 is e0554f6e-111a-3b0b-b658-f209fcb79cde
+[07:57:34] [Server thread/INFO]: newplayer52 joined the game
+[07:57:34] [Server thread/INFO]: newplayer52[/127.0.0.1:60793] logged in with entity id 67 at ([world]-8.5, -54.0, 9.5)
+[07:57:34] [Server thread/INFO]: newplayer52 lost connection: Disconnected
+[07:57:34] [Server thread/INFO]: newplayer52 left the game
+[07:57:36] [User Authenticator #0/INFO]: UUID of player newplayer53 is 1e2f61bb-c078-38c0-a83f-193841c7f0e2
+[07:57:36] [Server thread/INFO]: newplayer53 joined the game
+[07:57:36] [Server thread/INFO]: newplayer53[/127.0.0.1:60794] logged in with entity id 68 at ([world]6.5, -60.0, -0.5)
+[07:57:36] [Server thread/INFO]: newplayer53 lost connection: Disconnected
+[07:57:36] [Server thread/INFO]: newplayer53 left the game
+[07:57:40] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[07:57:40] [Server thread/INFO]: Alex_Builds left the game
+[07:57:40] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[07:57:40] [Server thread/INFO]: Steve_Mines left the game
+[07:57:41] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:57:41] [Server thread/INFO]: [Rcon: Stopping the server]
+[07:57:41] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:57:41] [Server thread/INFO]: Stopping server
+[07:57:41] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[07:57:41] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[07:57:41] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[07:57:41] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[07:57:41] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[07:57:41] [Server thread/INFO]: Saving players
+[07:57:41] [Server thread/INFO]: Saving worlds
+[07:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Saved 1521 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 0.21s
+[07:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
+[07:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:57:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:57:42] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[07:57:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:57:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:57:42] [Server thread/INFO]: Flushing Chunk IO
+[07:57:42] [Server thread/INFO]: Closing Thread Pool
+[07:57:42] [Server thread/INFO]: Closing Server

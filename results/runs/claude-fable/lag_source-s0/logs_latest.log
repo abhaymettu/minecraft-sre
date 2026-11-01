@@ -1,0 +1,417 @@
+[06:46:07] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:46:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:46:26] [ServerMain/INFO]: Loaded 1174 recipes
+[06:46:26] [ServerMain/INFO]: Loaded 1271 advancements
+[06:46:27] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:46:27] [Server thread/INFO]: Loading properties
+[06:46:27] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:46:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:46:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:46:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:46:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:46:33] [Server thread/INFO]: Default game type: SURVIVAL
+[06:46:33] [Server thread/INFO]: Generating keypair
+[06:46:33] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25620
+[06:46:33] [Server thread/INFO]: Using default channel type
+[06:46:34] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:46:34] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:46:34] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:46:34] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:46:34] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:46:34] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:46:34] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:46:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:46:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:46:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:46:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:46:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:46:34] [Server thread/INFO]: Preparing level "world"
+[06:46:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:46:37] [Server thread/INFO]: Time elapsed: 1094 ms
+[06:46:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:46:37] [Server thread/INFO]: Time elapsed: 111 ms
+[06:46:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:46:37] [Server thread/INFO]: Time elapsed: 105 ms
+[06:46:37] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:46:37] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:46:37] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:46:37] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:46:37] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:46:37] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:46:37] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:46:37] [Server thread/INFO]: Starting remote control listener
+[06:46:37] [Server thread/INFO]: Thread RCON Listener started
+[06:46:37] [Server thread/INFO]: RCON running on 127.0.0.1:25621
+[06:46:37] [Server thread/INFO]: Running delayed init tasks
+[06:46:38] [Server thread/INFO]: Done (9.997s)! For help, type "help"
+[06:46:38] [Server thread/INFO]: Timings Reset
+[06:46:38] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:46:39] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:46:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:46:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
+[06:46:41] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:46:42] [User Authenticator #0/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:46:43] [Server thread/INFO]: Alex_Builds joined the game
+[06:46:43] [Server thread/INFO]: Alex_Builds[/127.0.0.1:56494] logged in with entity id 19 at ([world]-5.5, -60.0, -6.5)
+[06:46:43] [Server thread/INFO]: Steve_Mines joined the game
+[06:46:43] [Server thread/INFO]: Steve_Mines[/127.0.0.1:56495] logged in with entity id 18 at ([world]-6.5, -60.0, -0.5)
+[06:47:17] [Server thread/INFO]: [Rcon: Marked chunk [-35, -22] in minecraft:overworld to be force loaded]
+[06:47:17] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:17] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:18] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:19] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:20] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:21] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:22] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:23] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:24] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:25] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:26] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:26] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:26] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:26] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:27] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2742ms or 54 ticks behind
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:28] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:29] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:29] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:29] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:29] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:29] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:30] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:31] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:32] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:32] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:32] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:34] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:35] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:47:35] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:35] [Server thread/INFO]: [Minecart: Teleported Minecart to 0.000000, -60.000000, 0.000000]
+[06:47:35] [Server thread/INFO]: [Minecart: Teleported Minecart to 0.000000, -60.000000, 0.000000]
+[06:47:35] [Server thread/INFO]: [Minecart: Teleported Minecart to 0.000000, -60.000000, 0.000000]
+[06:47:35] [Server thread/INFO]: [Minecart: Teleported Minecart to 0.000000, -60.000000, 0.000000]
+[06:47:35] [Server thread/INFO]: [Minecart: Teleported Minecart to 0.000000, -60.000000, 0.000000]
+[06:47:35] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:35] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:36] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:37] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:37] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:37] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:37] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:38] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:39] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:39] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:39] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:39] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:39] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:40] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:41] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:41] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:41] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:41] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:41] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:42] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:43] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:44] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:44] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:44] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:44] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:44] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:45] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:46] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:46] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:47] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:48] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:49] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:50] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:51] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:52] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:53] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:47:54] [Server thread/INFO]: [Rcon: Summoned new Minecart]
+[06:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26502ms or 530 ticks behind
+[06:48:14] [Server thread/INFO]: [Rcon: Unmarked chunk [-35, -22] in minecraft:overworld for force loading]
+[06:48:19] [Server thread/INFO]: [Rcon: Killed 5 entities]
+[06:48:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8029ms or 160 ticks behind
+[06:48:33] [Server thread/INFO]: [Rcon: Marked chunk [-35, -22] in minecraft:overworld to be force loaded]
+[06:48:42] [Server thread/INFO]: [Rcon: Killed 301 entities]
+[06:49:02] [Server thread/INFO]: [Rcon: Unmarked chunk [-35, -22] in minecraft:overworld for force loading]
+[06:51:11] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[06:51:12] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:51:12] [Server thread/INFO]: Steve_Mines left the game
+[06:51:12] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[06:51:12] [Server thread/INFO]: Alex_Builds left the game
+[06:51:12] [Server thread/INFO]: [Rcon: Stopping the server]
+[06:51:12] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:51:12] [Server thread/INFO]: Stopping server
+[06:51:12] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:51:12] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:51:12] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:51:12] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:51:12] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:51:12] [Server thread/INFO]: Saving players
+[06:51:13] [Server thread/INFO]: Saving worlds
+[06:51:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:51:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:51:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:51:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:51:18] [Server thread/INFO]: [ChunkHolderManager] Saved 1192 block chunks, 289 entity chunks, 0 poi chunks in world 'world' in 5.31s
+[06:51:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:51:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:51:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:51:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:51:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:51:20] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 1.41s
+[06:51:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:51:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:51:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:51:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:51:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:51:21] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.71s
+[06:51:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:51:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:51:21] [Server thread/INFO]: Flushing Chunk IO
+[06:51:21] [Server thread/INFO]: Closing Thread Pool
+[06:51:21] [Server thread/INFO]: Closing Server

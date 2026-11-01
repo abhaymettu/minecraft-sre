@@ -1,0 +1,24 @@
+{"t":1793540559381,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[-7,-60,0]}}
+{"t":1793540559426,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-4,-58,-6]}}
+{"t":1793540667999,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540668000,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540673004,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540673004,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540673009,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540673009,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540678007,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540678007,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540678011,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540678011,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540683011,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540683011,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540683015,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540683015,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540688016,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540688016,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793540688021,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25610"}
+{"t":1793540688021,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793540693211,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[4,-60,-8]}}
+{"t":1793540693211,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[1,-60,9]}}
+{"t":1793540886056,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793540886056,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

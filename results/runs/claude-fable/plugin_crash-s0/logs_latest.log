@@ -1,0 +1,294 @@
+[06:46:16] [ServerMain/WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:46:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:46:38] [ServerMain/INFO]: Loaded 1174 recipes
+[06:46:39] [ServerMain/INFO]: Loaded 1271 advancements
+[06:46:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:46:40] [Server thread/INFO]: Loading properties
+[06:46:40] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:46:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:46:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:46:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:46:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:46:47] [Server thread/INFO]: Default game type: SURVIVAL
+[06:46:47] [Server thread/INFO]: Generating keypair
+[06:46:47] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25610
+[06:46:48] [Server thread/INFO]: Using default channel type
+[06:46:48] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:46:48] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:46:48] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:46:48] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:46:48] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:46:48] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:46:48] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:46:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:46:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:46:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:46:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:46:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:46:48] [Server thread/INFO]: Preparing level "world"
+[06:46:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:46:51] [Server thread/INFO]: Time elapsed: 1956 ms
+[06:46:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:46:51] [Server thread/INFO]: Time elapsed: 28 ms
+[06:46:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:46:51] [Server thread/INFO]: Time elapsed: 6 ms
+[06:46:51] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:46:52] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:46:52] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:46:52] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:46:52] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:46:52] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:46:52] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:46:52] [Server thread/INFO]: Starting remote control listener
+[06:46:52] [Server thread/INFO]: Thread RCON Listener started
+[06:46:52] [Server thread/INFO]: RCON running on 127.0.0.1:25611
+[06:46:52] [Server thread/INFO]: Running delayed init tasks
+[06:46:52] [Server thread/INFO]: Done (12.643s)! For help, type "help"
+[06:46:52] [Server thread/INFO]: Timings Reset
+[06:46:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:46:52] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:46:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:46:54] [User Authenticator #0/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:46:54] [User Authenticator #0/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:46:54] [Server thread/INFO]: Steve_Mines joined the game
+[06:46:54] [Server thread/INFO]: Steve_Mines[/127.0.0.1:56841] logged in with entity id 24 at ([world]-8.5, -60.0, 2.5)
+[06:46:54] [Server thread/INFO]: Alex_Builds joined the game
+[06:46:54] [Server thread/INFO]: Alex_Builds[/127.0.0.1:56840] logged in with entity id 23 at ([world]7.5, -60.0, -1.5)
+[06:47:30] [Server thread/ERROR]: [TownCore] TownCore failed to load config.yml, disabling
+java.lang.IllegalArgumentException: shop.tax-rate must be a number between 0 and 1, got: "5%"
+	at sre.towncore.TownCore.validate(TownCore.java:55) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.loadAndValidate(TownCore.java:38) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.tick(TownCore.java:70) ~[TownCore.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-499]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:47:31] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:47:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2791ms or 55 ticks behind
+[06:47:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:48:09] [Server thread/INFO]: Rcon: Please note that this command is not supported and may cause issues when using some plugins.
+[06:48:09] [Server thread/INFO]: Rcon: If you encounter any issues please use the /stop command to restart your server.
+[06:48:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:48:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:48:11] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:48:11] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:48:11] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:48:11] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:48:13] [Server thread/INFO]: Loaded 1174 recipes
+[06:48:18] [Server thread/INFO]: Loaded 1271 advancements
+[06:48:23] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:48:24] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:48:25] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:48:25] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:48:25] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:48:25] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:48:25] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:48:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:48:25] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:48:25] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:48:25] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:48:25] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:48:25] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:48:25] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:48:25] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:48:26] [Server thread/INFO]: Rcon: Reload complete.
+[06:48:26] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:48:27] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[06:48:27] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-499 (MC: 1.20.4) ---
+[06:48:27] [Paper Watchdog Thread/ERROR]: The server has not responded for 18 seconds! Creating thread dump
+[06:48:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:27] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[06:48:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:27] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[06:48:27] [Paper Watchdog Thread/ERROR]: 	PID: 46 | Suspended: false | Native: false | State: RUNNABLE
+[06:48:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Codec.lambda$fieldOf$1(Codec.java:175)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Codec$$Lambda/0x00000004011a10f0.get(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapCodec$1.toString(MapCodec.java:44)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:467)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.LambdaForm$MH/0x00000004011b6800.invoke(LambdaForm$MH)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.toString(RecordCodecBuilder.java:341)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:467)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.LambdaForm$MH/0x000000040116a800.invoke(LambdaForm$MH)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$2.toString(RecordCodecBuilder.java:122)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapCodec$MapCodecCodec.toString(MapCodec.java:101)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Codec.xmap(Codec.java:155)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.AdventureCodecs$HoverEventType.lambda$new$1(AdventureCodecs.java:161)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.AdventureCodecs$HoverEventType$$Lambda/0x0000000402276d58.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.AdventureCodecs.lambda$static$18(AdventureCodecs.java:187)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.AdventureCodecs$$Lambda/0x0000000402275000.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.util.function.Function.lambda$andThen$1(Function.java:88)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.util.function.Function$$Lambda/0x00000004011f1e40.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.KeyDispatchCodec$$Lambda/0x0000000401a52450.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$$Lambda/0x0000000401550e08.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.flatMap(DataResult.java:137)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder$$Lambda/0x0000000401a1a640.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$$Lambda/0x0000000401550e08.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.flatMap(DataResult.java:137)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.EitherCodec.decode(EitherCodec.java:24)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Decoder$2.decode(Decoder.java:63)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Codec$2.decode(Codec.java:71)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Decoder.parse(Decoder.java:18)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.ExtraCodecs$StrictOptionalFieldCodec.decode(ExtraCodecs.java:623)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:325)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder$$Lambda/0x0000000401a1a640.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$$Lambda/0x0000000401550e08.apply(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult.flatMap(DataResult.java:137)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.codecs.EitherCodec.decode(EitherCodec.java:28)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Decoder$2.decode(Decoder.java:63)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.Codec$2.decode(Codec.java:71)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.ExtraCodecs$RecursiveCodec.decode(ExtraCodecs.java:599)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.WrapperAwareSerializer.deserialize(WrapperAwareSerializer.java:20)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.WrapperAwareSerializer.deserialize(WrapperAwareSerializer.java:10)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.PaperAdventure.asAdventure(PaperAdventure.java:154)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:838)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:254)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1746)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000000401bbf638.run(Unknown Source)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:48:27] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:48:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:27] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[06:48:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:28] [Server thread/INFO]: Alex_Builds left the game
+[06:48:28] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[06:48:28] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:48:28] [Server thread/INFO]: Steve_Mines left the game
+[06:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20413ms or 408 ticks behind
+[06:48:28] [Server thread/INFO]: Timings Reset
+[06:48:28] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:48:28] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:48:28] [Server thread/INFO]: Rcon: Please note that this command is not supported and may cause issues when using some plugins.
+[06:48:29] [Server thread/INFO]: Rcon: If you encounter any issues please use the /stop command to restart your server.
+[06:48:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:48:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:48:29] [User Authenticator #1/INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:48:30] [User Authenticator #1/INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:48:31] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:48:31] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:48:31] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:48:31] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:48:31] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:48:33] [Server thread/INFO]: Loaded 1174 recipes
+[06:48:35] [Server thread/INFO]: Loaded 1271 advancements
+[06:48:37] [Server thread/INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:48:37] [Server thread/INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:48:37] [Server thread/INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:48:37] [Server thread/INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:48:37] [Server thread/INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:48:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:48:37] [Server thread/INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:48:37] [Server thread/INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:48:37] [Server thread/INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:48:37] [Server thread/INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:48:37] [Server thread/INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:48:37] [Server thread/INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:48:37] [Server thread/INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:48:37] [Server thread/INFO]: Rcon: Reload complete.
+[06:48:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-499 (MC: 1.20.4) ---
+[06:48:38] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[06:48:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:38] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[06:48:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:39] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[06:48:39] [Paper Watchdog Thread/ERROR]: 	PID: 46 | Suspended: false | Native: false | State: RUNNABLE
+[06:48:39] [Paper Watchdog Thread/ERROR]: 	Stack:
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.setSizeOpaque(SWMRLong2ObjectHashTable.java:43)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.removeFromSize(SWMRLong2ObjectHashTable.java:448)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.remove(SWMRLong2ObjectHashTable.java:520)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.remove(SWMRLong2ObjectHashTable.java:541)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager.removeChunkHolder(ChunkHolderManager.java:1050)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager.processUnloads(ChunkHolderManager.java:1149)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:562)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:550)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:495)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:868)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000000401bbf638.run(Unknown Source)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+[06:48:39] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+[06:48:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:39] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[06:48:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[06:48:39] [Server thread/INFO]: Timings Reset
+[06:48:40] [Server thread/INFO]: Steve_Mines joined the game
+[06:48:40] [Server thread/INFO]: Steve_Mines[/127.0.0.1:62824] logged in with entity id 26 at ([world]-8.5, -59.58000001311302, 2.5)
+[06:48:40] [Server thread/INFO]: Alex_Builds joined the game
+[06:48:40] [Server thread/INFO]: Alex_Builds[/127.0.0.1:62829] logged in with entity id 27 at ([world]7.5, -59.996983738490954, -1.5)
+[06:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5443ms or 108 ticks behind
+[06:51:18] [Server thread/INFO]: Steve_Mines lost connection: Disconnected
+[06:51:18] [Server thread/INFO]: Steve_Mines left the game
+[06:51:18] [Server thread/INFO]: Alex_Builds lost connection: Disconnected
+[06:51:18] [Server thread/INFO]: Alex_Builds left the game
+[06:51:19] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[06:51:19] [Server thread/INFO]: [Rcon: Stopping the server]
+[06:51:19] [RCON Client /127.0.0.1 #8/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:51:19] [Server thread/INFO]: Stopping server
+[06:51:19] [Server thread/INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:51:19] [Server thread/INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:51:19] [Server thread/INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:51:19] [Server thread/INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:51:19] [Server thread/INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:51:19] [Server thread/INFO]: Saving players
+[06:51:19] [Server thread/INFO]: Saving worlds
+[06:51:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:51:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:51:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:51:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:51:25] [Server thread/INFO]: [ChunkHolderManager] Saved 1520 block chunks, 322 entity chunks, 0 poi chunks in world 'world' in 6.25s
+[06:51:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:51:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:51:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:51:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:51:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:51:27] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 1.58s
+[06:51:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:51:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:51:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:51:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:51:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:51:28] [Server thread/INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.73s
+[06:51:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:51:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:51:28] [Server thread/INFO]: Flushing Chunk IO
+[06:51:28] [Server thread/INFO]: Closing Thread Pool
+[06:51:28] [Server thread/INFO]: Closing Server

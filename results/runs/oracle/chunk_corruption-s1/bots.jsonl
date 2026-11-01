@@ -1,0 +1,12 @@
+{"t":1793541386172,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[4,-60,8]}}
+{"t":1793541386194,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[-3,-60,-7]}}
+{"t":1793541408906,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793541408907,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793541414069,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793541414070,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793541414080,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793541414080,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793541419874,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[1,-60,5]}}
+{"t":1793541420019,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[-3,-60,9]}}
+{"t":1793541542140,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
+{"t":1793541542140,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}

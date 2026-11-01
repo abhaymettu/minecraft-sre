@@ -1,0 +1,54 @@
+{"t":1793536231113,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[-5,-60,7]}}
+{"t":1793536231164,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-6,-60,-9]}}
+{"t":1793536264486,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536264487,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536269504,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536269505,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536269505,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536269505,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536274522,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536274522,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536274541,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536274542,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536279538,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536279538,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536279553,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536279553,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536284545,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536284546,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536284555,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536284555,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536289570,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536289571,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536289628,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536289628,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536294660,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536294663,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536294749,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536294749,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536299683,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536299685,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536299758,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536299758,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536304692,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536304692,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536304769,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536304769,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536316924,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[2,-60,-3]}}
+{"t":1793536317037,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-10,-60,3]}}
+{"t":1793536334337,"bot":"Alex_Builds","event":"kicked","detail":"Server closed"}
+{"t":1793536334338,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536334347,"bot":"Steve_Mines","event":"kicked","detail":"Server closed"}
+{"t":1793536334347,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536339345,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536339346,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536339358,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536339358,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536344367,"bot":"Alex_Builds","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536344367,"bot":"Alex_Builds","event":"end","detail":"socketClosed"}
+{"t":1793536344371,"bot":"Steve_Mines","event":"error","detail":"connect ECONNREFUSED 127.0.0.1:25630"}
+{"t":1793536344371,"bot":"Steve_Mines","event":"end","detail":"socketClosed"}
+{"t":1793536349765,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[2,-60,-3]}}
+{"t":1793536349803,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-10,-60,3]}}
+{"t":1793536420561,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793536420562,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}

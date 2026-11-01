@@ -79,6 +79,8 @@ def _pct(x):
 
 def write(out, md_path):
     rows = load(out)
+    if not rows:
+        raise SystemExit(f"no episodes (*/*/result.json) under {out}; nothing written")
     table, incidents, matrix = aggregate(rows)
     lines = ["| Agent | Score | Resolved (95% CI) | Detected | Median time to detect | Median time to fix | "
              "Episodes with collateral | Downtime / ep | Report honesty | Diagnosis | False alarms |",

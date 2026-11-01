@@ -1,0 +1,175 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 07:37:48,981 ServerMain WARN Advanced terminal features are not available in this environment
+[07:37:49 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[07:37:51 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:37:51 INFO]: Loaded 1174 recipes
+[07:37:51 INFO]: Loaded 1271 advancements
+[07:37:51 INFO]: Starting minecraft server version 1.20.4
+[07:37:51 INFO]: Loading properties
+[07:37:51 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[07:37:52 INFO]: Server Ping Player Sample Count: 12
+[07:37:52 INFO]: Using 4 threads for Netty based IO
+[07:37:52 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:37:52 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[07:37:52 INFO]: Default game type: SURVIVAL
+[07:37:52 INFO]: Generating keypair
+[07:37:52 INFO]: Starting Minecraft server on 127.0.0.1:25610
+[07:37:52 INFO]: Using default channel type
+[07:37:52 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[07:37:52 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[07:37:52 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[07:37:52 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[07:37:52 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[07:37:52 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[07:37:52 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[07:37:52 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:37:52 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:37:52 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:37:52 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:37:52 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:37:52 INFO]: Preparing level "world"
+[07:37:52 INFO]: Preparing start region for dimension minecraft:overworld
+[07:37:52 INFO]: Time elapsed: 51 ms
+[07:37:52 INFO]: Preparing start region for dimension minecraft:the_nether
+[07:37:52 INFO]: Time elapsed: 246 ms
+[07:37:52 INFO]: Preparing start region for dimension minecraft:the_end
+[07:37:52 INFO]: Time elapsed: 16 ms
+[07:37:52 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[07:37:52 INFO]: [Exporter] Enabling Exporter v1.0.0
+[07:37:52 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[07:37:52 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[07:37:52 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[07:37:52 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[07:37:52 INFO]: [TownCore] Enabling TownCore v1.0.0
+[07:37:52 INFO]: Starting remote control listener
+[07:37:52 INFO]: Thread RCON Listener started
+[07:37:52 INFO]: RCON running on 127.0.0.1:25611
+[07:37:52 INFO]: Running delayed init tasks
+[07:37:52 INFO]: Done (1.080s)! For help, type "help"
+[07:37:52 INFO]: Timings Reset
+[07:37:53 INFO]: Thread RCON Client /127.0.0.1 started
+[07:37:53 INFO]: Thread RCON Client /127.0.0.1 started
+[07:37:53 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:37:53 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[07:37:53 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[07:37:53 INFO]: Alex_Builds joined the game
+[07:37:53 INFO]: Alex_Builds[/127.0.0.1:57511] logged in with entity id 24 at ([world]-2.5, -60.0, 10.5)
+[07:37:53 INFO]: Steve_Mines joined the game
+[07:37:53 INFO]: Steve_Mines[/127.0.0.1:57512] logged in with entity id 23 at ([world]2.5, -60.0, -5.5)
+[07:38:05 INFO]: Thread RCON Client /127.0.0.1 started
+[07:38:23 INFO]: UUID of player Mira_Crafts is 5f4b6abd-e12d-356d-9aac-dc44eaebf8eb
+[07:38:23 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:38:23 INFO]: TNT_Tommy joined the game
+[07:38:23 INFO]: TNT_Tommy[/127.0.0.1:57563] logged in with entity id 25 at ([world]-6.5, -60.0, 3.5)
+[07:38:24 INFO]: Mira_Crafts joined the game
+[07:38:24 INFO]: Mira_Crafts[/127.0.0.1:57564] logged in with entity id 26 at ([world]9.5, -60.0, 2.5)
+[07:38:25 INFO]: [Rcon: Set TNT_Tommy's game mode to Creative Mode]
+[07:38:25 INFO]: [Rcon: Teleported TNT_Tommy to 17.500000, -60.000000, 11.500000]
+[07:38:25 WARN]: TNT_Tommy moved too quickly! 24.0,0.0,8.0
+[07:38:25 INFO]: [Rcon: Set Mira_Crafts's game mode to Creative Mode]
+[07:38:25 WARN]: TNT_Tommy moved too quickly! 24.0,0.0,8.0
+[07:38:25 INFO]: [Rcon: Teleported Mira_Crafts to -19.500000, -60.000000, 23.500000]
+[07:38:25 WARN]: Mira_Crafts moved too quickly! -29.0,0.0,21.0
+[07:38:25 WARN]: Mira_Crafts moved too quickly! -29.0,0.0,21.0
+[07:38:25 WARN]: Mira_Crafts moved too quickly! -29.0,0.0,21.0
+[07:40:05 INFO]: [Rcon: Banned TNT_Tommy: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world]
+[07:40:05 INFO]: TNT_Tommy lost connection: You are banned from this server
+[07:40:05 INFO]: TNT_Tommy left the game
+[07:40:20 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:40:20 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58043): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:40:20 INFO]: TNT_Tommy (/127.0.0.1:58043) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:40:35 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:40:35 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58099): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:40:35 INFO]: TNT_Tommy (/127.0.0.1:58099) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:40:37 INFO]: [Rcon: Successfully filled 14 block(s)]
+[07:40:37 INFO]: [Rcon: Successfully filled 14 block(s)]
+[07:40:37 INFO]: [Rcon: Successfully filled 2 block(s)]
+[07:40:38 INFO]: [Rcon: Successfully filled 2 block(s)]
+[07:40:38 INFO]: [Rcon: Successfully filled 3 block(s)]
+[07:40:50 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:40:50 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58158): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:40:50 INFO]: TNT_Tommy (/127.0.0.1:58158) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:05 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:41:05 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58202): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:05 INFO]: TNT_Tommy (/127.0.0.1:58202) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:20 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:41:20 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58228): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:20 INFO]: TNT_Tommy (/127.0.0.1:58228) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:35 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:41:35 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58290): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:35 INFO]: TNT_Tommy (/127.0.0.1:58290) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:50 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:41:51 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58324): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:41:51 INFO]: TNT_Tommy (/127.0.0.1:58324) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:06 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:42:06 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58386): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:06 INFO]: TNT_Tommy (/127.0.0.1:58386) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:21 INFO]: UUID of player TNT_Tommy is eb6cced8-0088-3b67-b051-dcc2f8780c3f
+[07:42:21 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58443): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:21 INFO]: Disconnecting TNT_Tommy (/127.0.0.1:58443): You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:21 INFO]: TNT_Tommy (/127.0.0.1:58443) lost connection: You are banned from this server.
+Reason: Griefing: destroying another player's build at (14, -60..-56, 8..14) in world
+[07:42:31 INFO]: Steve_Mines lost connection: Disconnected
+[07:42:31 INFO]: Steve_Mines left the game
+[07:42:31 INFO]: Alex_Builds lost connection: Disconnected
+[07:42:31 INFO]: Alex_Builds left the game
+[07:42:31 INFO]: Mira_Crafts lost connection: Disconnected
+[07:42:31 INFO]: Mira_Crafts left the game
+[07:42:32 INFO]: Thread RCON Client /127.0.0.1 started
+[07:42:32 INFO]: [Rcon: Stopping the server]
+[07:42:32 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:42:32 INFO]: Stopping server
+[07:42:32 INFO]: [TownCore] Disabling TownCore v1.0.0
+[07:42:32 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[07:42:32 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[07:42:32 INFO]: [Exporter] Disabling Exporter v1.0.0
+[07:42:32 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[07:42:32 INFO]: Saving players
+[07:42:32 INFO]: Saving worlds
+[07:42:32 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:42:32 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:42:32 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:42:32 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:42:32 INFO]: [ChunkHolderManager] Saved 1521 block chunks, 373 entity chunks, 0 poi chunks in world 'world' in 0.32s
+[07:42:32 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:42:32 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:42:32 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:42:32 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:42:32 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:42:33 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
+[07:42:33 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:42:33 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:42:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:42:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:42:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:42:33 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[07:42:33 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:42:33 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:42:33 INFO]: Flushing Chunk IO
+[07:42:33 INFO]: Closing Thread Pool
+2026-11-01 07:42:33,244 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[07:42:33 INFO]: Closing Server

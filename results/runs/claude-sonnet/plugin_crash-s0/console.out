@@ -1,0 +1,380 @@
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:26:12,226 ServerMain WARN Advanced terminal features are not available in this environment
+[06:26:20 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:27:47 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:28:17 INFO]: Loaded 1174 recipes
+[06:28:28 INFO]: Loaded 1271 advancements
+[06:28:36 INFO]: Starting minecraft server version 1.20.4
+[06:28:36 INFO]: Loading properties
+[06:28:37 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:28:47 INFO]: Server Ping Player Sample Count: 12
+[06:28:47 INFO]: Using 4 threads for Netty based IO
+[06:28:48 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:28:48 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:28:50 INFO]: Default game type: SURVIVAL
+[06:28:50 INFO]: Generating keypair
+[06:28:50 INFO]: Starting Minecraft server on 127.0.0.1:25620
+[06:28:50 INFO]: Using default channel type
+[06:28:50 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:28:50 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:28:50 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:28:50 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:28:50 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:28:50 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:28:50 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:28:50 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:28:50 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:28:50 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:28:50 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:28:50 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:28:50 INFO]: Preparing level "world"
+[06:28:50 INFO]: Preparing start region for dimension minecraft:overworld
+[06:28:51 INFO]: Time elapsed: 93 ms
+[06:28:51 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:28:52 INFO]: Time elapsed: 1041 ms
+[06:28:52 INFO]: Preparing start region for dimension minecraft:the_end
+[06:28:52 INFO]: Time elapsed: 16 ms
+[06:28:52 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:28:52 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:28:52 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:28:52 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:28:52 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:28:52 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:28:52 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:28:52 INFO]: Starting remote control listener
+[06:28:52 INFO]: Thread RCON Listener started
+[06:28:52 INFO]: RCON running on 127.0.0.1:25621
+[06:28:52 INFO]: Running delayed init tasks
+[06:28:52 INFO]: Done (16.216s)! For help, type "help"
+[06:28:52 INFO]: Timings Reset
+[06:28:53 INFO]: Thread RCON Client /127.0.0.1 started
+[06:28:53 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:28:53 INFO]: Thread RCON Client /127.0.0.1 started
+[06:28:53 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:28:53 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:28:53 INFO]: Steve_Mines joined the game
+[06:28:53 INFO]: Steve_Mines[/127.0.0.1:52557] logged in with entity id 23 at ([world]-3.5, -60.0, -3.5)
+[06:28:53 INFO]: Alex_Builds joined the game
+[06:28:53 INFO]: Alex_Builds[/127.0.0.1:52556] logged in with entity id 24 at ([world]0.5, -60.0, 0.5)
+[06:29:15 WARN]: Can't keep up! Is the server overloaded? Running 2524ms or 50 ticks behind
+[06:29:29 ERROR]: [TownCore] TownCore failed to load config.yml, disabling
+java.lang.IllegalArgumentException: shop.tax-rate must be a number between 0 and 1, got: "5%"
+	at sre.towncore.TownCore.validate(TownCore.java:55) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.loadAndValidate(TownCore.java:38) ~[TownCore.jar:?]
+	at sre.towncore.TownCore.tick(TownCore.java:70) ~[TownCore.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-499]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:29:29 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:29:57 INFO]: Thread RCON Client /127.0.0.1 started
+[06:30:12 INFO]: Thread RCON Client /127.0.0.1 started
+[06:30:12 INFO]: [Rcon: Stopping the server]
+[06:30:12 INFO]: Stopping server
+[06:30:12 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:30:12 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:30:12 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:30:12 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:30:12 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:30:12 INFO]: Saving players
+[06:30:13 INFO]: Steve_Mines lost connection: Server closed
+[06:30:13 INFO]: Steve_Mines left the game
+[06:30:13 INFO]: Alex_Builds lost connection: Server closed
+[06:30:13 INFO]: Alex_Builds left the game
+[06:30:13 INFO]: Saving worlds
+[06:30:13 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:30:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:30:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:30:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:30:13 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:13 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:15 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:15 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:17 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:17 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:18 INFO]: [ChunkHolderManager] Saved 1598 block chunks, 322 entity chunks, 0 poi chunks in world 'world' in 5.46s
+[06:30:19 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:30:19 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:30:19 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:30:19 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:30:19 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:30:19 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:19 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:20 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 1.00s
+[06:30:20 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:30:20 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:30:20 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:30:20 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:30:20 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:30:21 ERROR]: Thread RCON Client /127.0.0.1 #3 failed main thread check: Command Dispatched Async: list
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:21 WARN]: Unexpected exception while parsing console command "list"
+java.lang.IllegalStateException: Asynchronous Command Dispatched Async: list!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:997) ~[paper-1.20.4.jar:git-Paper-499]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:792) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:99) ~[?:?]
+	at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.submitAsync(BlockableEventLoop.java:58) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.executeBlocking(BlockableEventLoop.java:75) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.runCommand(DedicatedServer.java:770) ~[paper-1.20.4.jar:git-Paper-499]
+	at net.minecraft.server.rcon.thread.RconClient.run(RconClient.java:83) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:30:22 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 1.80s
+[06:30:22 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:30:22 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:30:22 INFO]: Flushing Chunk IO
+[06:30:22 INFO]: Closing Thread Pool
+2026-11-01 06:30:22,105 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:30:22 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS) Host: Mac OS X 26.5.2 (aarch64)
+Loading libraries, please wait...
+2026-11-01 06:30:25,444 ServerMain WARN Advanced terminal features are not available in this environment
+[06:30:26 WARN]: [oshi.util.platform.mac.SysctlUtil] Failed sysctl call: hw.cpufrequency, Error code: 2
+[06:30:48 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:30:54 INFO]: Loaded 1174 recipes
+[06:30:55 INFO]: Loaded 1271 advancements
+[06:30:56 INFO]: Starting minecraft server version 1.20.4
+[06:30:56 INFO]: Loading properties
+[06:30:56 INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[06:30:59 INFO]: Using 4 threads for Netty based IO
+[06:30:59 INFO]: Server Ping Player Sample Count: 12
+[06:30:59 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[06:31:00 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[06:31:01 INFO]: Default game type: SURVIVAL
+[06:31:01 INFO]: Generating keypair
+[06:31:02 INFO]: Starting Minecraft server on 127.0.0.1:25620
+[06:31:03 INFO]: Using default channel type
+[06:31:03 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[06:31:03 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[06:31:04 INFO]: [BlockLog] Loading server plugin BlockLog v1.0.0
+[06:31:04 INFO]: [Exporter] Loading server plugin Exporter v1.0.0
+[06:31:04 INFO]: [AuditTrail] Loading server plugin AuditTrail v1.0.0
+[06:31:04 INFO]: [StatsCache] Loading server plugin StatsCache v1.0.0
+[06:31:04 INFO]: [TownCore] Loading server plugin TownCore v1.0.0
+[06:31:04 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:31:04 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:31:04 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:31:04 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:31:04 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:31:04 INFO]: Preparing level "world"
+[06:31:06 INFO]: Preparing start region for dimension minecraft:overworld
+[06:31:07 INFO]: Time elapsed: 1224 ms
+[06:31:07 INFO]: Preparing start region for dimension minecraft:the_nether
+[06:31:10 INFO]: Time elapsed: 2862 ms
+[06:31:10 INFO]: Preparing start region for dimension minecraft:the_end
+[06:31:10 INFO]: Time elapsed: 145 ms
+[06:31:10 INFO]: [BlockLog] Enabling BlockLog v1.0.0
+[06:31:11 INFO]: [Exporter] Enabling Exporter v1.0.0
+[06:31:11 INFO]: [AuditTrail] Enabling AuditTrail v1.0.0
+[06:31:11 INFO]: [AuditTrail] AuditTrail config reloaded (debug=false)
+[06:31:11 INFO]: [StatsCache] Enabling StatsCache v1.0.0
+[06:31:11 INFO]: [StatsCache] StatsCache config reloaded (retain-history=false)
+[06:31:11 INFO]: [TownCore] Enabling TownCore v1.0.0
+[06:31:11 INFO]: Starting remote control listener
+[06:31:11 INFO]: Thread RCON Listener started
+[06:31:11 INFO]: RCON running on 127.0.0.1:25621
+[06:31:11 INFO]: Running delayed init tasks
+[06:31:11 INFO]: UUID of player Alex_Builds is e3dd11bd-c1cf-37d8-9de0-abcb98d0376b
+[06:31:11 INFO]: UUID of player Steve_Mines is d566e854-06a6-3ba7-b339-ea1d9bd3158d
+[06:31:11 INFO]: Done (14.716s)! For help, type "help"
+[06:31:11 INFO]: Timings Reset
+[06:31:11 INFO]: Thread RCON Client /127.0.0.1 started
+[06:31:11 INFO]: Thread RCON Client /127.0.0.1 started
+[06:31:12 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:31:13 INFO]: Alex_Builds joined the game
+[06:31:13 INFO]: Alex_Builds[/127.0.0.1:56148] logged in with entity id 16 at ([world]0.5, -60.0, 0.5)
+[06:31:14 WARN]: Can't keep up! Is the server overloaded? Running 2656ms or 53 ticks behind
+[06:31:14 INFO]: Steve_Mines joined the game
+[06:31:14 INFO]: Steve_Mines[/127.0.0.1:56143] logged in with entity id 17 at ([world]-3.5, -60.0, -3.5)
+[06:32:19 INFO]: Alex_Builds lost connection: Disconnected
+[06:32:20 INFO]: Alex_Builds left the game
+[06:32:20 INFO]: Steve_Mines lost connection: Disconnected
+[06:32:20 INFO]: Steve_Mines left the game
+[06:32:20 INFO]: Thread RCON Client /127.0.0.1 started
+[06:32:20 INFO]: [Rcon: Stopping the server]
+[06:32:20 INFO]: Thread RCON Client /127.0.0.1 shutting down
+[06:32:20 INFO]: Stopping server
+[06:32:20 INFO]: [TownCore] Disabling TownCore v1.0.0
+[06:32:20 INFO]: [StatsCache] Disabling StatsCache v1.0.0
+[06:32:20 INFO]: [AuditTrail] Disabling AuditTrail v1.0.0
+[06:32:20 INFO]: [Exporter] Disabling Exporter v1.0.0
+[06:32:20 INFO]: [BlockLog] Disabling BlockLog v1.0.0
+[06:32:20 INFO]: Saving players
+[06:32:20 INFO]: Saving worlds
+[06:32:20 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:32:20 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:32:20 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:32:20 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:32:20 INFO]: [ChunkHolderManager] Saved 322 block chunks, 322 entity chunks, 0 poi chunks in world 'world' in 0.42s
+[06:32:21 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:32:21 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:32:21 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:32:21 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:32:21 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:32:21 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_nether' in 0.24s
+[06:32:21 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:32:21 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:32:21 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:32:21 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:32:21 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:32:21 INFO]: [ChunkHolderManager] Saved 225 block chunks, 225 entity chunks, 0 poi chunks in world 'world_the_end' in 0.18s
+[06:32:21 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:32:21 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:32:21 INFO]: Flushing Chunk IO
+[06:32:21 INFO]: Closing Thread Pool
+2026-11-01 06:32:21,577 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[06:32:21 INFO]: Closing Server

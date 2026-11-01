@@ -1,0 +1,79 @@
+{"t":1793544312625,"bot":"Steve_Mines","event":"spawn","detail":{"pos":[-3,-60,-4]}}
+{"t":1793544312625,"bot":"Alex_Builds","event":"spawn","detail":{"pos":[8,-60,-2]}}
+{"t":1793544339715,"bot":"Mira_Crafts","event":"spawn","detail":{"pos":[2,-60,7]}}
+{"t":1793544339760,"bot":"ShadowPhantom99","event":"spawn","detail":{"pos":[3,-60,5]}}
+{"t":1793544341513,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-60,8],"block":"oak_planks"}}
+{"t":1793544342367,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,20],"block":"cobblestone"}}
+{"t":1793544342713,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-60,8],"block":"oak_planks"}}
+{"t":1793544343914,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-60,8],"block":"oak_planks"}}
+{"t":1793544344953,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-22,-60,21],"block":"cobblestone"}}
+{"t":1793544345117,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-60,8],"block":"oak_planks"}}
+{"t":1793544346319,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-60,8],"block":"oak_planks"}}
+{"t":1793544347521,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-60,8],"block":"oak_planks"}}
+{"t":1793544347640,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,20],"block":"cobblestone"}}
+{"t":1793544348724,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-59,8],"block":"oak_planks"}}
+{"t":1793544349927,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-59,8],"block":"oak_planks"}}
+{"t":1793544350189,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-21,-60,21],"block":"cobblestone"}}
+{"t":1793544351128,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-59,8],"block":"oak_planks"}}
+{"t":1793544352333,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-59,8],"block":"oak_planks"}}
+{"t":1793544352893,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,20],"block":"cobblestone"}}
+{"t":1793544353534,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-59,8],"block":"oak_planks"}}
+{"t":1793544354738,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-59,8],"block":"oak_planks"}}
+{"t":1793544355397,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-20,-60,21],"block":"cobblestone"}}
+{"t":1793544355940,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-58,8],"block":"oak_planks"}}
+{"t":1793544357141,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-58,8],"block":"oak_planks"}}
+{"t":1793544358001,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,20],"block":"cobblestone"}}
+{"t":1793544358344,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-58,8],"block":"oak_planks"}}
+{"t":1793544359546,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-58,8],"block":"oak_planks"}}
+{"t":1793544360535,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-19,-60,21],"block":"cobblestone"}}
+{"t":1793544360750,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-58,8],"block":"oak_planks"}}
+{"t":1793544361951,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-58,8],"block":"oak_planks"}}
+{"t":1793544363043,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,20],"block":"cobblestone"}}
+{"t":1793544363152,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-58,8],"block":"oak_planks"}}
+{"t":1793544364353,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-57,8],"block":"oak_planks"}}
+{"t":1793544365554,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-57,8],"block":"oak_planks"}}
+{"t":1793544365625,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-18,-60,21],"block":"cobblestone"}}
+{"t":1793544366756,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-57,8],"block":"oak_planks"}}
+{"t":1793544367960,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-57,8],"block":"oak_planks"}}
+{"t":1793544368155,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,20],"block":"cobblestone"}}
+{"t":1793544369160,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-57,8],"block":"oak_planks"}}
+{"t":1793544370364,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-57,8],"block":"oak_planks"}}
+{"t":1793544370745,"bot":"Mira_Crafts","event":"placed","detail":{"pos":[-17,-60,21],"block":"cobblestone"}}
+{"t":1793544371566,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-57,8],"block":"oak_planks"}}
+{"t":1793544372769,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[8,-56,8],"block":"oak_planks"}}
+{"t":1793544373972,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[9,-56,8],"block":"oak_planks"}}
+{"t":1793544375174,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[10,-56,8],"block":"oak_planks"}}
+{"t":1793544376379,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[11,-56,8],"block":"oak_planks"}}
+{"t":1793544377579,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[12,-56,8],"block":"oak_planks"}}
+{"t":1793544378781,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[13,-56,8],"block":"oak_planks"}}
+{"t":1793544379983,"bot":"ShadowPhantom99","event":"dug","detail":{"pos":[14,-56,8],"block":"oak_planks"}}
+{"t":1793544429886,"bot":"ShadowPhantom99","event":"kicked","detail":"Suspended for destroying blocks; contact staff"}
+{"t":1793544429887,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544434961,"bot":"ShadowPhantom99","event":"spawn","detail":{"pos":[11,-60,6]}}
+{"t":1793544455583,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned"}
+{"t":1793544455583,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned"}
+{"t":1793544455583,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544470616,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544470616,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544470616,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544485664,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544485664,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544485664,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544500713,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544500713,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544500713,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544515768,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544515768,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544515768,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544530814,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544530814,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544530814,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544545864,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544545864,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544545864,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544560913,"bot":"ShadowPhantom99","event":"kicked","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544560913,"bot":"ShadowPhantom99","event":"banned","detail":"multiplayer.disconnect.banned.reason Griefing: deliberately destroying other players' oak planks at spawn (BlockLog 08:45-08:46)"}
+{"t":1793544560913,"bot":"ShadowPhantom99","event":"end","detail":"socketClosed"}
+{"t":1793544570769,"bot":"Mira_Crafts","event":"end","detail":"disconnect.quitting"}
+{"t":1793544570769,"bot":"Alex_Builds","event":"end","detail":"disconnect.quitting"}
+{"t":1793544570770,"bot":"Steve_Mines","event":"end","detail":"disconnect.quitting"}
