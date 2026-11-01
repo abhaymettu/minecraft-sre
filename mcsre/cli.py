@@ -72,7 +72,7 @@ def cmd_bench(args):
             t = time.time()
             with open(d + ".harness.log", "w") as log:
                 rc = subprocess.run([sys.executable, "-m", "mcsre", "run", "--agent", agent, "--incident", inc,
-                                     "--seed", str(seed), "--slot", str(slot), "--dir", d, "--force"],
+                                     "--seed", str(seed), "--slot", str(slot + args.slot_offset), "--dir", d, "--force"],
                                     cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
             with lock:
                 rp = os.path.join(d, "result.json")
@@ -94,8 +94,8 @@ def cmd_demo(args):
     town.build_template()
     os.environ["MCSRE_SHIFT_MIN_S"] = "60"
     out = os.path.join(ROOT, "runs", "demo")
-    print(f"demo: incident {args.incident}, a do-nothing agent and the reference fix, side by side (about 2 minutes)")
-    cmd_bench(argparse.Namespace(agents="noop,oracle", incidents=args.incident, seeds="0", jobs=2, out=out))
+    print(f"demo: incident {args.incident}, a do-nothing agent and the reference fix, side by side (3 to 5 minutes)")
+    cmd_bench(argparse.Namespace(agents="noop,oracle", incidents=args.incident, seeds="0", jobs=2, out=out, slot_offset=0))
     print(f"\nper-episode audit logs, timelines and grades: {out}")
 
 
@@ -130,6 +130,7 @@ def main(argv=None):
     b.add_argument("--seeds", default="0,1,2")
     b.add_argument("--jobs", type=int, default=3)
     b.add_argument("--out", default=os.path.join(ROOT, "results", "runs"))
+    b.add_argument("--slot-offset", type=int, default=0, help="shift ports to run two benches at once")
     b.set_defaults(fn=cmd_bench)
     d = sub.add_parser("demo", help="quick start: noop vs oracle on one incident")
     d.add_argument("--incident", default="chunk_corruption")

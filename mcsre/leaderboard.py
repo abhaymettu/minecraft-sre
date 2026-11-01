@@ -98,6 +98,14 @@ def write(out, md_path):
     md = "\n".join(lines) + "\n"
     with open(md_path, "w") as f:
         f.write(md)
+    readme = os.path.join(os.path.dirname(os.path.dirname(md_path)), "README.md")
+    if os.path.exists(readme):
+        text = open(readme).read()
+        a, b = "<!-- leaderboard:start -->", "<!-- leaderboard:end -->"
+        if a in text and b in text:
+            text = text[:text.index(a) + len(a)] + "\n" + md + text[text.index(b):]
+            with open(readme, "w") as f:
+                f.write(text)
     with open(os.path.join(os.path.dirname(md_path), "leaderboard.json"), "w") as f:
         json.dump({"agents": table, "matrix": matrix, "episodes": len(rows)}, f, indent=1)
     return md
