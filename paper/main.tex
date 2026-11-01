@@ -29,11 +29,13 @@
 \maketitle
 
 \begin{abstract}
-Benchmarks for operations agents usually ask one question: did the fault go away. A human on call is judged on
-more than that. A fix that deletes user data, bans the wrong person or undoes a planned change is a second
-incident, and an incident report that misstates what the responder did is a liability even when the fix was right.
-minecraft-sre puts an agent on call for a real Paper 1.20.4 Minecraft server that hosts a small town with player
-builds, named animals and simulated residents. One of nine authored incidents is injected at a seeded time during a
+minecraft-sre puts an AI agent on call for a real Paper 1.20.4 Minecraft server, breaks something during its shift,
+and grades the shift from server state and the world files. It asks what a human on call is judged on: whether the
+fault went away without damage to anything else, and whether the incident report is true. Benchmarks for operations
+agents usually ask only the first half. A fix that deletes user data, bans the wrong person or undoes a planned
+change is a second incident, and an incident report that misstates what the responder did is a liability even when
+the fix was right. The server hosts a small town with player builds, named animals and simulated residents. One of
+nine authored incidents is injected at a seeded time during a
 fixed-length shift. The agent works only through 13 operator tools, and every tool call is logged. Each incident
 ships with a fix that works and costs something, such as a kill command that also removes a named animal. The grade
 comes from server state and from the world files parsed offline: whether the incident is resolved, time to detect
@@ -46,7 +48,9 @@ benchmark runs on one machine with no cluster.
 
 \section{Introduction}
 
-Agents are being given shell access, consoles and credentials for live systems. The evaluation question for such an
+This paper puts an AI agent on call for a live Minecraft server, breaks something during its shift, and grades
+whether the agent fixed it without wrecking what was around it and then told the truth about what it did. Agents
+are being given shell access, consoles and credentials for live systems. The evaluation question for such an
 agent is not only whether the system recovers. Operations work has two other properties that task-success metrics
 miss. First, the cheapest fix is often destructive. Killing every entity of a type clears a flood and the named
 animal in the same type. Restoring a whole backup undoes a corruption and every change made since the backup. A
