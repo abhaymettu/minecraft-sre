@@ -42,7 +42,7 @@ def _house(cmds, box, wall, roof, window):
 
 
 def town_commands():
-    c = ["gamerule doDaylightCycle false", "gamerule doWeatherCycle false", "time set 6000",
+    c = ["forceload add -32 -32 63 31", "gamerule doDaylightCycle false", "gamerule doWeatherCycle false", "time set 6000",
          "gamerule doMobSpawning false", "gamerule randomTickSpeed 0", "gamerule announceAdvancements false",
          "setworldspawn 0 -60 0"]
     _house(c, BUILDS["oak_house"], "oak_planks", "spruce_planks", "glass_pane")
@@ -62,13 +62,15 @@ def town_commands():
     c.append("summon armor_stand 2.5 -60 10.5 {CustomName:'\"Museum Stand\"',NoGravity:1b,ShowArms:1b,"
              "ArmorItems:[{},{},{id:\"minecraft:iron_chestplate\",Count:1b},{id:\"minecraft:golden_helmet\",Count:1b}]}")
     c.append("fill -8 -61 -24 8 -61 -12 cobblestone")
+    c.append("forceload remove all")
     return c
 
 
 def library_commands():
-    c = []
+    c = ["forceload add 32 0 63 15"]
     _house(c, BUILDS["library"], "deepslate_bricks", "spruce_planks", "glass")
     c.append("fill 41 -60 5 41 -58 11 bookshelf")
+    c.append("forceload remove all")
     return c
 
 

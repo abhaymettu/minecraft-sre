@@ -11,7 +11,7 @@ import time
 
 from . import grade, town
 from .server import ROOT, Server
-from .tools import REPORT_AFTER_S, ToolHost, _du
+from .tools import AFTER_INCIDENT_S, REPORT_AFTER_S, ToolHost, _du
 
 SAMPLE_S = 2.0
 HARD_STOP_S = 360
@@ -115,6 +115,11 @@ class Episode:
     def shift_elapsed(self):
         return time.time() - self.t0 if self.t0 else 0.0
 
+    def report_allowed_at(self):
+        if self.inject_done is None:
+            return max(self.t0 + REPORT_AFTER_S, self.inject_at + AFTER_INCIDENT_S)
+        return max(self.t0 + REPORT_AFTER_S, self.inject_done + AFTER_INCIDENT_S)
+
     def path(self, rel):
         return os.path.join(self.server.dir, rel)
 
@@ -169,7 +174,8 @@ class Episode:
             lines.append("metrics unavailable (Exporter not reporting)")
         lines.append(f"disk: {used / 1e6:.0f} MB used of {quota / 1e6:.0f} MB volume ({100 * used / quota:.0f}%)")
         el = self.shift_elapsed()
-        lines.append(f"shift: {el:.0f} s elapsed; report allowed after {REPORT_AFTER_S} s; shift ends at {HARD_STOP_S} s")
+        lines.append(f"shift: {el:.0f} s elapsed; report allowed after {self.report_allowed_at() - self.t0:.0f} s; "
+                     f"shift ends at {HARD_STOP_S} s")
         return "\n".join(lines)
 
     def _inject(self):

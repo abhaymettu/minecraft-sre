@@ -42,3 +42,31 @@ or checks the agent's own incident report against an audit log.
 - Baselines: noop (proves each checker fails without action), oracle (scripted fix from ground truth, proves
   each incident is solvable), sledgehammer (kill everything, restore whole backup, restart: proves collateral
   grading bites).
+
+## 2026-11-01 06:30 harness working end to end
+
+Built and verified: plugins (subagent, real server), bots (subagent, real server), region library (subagent, real
+server; Paper regenerates a corrupt chunk as flatland and saves over it, so only the backup can restore it).
+
+Validation (runs/validate, MCSRE_SHIFT_MIN_S=60, seed 0): oracle resolves 9/9 incidents, noop resolves 0/8 real
+incidents and passes the control. Bugs found and fixed on the way: fixed-check read the previous sample; injection
+blocked the watcher (moved to a thread); relative episode dir broke the MCP config path; harness restarts were billed
+as agent downtime (downtime now counts from injection end, using real sample gaps); entity flood took 48 s of RCON
+summons on a loaded host (now built by doubling + spreadplayers, about 20 commands); final live check now re-reads
+metrics after 3 s; report allowed only 90 s after injection finishes.
+
+Host: load average 60 to 95 on 12 cores from other lanes all night. Tick time is unusable as a fix signal here, so
+every fix predicate is world/server state only. Each result records host load.
+
+Griefing bug: griefer bot hung in creative.flyTo / waitForChunksToLoad, so early griefing episodes had almost no
+griefing. Fixed at 06:24 (bounded waits, harness teleports bots to a stand point within reach). Verified: 35 blocks
+dug, 12 placed by the innocent builder. Griefing results older than runs/griefing-fix-time are rerun after the bench.
+
+Docker build failed: fresh world spawn not near 0,0, town area unloaded. Fix: forceload the town while building.
+Not yet rebuilt (local template is in use by the bench; content is identical).
+
+Main bench running: 4 Claude models (haiku, sonnet, opus, fable) + noop + oracle, 9 incidents, seeds 0-2,
+4 workers, results/runs, log results/bench.log. Hero: claude:sonnet on chunk_corruption seed 7 resolved with no
+collateral, docs/hero.gif, raw episode in results/hero-episode.
+
+Next: wait for bench, rerun stale griefing, docker build + fresh clone test, README, site/, paper/.

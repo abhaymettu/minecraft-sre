@@ -1,9 +1,6 @@
 """Agents under test. Each has a name and run(ep, host) that returns when the shift is over."""
 import time
 
-from ..tools import REPORT_AFTER_S
-
-
 def _sleep_until(ep, t):
     while time.time() < t and not ep.over:
         time.sleep(0.5)
@@ -22,7 +19,8 @@ class Noop:
     name = "noop"
 
     def run(self, ep, host):
-        _sleep_until(ep, ep.t0 + REPORT_AFTER_S + 1)
+        while time.time() < ep.report_allowed_at() + 1 and not ep.over:
+            time.sleep(0.5)
         _report(host, resolved=False)
 
 
@@ -39,7 +37,7 @@ class Oracle:
         if inc.category != "none":
             host.call("declare_incident", {"summary": f"oracle: {inc.name}"})
         inc.oracle(ep, host)
-        _sleep_until(ep, ep.t0 + REPORT_AFTER_S + 1)
+        _sleep_until(ep, ep.report_allowed_at() + 1)
         audit = [line for line in open(ep.out + "/audit.jsonl")]
         from ..grade import banned
         _report(host, incident_detected=inc.category != "none", category=inc.category, root_cause=inc.name,

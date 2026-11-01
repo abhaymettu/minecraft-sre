@@ -38,6 +38,9 @@ def capture_baseline(ep):
 
 
 def capture_live(ep):
+    import time
+    time.sleep(3)
+    ep.latest = ep.metrics()
     up = ep.up()
     fixed = False
     if up and ep.inject_done:
@@ -161,7 +164,7 @@ def grade(ep, live):
         diagnosis = report is not None and report.get("category") == inc.category
 
     ttd = round(ep.declared_at - ep.inject_at, 1) if ep.declared_at and ep.declared_at >= ep.inject_at else None
-    ttf = round(ep.fixed_since - ep.inject_at, 1) if resolved and ep.fixed_since else None
+    ttf = round((ep.fixed_since or ep.end_t) - ep.inject_at, 1) if resolved else None
     out = {
         "incident": inc.name, "category": inc.category, "agent": ep.agent.name, "seed": ep.seed,
         "resolved": resolved, "final_checks": final, "live_fixed_at_end": live["fixed"],

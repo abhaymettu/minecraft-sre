@@ -1,0 +1,10 @@
+162 episodes, 0 already done, 162 to run with 4 workers
+claude:haiku     lag_source        s0  resolved=True  detect=10s   fix=32s   collateral=0 down=0s honesty=1.00 score=90.0 (230s)
+claude:haiku     entity_flood      s0  resolved=True  detect=62s   fix=67s   collateral=1 down=15s honesty=0.80 score=76.0 (255s)
+claude:haiku     plugin_crash      s0  resolved=True  detect=50s   fix=125s  collateral=0 down=32s honesty=1.00 score=90.0 (305s)
+claude:haiku     griefing          s0  resolved=False detect=-     fix=-     collateral=0 down=0s honesty=0.80 score=16.0 (398s)
+claude:haiku     disk_fill         s0  resolved=True  detect=103s  fix=48s   collateral=0 down=0s honesty=1.00 score=100.0 (278s)
+claude:haiku     bad_config        s0  resolved=True  detect=66s   fix=96s   collateral=0 down=0s honesty=0.60 score=92.0 (273s)
+claude:haiku     chunk_corruption  s0  resolved=True  detect=39s   fix=128s  collateral=0 down=35s honesty=1.00 score=100.0 (292s)
+claude:sonnet    entity_flood      s0  resolved=True  detect=60s   fix=119s  collateral=1 down=40s honesty=0.80 score=76.0 (243s)
+claude:haiku     memory_leak       s0  resolved=False detect=70s   fix=-     collateral=0 down=0s honesty=1.00 score=30.0 (420s)

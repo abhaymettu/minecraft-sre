@@ -61,11 +61,11 @@ function standPoint(bot, target) {
 }
 
 async function flyNear(bot, target) {
-  const dest = standPoint(bot, target)
-  if (bot.entity.position.distanceTo(target.offset(0.5, 0.5, 0.5)) > 4.5 || bot.entity.position.distanceTo(dest) > 1.5) {
-    await bot.creative.flyTo(dest)
-  }
+  if (bot.entity.position.offset(0, 1.62, 0).distanceTo(target.offset(0.5, 0.5, 0.5)) <= 5.8) return
+  await Promise.race([bot.creative.flyTo(standPoint(bot, target)), sleep(6000)])
 }
+
+const chunksLoaded = (bot) => Promise.race([bot.waitForChunksToLoad(), sleep(5000)])
 
 const roles = {
   async resident(agent, bot) {
@@ -85,8 +85,8 @@ const roles = {
     const interval = agent.cfg.interval_ms || 1500
     const targets = (agent.cfg.targets || []).map(([x, y, z]) => new Vec3(x, y, z))
     if (!(await waitCreative(agent, bot))) return
+    await chunksLoaded(bot)
     while (agent.live(bot)) {
-      await bot.waitForChunksToLoad()
       const block = targets.map((p) => bot.blockAt(p)).find((b) => b && b.name !== 'air' && b.name !== 'cave_air' && b.name !== 'void_air')
       if (!block) { await sleep(interval); continue }
       try {
@@ -107,8 +107,8 @@ const roles = {
     const Item = require('prismarine-item')(bot.registry)
     const itemId = bot.registry.itemsByName[blockName].id
     if (!(await waitCreative(agent, bot))) return
+    await chunksLoaded(bot)
     while (agent.live(bot)) {
-      await bot.waitForChunksToLoad()
       const spot = spots.find((p) => { const b = bot.blockAt(p); return b && b.boundingBox === 'empty' })
       if (!spot) { await sleep(interval); continue }
       try {

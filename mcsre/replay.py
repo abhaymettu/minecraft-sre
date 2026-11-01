@@ -27,13 +27,26 @@ def shade(c, f):
     return tuple(max(0, min(255, int(v * f))) for v in c)
 
 
-def draw_world(d, frame, ox, oy):
+LABELS = {"oak house": ((8, -60, 8), (14, -55, 14)), "town hall": ((18, -60, 3), (28, -54, 12)),
+          "library": ((40, -60, 4), (48, -55, 12))}
+
+
+def iso(ox, oy, x, y, z):
+    return ox + (x - z) * TILE, oy + (x + z) * TILE // 2 - (y + 61) * TILE
+
+
+def draw_world(d, frame, ox, oy, f_small):
     pal = [p.replace("minecraft:", "") for p in frame["palette"]]
     solid = {(x, y, z): pal[i] for x, y, z, i in frame["cells"]}
+    (bx1, by, bz1), (bx2, _, bz2) = (4, -61, 0), (50, -53, 16)
+    corners = [iso(ox, oy, bx1, by, bz1), iso(ox, oy, bx2 + 1, by, bz1), iso(ox, oy, bx2 + 1, by, bz2 + 1), iso(ox, oy, bx1, by, bz2 + 1)]
+    d.polygon([(cx, cy - TILE // 2) for cx, cy in corners], fill=COLORS["grass_block"])
     for (x, y, z) in sorted(solid, key=lambda p: (p[0] + p[2], p[1], p[0])):
+        if y == -61:
+            continue
         c = COLORS.get(solid[(x, y, z)], (150, 150, 150))
         sx = ox + (x - z) * TILE
-        sy = oy + (x + z) * TILE // 2 - y * TILE
+        sy = oy + (x + z) * TILE // 2 - (y + 61) * TILE
         top = [(sx, sy - TILE // 2), (sx + TILE, sy), (sx, sy + TILE // 2), (sx - TILE, sy)]
         if (x, y + 1, z) not in solid:
             d.polygon(top, fill=c)
@@ -41,6 +54,14 @@ def draw_world(d, frame, ox, oy):
             d.polygon([(sx, sy + TILE // 2), (sx + TILE, sy), (sx + TILE, sy + TILE), (sx, sy + TILE + TILE // 2)], fill=shade(c, 0.78))
         if (x, y, z + 1) not in solid:
             d.polygon([(sx - TILE, sy), (sx, sy + TILE // 2), (sx, sy + TILE + TILE // 2), (sx - TILE, sy + TILE)], fill=shade(c, 0.6))
+    for name, ((x1, y1, z1), (x2, y2, z2)) in LABELS.items():
+        present = sum(1 for (x, y, z) in solid if x1 <= x <= x2 and z1 <= z <= z2 and y >= y1)
+        if present < 20:
+            ring = [iso(ox, oy, x1, y1, z1), iso(ox, oy, x2 + 1, y1, z1), iso(ox, oy, x2 + 1, y1, z2 + 1), iso(ox, oy, x1, y1, z2 + 1)]
+            ring = [(cx, cy - TILE // 2) for cx, cy in ring]
+            d.line(ring + ring[:1], fill=RED, width=2)
+        lx, ly = iso(ox, oy, (x1 + x2) // 2, y2 + 2, (z1 + z2) // 2)
+        d.text((lx - 30, ly - 24), name if present >= 20 else name + " (gone)", fill=INK if present >= 20 else RED, font=f_small)
 
 
 def tool_lines(audit, t0):
@@ -87,7 +108,7 @@ def render(ep_dir, gif_path=None):
         d.text((190, 20), f"{res['incident']}  ·  {res['agent']}", fill=DIM, font=f_body)
         d.text((W - 150, 20), f"t = {t:5.0f} s", fill=INK, font=f_body)
         d.rounded_rectangle((16, 56, 700, 500), 10, fill=PANEL)
-        draw_world(d, fr, 140, 120)
+        draw_world(d, fr, 150, 150, f_small)
         state = "incident active" if inject_t is not None and t >= inject_t else "normal"
         fixed = [s for s in samples if s["t"] <= t and s["fixed"] is not None]
         if fixed and fixed[-1]["fixed"]:

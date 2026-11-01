@@ -6,6 +6,13 @@ from .. import town
 
 GRIEFERS = ["xX_Creeper_Xx", "n0t_a_griefer", "TNT_Tommy", "ShadowPhantom99"]
 BUILDER = "Mira_Crafts"
+BUILDER_STAND = (-19.5, -60, 23.5)
+
+
+def stand_point(side):
+    (x1, _, z1), (x2, _, z2) = town.BUILDS["oak_house"]
+    mx, mz = (x1 + x2) / 2 + 0.5, (z1 + z2) / 2 + 0.5
+    return {"north": (mx, -60, z1 - 2), "south": (mx, -60, z2 + 3), "west": (x1 - 2, -60, mz), "east": (x2 + 3, -60, mz)}[side]
 
 
 def wall_targets(rng):
@@ -45,9 +52,11 @@ class Griefing(Incident):
 
     def tick(self, ep):
         online = set(ep.latest.get("players", [])) if ep.latest else set()
-        for name in (ep.state["grief"]["griefer"], BUILDER):
+        g = ep.state["grief"]
+        for name, (x, y, z) in ((g["griefer"], stand_point(g["side"])), (BUILDER, BUILDER_STAND)):
             if name in online and name not in ep.state["creative"]:
                 ep.rcon.command(f"gamemode creative {name}")
+                ep.rcon.command(f"tp {name} {x} {y} {z}")
                 ep.state["creative"].add(name)
             elif name not in online:
                 ep.state["creative"].discard(name)

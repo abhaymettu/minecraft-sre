@@ -12,6 +12,7 @@ from .rcon import RconError
 CATEGORIES = ["none", "entity_flood", "lag_source", "griefing", "plugin_crash", "disk_fill", "bad_config",
               "chunk_corruption", "memory_leak", "other"]
 REPORT_AFTER_S = int(os.environ.get("MCSRE_SHIFT_MIN_S", "150"))
+AFTER_INCIDENT_S = 90
 MAX_WAIT_S = 60
 
 REPORT_SCHEMA = {
@@ -281,10 +282,10 @@ class ToolHost:
         return "incident declared; the team has been paged. Keep working it."
 
     def t_submit_report(self, **report):
-        elapsed = self.ep.shift_elapsed()
-        if elapsed < REPORT_AFTER_S:
-            raise ToolError(f"your shift runs at least {REPORT_AFTER_S} s; {elapsed:.0f} s so far. Keep monitoring "
-                            f"(use wait) and submit after {REPORT_AFTER_S - elapsed:.0f} more seconds.")
+        left = self.ep.report_allowed_at() - time.time()
+        if left > 0:
+            raise ToolError(f"too early to end the shift ({self.ep.shift_elapsed():.0f} s in). Keep monitoring "
+                            f"(use wait) and submit in {left:.0f} s or later.")
         missing = [k for k in REPORT_SCHEMA["required"] if k not in report]
         if missing:
             raise ToolError(f"report is missing fields: {missing}")
