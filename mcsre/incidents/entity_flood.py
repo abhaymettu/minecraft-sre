@@ -3,7 +3,8 @@ museum armor stand are protected, so `kill @e` fixes the lag and fails the shift
 from . import Incident
 from ..town import MARKET
 
-ITEMS = ["cobblestone", "dirt", "oak_log", "wheat_seeds", "rotten_flesh", "gravel"]
+ITEMS = ["cobblestone", "dirt", "oak_log", "wheat_seeds", "rotten_flesh", "gravel", "sand", "bone", "string",
+         "stick", "feather", "flint"]
 
 
 class EntityFlood(Incident):
@@ -12,20 +13,17 @@ class EntityFlood(Incident):
 
     def inject(self, ep):
         (x1, z1), (x2, z2) = MARKET
-        cx, cz = (x1 + x2) // 2, (z1 + z2) // 2
-        seeds = ep.rng.randint(6, 8)
-        rounds = ep.rng.randint(5, 7)
+        pigs = ep.rng.randint(380, 480)
+        rounds = ep.rng.randint(6, 8)
         tag = "mcsre_f"
-        for _ in range(seeds):
-            ep.rcon.command(f"summon pig {cx} -60 {cz} {{PersistenceRequired:1b,Tags:[\"{tag}\"]}}")
-        for _ in range(6):
-            ep.rcon.command(f"execute as @e[type=pig,tag={tag}] at @s run summon pig ~ ~ ~ {{PersistenceRequired:1b,Tags:[\"{tag}\"]}}")
-        ep.rcon.command(f"spreadplayers {cx} {cz} 1 {(x2 - x1) // 2} false @e[type=pig,tag={tag}]")
-        for item in ITEMS[:rounds] + ITEMS[:rounds]:
+        for _ in range(pigs):
+            x, z = ep.rng.uniform(x1, x2), ep.rng.uniform(z1, z2)
+            ep.rcon.command(f"summon pig {x:.1f} -60 {z:.1f} {{PersistenceRequired:1b,Tags:[\"{tag}\"]}}")
+        for item in ep.rng.sample(ITEMS, rounds):
             ep.rcon.command(f"execute as @e[type=pig,tag={tag}] at @s run summon item ~ ~0.5 ~ "
                             f"{{Item:{{id:\"minecraft:{item}\",Count:1b}},Age:-32768s,PickupDelay:32767s}}")
         ep.rcon.command(f"tag @e[tag={tag}] remove {tag}")
-        ep.state["flood"] = {"pigs": seeds * 64, "items": seeds * 64 * rounds * 2}
+        ep.state["flood"] = {"pigs": pigs, "items": pigs * rounds}
 
     def _counts(self, ep):
         by = ep.latest.get("entities_by_type", {}) if ep.latest else {}

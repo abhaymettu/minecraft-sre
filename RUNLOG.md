@@ -70,3 +70,29 @@ Main bench running: 4 Claude models (haiku, sonnet, opus, fable) + noop + oracle
 collateral, docs/hero.gif, raw episode in results/hero-episode.
 
 Next: wait for bench, rerun stale griefing, docker build + fresh clone test, README, site/, paper/.
+
+## 2026-11-01 07:05 bench in progress, handoff notes
+
+State: main bench (claude haiku/sonnet/opus/fable + noop + oracle, seeds 0-2, jobs 4, slots 0-3) running in the
+background, log results/bench.log, about 1 episode/min. Sledgehammer bench running (jobs 1, slot 6), log
+results/bench-sledge.log. Paper subagent writing paper/ (make_tables.py generates tables.tex from results; build with
+`python3 paper/make_tables.py && tectonic paper/main.tex`). Docker image builds and the demo passes (noop 20,
+oracle 100 on chunk_corruption, 5 min on this loaded host).
+
+Invalid results to rerun after the bench (delete result.json, rerun `bench` with the same args; it resumes):
+- every griefing episode with result.json mtime older than runs/griefing-fix-time (griefer bot hung; fixed 06:24)
+- every entity_flood episode older than runs/flood-fix-time (doubling injection crammed pigs and
+  spreadplayers tripped the watchdog; fixed ~07:03, now individual summons + per-pig items)
+- claude:sonnet griefing s0 (startup timeout, no result)
+Rerun command (both benches, after they finish):
+  MCSRE_CLAUDE=~/.local/bin/claude python3 -m mcsre bench --agents claude:haiku,claude:sonnet,claude:opus,claude:fable,noop,oracle --seeds 0,1,2 --jobs 4 --out results/runs
+  python3 -m mcsre bench --agents sledgehammer --seeds 0,1,2 --jobs 1 --slot-offset 6 --out results/runs
+
+Partial seed-0 picture (before reruns): opus and fable resolved 9/9, sonnet 8/8, haiku 7/9; sledgehammer resolves
+some incidents but always loses the library (351 blocks). Top models may saturate resolve rate; the spread is in time
+to detect/fix, collateral and honesty. Haiku and Sonnet both killed Wilbur (named pig) during the flood.
+
+Then: `python3 -m mcsre leaderboard` (fills README between markers), write README headline, site/writeup.md,
+site/meta.json, site/launch-post.md, rebuild paper, blind README judges, humanizer + inmyvoice, gitleaks,
+fresh-clone test (clone to a temp dir, `python3 -m mcsre setup`, `python3 -m unittest`, demo), push, settle.
+Also rebuild the local template once (forceload fix) before the fresh-clone test; never while a bench runs.
