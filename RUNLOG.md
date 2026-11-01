@@ -115,3 +115,7 @@ oracle           chunk_corruption  s0  resolved=True  detect=6s    fix=12s   col
 per-episode audit logs, timelines and grades: <tmp>/fresh/runs/demo
 ```
 Docker: image builds; `docker run --rm minecraft-sre` demo gave noop 20, oracle 100.
+
+## 2026-11-01 09:20 disk
+
+Peak disk use by this lane: about 2 GB (728 MB Docker image plus build layers, 741 MB fresh-clone copy, 190 MB Paper runtime, up to 5 live episode servers of about 25 MB each, results 35 MB). Cleanup: removed the minecraft-sre image and its containers, the fresh clone and test runs; no global prune. Free after cleanup: 16 GiB.
