@@ -2,17 +2,20 @@
 
 **Put an AI agent on call for a Minecraft server, break something, and grade the shift from the world files.**
 
+Most agent benchmarks grade code. This one grades operations work on a live system, where the hard part is fixing
+the problem without wrecking what's around it, and then telling the truth about it.
+
+A Paper 1.20.4 server runs
+a small town with player builds, named animals, a minecart station and residents online. An incident is injected
+at a random time during the agent's shift. The agent has an operator's tools: console, logs, files, server
+restart and a region-file tool. Every grade comes from world and server state, never from what the agent says.
+
 ![Claude Sonnet restores a corrupted chunk from backup without touching the library built after it](docs/hero.gif)
 
 *Claude Sonnet 5.5 on `chunk_corruption`. The town hall's chunk is corrupted and Paper regenerates it as empty
 flatland. The agent finds the read error in the log, stops the server, copies that one chunk back from the backup
 and starts the server again. The library was built after the backup in the same region file, so restoring the whole
 file would have destroyed it. Replay of a recorded episode (`python3 -m mcsre replay`).*
-
-minecraft-sre is a benchmark for agents doing operations work on a real stateful system. A Paper 1.20.4 server runs
-a small town with player builds, named animals, a minecart station and residents online. An incident is injected
-at a random time during the agent's shift. The agent has an operator's tools: console, logs, files, server
-restart and a region-file tool. Every grade comes from world and server state, never from what the agent says.
 
 ## Quick start
 
