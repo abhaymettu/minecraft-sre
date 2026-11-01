@@ -112,7 +112,7 @@ class Server:
     def running(self):
         return self.proc is not None and self.proc.poll() is None
 
-    def start(self, timeout=180):
+    def start(self, timeout=300):
         if self.running:
             return
         link_shared(self.dir)

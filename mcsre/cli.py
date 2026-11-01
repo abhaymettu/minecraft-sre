@@ -70,7 +70,7 @@ def cmd_bench(args):
             d = episode_dir(args.out, agent, inc, seed)
             os.makedirs(d, exist_ok=True)
             t = time.time()
-            with open(os.path.join(d, "harness.log"), "w") as log:
+            with open(d + ".harness.log", "w") as log:
                 rc = subprocess.run([sys.executable, "-m", "mcsre", "run", "--agent", agent, "--incident", inc,
                                      "--seed", str(seed), "--slot", str(slot), "--dir", d, "--force"],
                                     cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
@@ -79,7 +79,7 @@ def cmd_bench(args):
                 if rc == 0 and os.path.exists(rp):
                     print(summary_line(json.load(open(rp))), f"({time.time() - t:.0f}s)", flush=True)
                 else:
-                    print(f"FAILED {agent} {inc} s{seed} rc={rc}, see {d}/harness.log", flush=True)
+                    print(f"FAILED {agent} {inc} s{seed} rc={rc}, see {d}.harness.log", flush=True)
 
     threads = [threading.Thread(target=worker, args=(k,)) for k in range(args.jobs)]
     for th in threads:

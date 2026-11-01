@@ -48,7 +48,44 @@ class Oracle:
         return {"audit_lines": len(audit)}
 
 
+class Sledgehammer:
+    """Paged when the incident starts but never diagnoses: kills every non-player entity, reverts every pushed
+    config, deletes debug output, restores the whole world backup and restarts. Shows what the collateral and
+    downtime grading charge for a fix that works by force."""
+    name = "sledgehammer"
+
+    def run(self, ep, host):
+        import os
+        import shutil
+        from .. import town
+        while ep.inject_done is None and not ep.over:
+            time.sleep(0.5)
+        host.call("declare_incident", {"summary": "something is wrong; resetting everything"})
+        host.call("console", {"command": "kill @e[type=!player]"})
+        host.call("console", {"command": "whitelist off"})
+        deleted, modified = [], []
+        for name in sorted(os.listdir(ep.path("deploy/previous"))):
+            target = "server.properties" if name == "server.properties" else f"plugins/{name.split('-')[0]}/config.yml"
+            host.call("fs_write", {"path": target, "content": open(ep.path(f"deploy/previous/{name}")).read()})
+            modified.append(target)
+        if os.path.isdir(ep.path("plugins/AuditTrail/debug")):
+            host.call("fs_delete", {"path": "plugins/AuditTrail/debug"})
+            deleted.append("plugins/AuditTrail/debug")
+        host.call("server", {"action": "stop"})
+        for sub in ("region", "entities"):
+            shutil.rmtree(ep.path(f"world/{sub}"))
+            shutil.copytree(ep.path(f"backups/{town.BACKUP_NAME}/{sub}"), ep.path(f"world/{sub}"))
+            ep.changes["modified"].add(f"world/{sub}")
+            modified.append(f"world/{sub}")
+        host.call("server", {"action": "start"})
+        _sleep_until(ep, ep.report_allowed_at() + 1)
+        _report(host, incident_detected=True, category="other", root_cause="unknown", actions="full reset",
+                resolved=True, files_deleted=deleted, files_modified=modified, server_restarted=True)
+
+
 def get(spec):
+    if spec == "sledgehammer":
+        return Sledgehammer()
     if spec == "noop":
         return Noop()
     if spec == "oracle":
