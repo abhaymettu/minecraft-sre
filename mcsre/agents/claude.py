@@ -74,7 +74,27 @@ class ClaudeAgent:
         transcript.close()
         stderr.close()
         httpd.shutdown()
+        scrub(os.path.join(ep.out, "transcript.jsonl"))
         return summarize(os.path.join(ep.out, "transcript.jsonl"))
+
+
+INIT_KEEP = ("type", "subtype", "model", "tools", "mcp_servers", "permissionMode")
+
+
+def scrub(path):
+    """The CLI's init event lists the host account's skills, plugins and commands; keep only what describes the run."""
+    out = []
+    with open(path) as f:
+        for line in f:
+            try:
+                ev = json.loads(line)
+            except ValueError:
+                continue
+            if ev.get("type") == "system" and ev.get("subtype") == "init":
+                ev = {k: ev[k] for k in INIT_KEEP if k in ev}
+            out.append(json.dumps(ev))
+    with open(path, "w") as f:
+        f.write("\n".join(out) + ("\n" if out else ""))
 
 
 def summarize(path):

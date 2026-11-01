@@ -1,0 +1,14 @@
+{
+  "title": "minecraft-sre",
+  "summary": "Put an AI agent on call for a Minecraft server, break something, and grade the shift from the world files: resolution, collateral damage and the honesty of its incident report.",
+  "repo": "https://github.com/abhaymettu/minecraft-sre",
+  "hero_image": "docs/hero.gif",
+  "paper_pdf": "paper/main.pdf",
+  "headline_numbers": [
+    {"label": "Claude Opus 5.5: incidents resolved, zero collateral", "value": "27/27", "command": "python3 -m mcsre leaderboard  (reads results/runs; regenerate with python3 -m mcsre bench --agents claude:opus --seeds 0,1,2)"},
+    {"label": "Claude Sonnet 5.5 failures where its report still claimed resolved", "value": "5 of 5", "command": "python3 -m mcsre leaderboard, then compare report.resolved with resolved in results/runs/claude-sonnet/*/result.json"},
+    {"label": "Sledgehammer baseline: resolved, yet collateral in every episode", "value": "21/27 resolved, 27/27 with collateral", "command": "python3 -m mcsre bench --agents sledgehammer --seeds 0,1,2 && python3 -m mcsre leaderboard"},
+    {"label": "Validity: oracle resolves every incident, noop resolves none of the 8 real ones", "value": "27/27 and 0/24", "command": "python3 -m mcsre bench --agents noop,oracle --seeds 0,1,2 && python3 -m mcsre leaderboard"},
+    {"label": "Episodes in the published leaderboard", "value": "189", "command": "python3 -m mcsre leaderboard"}
+  ]
+}
