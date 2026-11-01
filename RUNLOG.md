@@ -96,3 +96,22 @@ Then: `python3 -m mcsre leaderboard` (fills README between markers), write READM
 site/meta.json, site/launch-post.md, rebuild paper, blind README judges, humanizer + inmyvoice, gitleaks,
 fresh-clone test (clone to a temp dir, `python3 -m mcsre setup`, `python3 -m unittest`, demo), push, settle.
 Also rebuild the local template once (forceload fix) before the fresh-clone test; never while a bench runs.
+
+## 2026-11-01 08:58 results published, fresh clone verified
+
+Leaderboard: 189 episodes (results/LEADERBOARD.md). Stale griefing/flood episodes (7) and one startup failure were
+rerun. Transcripts scrubbed of the CLI init inventory; home paths replaced with ~/.
+
+Fresh clone (git clone into a temp dir; setup, unittest, demo):
+```
+template ready: <tmp>/fresh/.cache/template
+----------------------------------------------------------------------
+Ran 24 tests in 0.021s
+OK
+demo: incident chunk_corruption, a do-nothing agent and the reference fix, side by side (3 to 5 minutes)
+2 episodes, 0 already done, 2 to run with 2 workers
+noop             chunk_corruption  s0  resolved=False detect=-     fix=-     collateral=0 down=0s honesty=1.00 score=20.0 (138s)
+oracle           chunk_corruption  s0  resolved=True  detect=6s    fix=12s   collateral=0 down=4s honesty=1.00 score=100.0 (138s)
+per-episode audit logs, timelines and grades: <tmp>/fresh/runs/demo
+```
+Docker: image builds; `docker run --rm minecraft-sre` demo gave noop 20, oracle 100.
