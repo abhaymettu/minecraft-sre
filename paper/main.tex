@@ -108,7 +108,7 @@ system prompt that describes the job and the expectation of least disruption but
 incident's details: which wall is griefed and by which player, how many entities are spawned and where, and which
 config key carries the typo. Each real incident has one root cause.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \centering
 \small
 \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.95cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
@@ -148,9 +148,9 @@ finishes and never diagnoses: it kills every non-player entity, turns the whitel
 \texttt{deploy/previous/}, deletes debug output, replaces the world's region and entity files with the backup, and
 starts the server again. It reports category \texttt{other}.
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
-\includegraphics[width=\textwidth]{hero.png}
+\includegraphics[width=0.8\textwidth]{hero.png}
 \caption{Replay frame from a recorded \texttt{claude:sonnet} episode on \inc{chunk\_corruption} (seed 7, outside the
 benchmark seeds), at 154\,s. The town hall's chunk has been regenerated as flatland. The agent's log reads have
 found the read error. In this episode it then stopped the server, copied that one chunk from the backup and started
@@ -225,19 +225,48 @@ benchmark runs themselves.
 \label{sec:results}
 
 Tables~\ref{tab:leaderboard}, \ref{tab:matrix} and~\ref{tab:collateral} are generated from the raw episode results.
-This version reports \nepisodes{} of the \nexpected{} planned episodes (seeds observed: \seedsseen; tables generated
-\tablesgenerated). The planned set is seven agents, nine incidents and three seeds.
+The full set is \nepisodes{} episodes: seven agents, nine incidents and seeds \seedsseen{} (tables generated \tablesgenerated).
 
-\leaderboardtable
-\matrixtable
-\collateraltable
+\begin{table}[!htb]
+\centering
+\small
+\setlength{\tabcolsep}{3.5pt}
+\leaderboardtabular
+\caption{\leaderboardcaption}
+\label{tab:leaderboard}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{minipage}{\textwidth}
+\centering
+\matrixtabular
+\caption{Resolved episodes per incident ($k/n$). Columns: \matrixlegend.}
+\label{tab:matrix}
+\end{minipage}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\small
+\begin{minipage}{\textwidth}
+\centering
+\collateraltabular
+\caption{Collateral items by kind, summed over each agent's episodes. One episode can carry several items.}
+\label{tab:collateral}
+\end{minipage}
+\end{table}
 
 The highest mean score among model agents was \bestscore{} (\bestagent) and the lowest \worstscore{}
 (\worstagent). Across the \nmodelepisodes{} model episodes, \modelresolved{} were resolved, and \modelresolvedwithcollateral{}
 of the resolved ones carried collateral. The most common collateral kind for model agents was ``\topmodelcollateral''
 (\topmodelcollateralcount{} of \modelcollateralitems{} items). Mean report honesty per model ranged from
 \honestymin{} to \honestymax, and \noreport{} model episodes ended without a report. Model agents paged on
-\modelfalsealarms{} control episodes.
+\modelfalsealarms{} control episodes. The resolved claim is where reports went wrong: Sonnet failed 5 incidents and
+its report called all 5 resolved, while Haiku did so in 1 of its 5 failures. Opus and Fable had no failures to
+misreport.
 
 The resolved rate alone would not separate the agents that fixed a flood cleanly from those that also killed the
 named pig, and it would not separate the sledgehammer from a careful fix. The collateral and honesty terms do. With
